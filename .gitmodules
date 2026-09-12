@@ -1,0 +1,3 @@
+[submodule "engineering-challenges"]
+	path = engineering-challenges
+	url = git@github.com:takeovers-ai/engineering-challenges.git

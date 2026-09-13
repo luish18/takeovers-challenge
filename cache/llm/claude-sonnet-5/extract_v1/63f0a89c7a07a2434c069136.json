@@ -1,0 +1,101 @@
+{
+  "inpi_id": "63f0a89c7a07a2434c069136",
+  "model": "claude-sonnet-5",
+  "prompt_version": "extract_v1",
+  "request_ids": [
+    "req_011Cf1cazQfrhu4rS5eaqQZw"
+  ],
+  "attempts": 1,
+  "elapsed_s": 26.9,
+  "usage": {
+    "input_tokens": 3422,
+    "output_tokens": 3015,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 8019
+  },
+  "extraction": {
+    "summary_en": "This filing by HADEAN is a commissaire aux apports (CAA) report dated 18 April 2008 valuing an in-kind contribution: Michel CAPGRAS proposes to contribute 225 shares of ARCHEAN TECHNOLOGIES to HADEAN in exchange for new HADEAN shares. For the subject company ARCHEAN TECHNOLOGIES, this document only describes a proposed (not yet realised) transfer of 225 of its 2,000 shares from Michel CAPGRAS to HADEAN, and states ARCHEAN TECHNOLOGIES's capital structure (200,000 euros, 2,000 shares of 100 euros nominal) as background for the valuation.",
+    "decision_dates": [
+      {
+        "date": "2008-04-18",
+        "body": "commissaire aux apports (CAA report)",
+        "evidence": {
+          "line_ids": [
+            "p4.32"
+          ],
+          "quote_fr": "Fait à Toulouse, le 18 avril 2008"
+        }
+      }
+    ],
+    "events": [
+      {
+        "code": "SHAREHOLDER_SHARE_TRANSFER",
+        "status": "decided_pending_realisation",
+        "effective_date": null,
+        "date_basis": "CAA report dated 18 April 2008 describes the operation as proposed ('propose de faire apport'); the actual realisation of the contribution (and corresponding HADEAN capital increase) is not shown as completed in this document.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "apport en nature (contribution of ARCHEAN TECHNOLOGIES shares to HADEAN in exchange for new HADEAN shares)",
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": "Michel CAPGRAS",
+        "to_name": "HADEAN",
+        "shares": 225,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p3.14",
+            "p3.15",
+            "p3.16",
+            "p4.3",
+            "p4.4"
+          ],
+          "quote_fr": "Monsieur Michel CAPGRAS propose de faire apport à la SAS HADEAN de 225 actions qu'il détient dans le capital de la société ARCHEAN TECHNOLOGIES ... Il sera attribué à Monsieur Michel CAPGRAS, en rémunération de son apport, 2 396 actions de la société HADEAN de 25 euros chacune"
+        },
+        "gloss_en": "",
+        "confidence": "medium",
+        "notes": "This is a preparatory CAA valuation report; the formal decision/realisation of the apport (transferring the 225 ARCHEAN TECHNOLOGIES shares to HADEAN) is not evidenced as completed here."
+      }
+    ],
+    "snapshots": [
+      {
+        "as_of": "2008-04-18",
+        "as_of_basis": "Stated in the CAA report as the current capital structure of ARCHEAN TECHNOLOGIES at the time of the report (18 April 2008), describing the company being contributed.",
+        "capital_eur": 200000.0,
+        "shares_total": 2000,
+        "nominal_eur": 100.0,
+        "holders": [
+          {
+            "name": "Michel CAPGRAS",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 225,
+            "share_class": null,
+            "pct": null
+          }
+        ],
+        "holders_complete": false,
+        "evidence": {
+          "line_ids": [
+            "p3.14",
+            "p3.15",
+            "p3.23",
+            "p3.24"
+          ],
+          "quote_fr": "Monsieur Michel CAPGRAS propose de faire apport à la SAS HADEAN de 225 actions qu'il détient dans le capital de la société ARCHEAN TECHNOLOGIES ... Son capital est de 200 000 euros, divisé en 2 000 actions de 100 euros de valeur nominale."
+        }
+      }
+    ],
+    "issues": [
+      "The filing only contains a commissaire aux apports report valuing the proposed contribution; it does not show the actual corporate decision (HADEAN AGE/président) realising the capital increase and the transfer of ARCHEAN TECHNOLOGIES shares, so the SHAREHOLDER_SHARE_TRANSFER is recorded as decided_pending_realisation.",
+      "Only Michel CAPGRAS's 225-share holding in ARCHEAN TECHNOLOGIES is mentioned; the rest of the cap table (holders of the remaining 1,775 shares) is not disclosed in this document."
+    ]
+  }
+}

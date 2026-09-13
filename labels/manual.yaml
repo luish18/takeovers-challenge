@@ -1,0 +1,254 @@
+# Hand labels in the extraction schema (see src/takeovers_challenge/manual.py). Evidence = OCR line ids; quotes are
+# filled from the OCR. Produced by reading the OCR text, with the ambiguous tables checked on the rendered PDF pages.
+# Restated history in later statutes is deliberately not labelled (it only corroborates).
+
+# ---------------------------------------------------------------- 2005-01-25 incorporation statutes
+63e9593b8be6eb9f9d257ec5:
+  summary_en: Incorporation statutes signed on 15 December 2004 - 37,000 EUR in 370 shares of 100 EUR held by the three founders, paid up by half.
+  decision_dates:
+    - {date: "2004-12-15", body: constitution, evidence: [p24.11, p24.12]}
+  events:
+    - {code: SHAREHOLDER_ENTRY, status: completed_here, effective_date: "2004-12-15", date_basis: "statutes signed in Montauban on 15 December 2004 (p24)",
+       holder_name: Xavier AUMONT, holder_kind: PERSON, shares: 155, mechanism: cash contribution at incorporation,
+       gloss_en: Founder Xavier AUMONT is allotted 155 shares., evidence: [p3.17, p3.18]}
+    - {code: SHAREHOLDER_ENTRY, status: completed_here, effective_date: "2004-12-15", date_basis: "statutes signed in Montauban on 15 December 2004 (p24)",
+       holder_name: Antonio BLANCO MARINA, holder_kind: PERSON, shares: 155, mechanism: cash contribution at incorporation,
+       gloss_en: Founder Antonio BLANCO MARINA is allotted 155 shares., evidence: [p3.19, p3.20]}
+    - {code: SHAREHOLDER_ENTRY, status: completed_here, effective_date: "2004-12-15", date_basis: "statutes signed in Montauban on 15 December 2004 (p24)",
+       holder_name: Franck GICQUEL, holder_kind: PERSON, shares: 60, mechanism: cash contribution at incorporation,
+       gloss_en: Founder Franck GICQUEL is allotted 60 shares., evidence: [p3.22, p3.23]}
+  snapshots:
+    - {as_of: "2004-12-15", as_of_basis: incorporation statutes article 7, capital_eur: 37000, shares_total: 370, nominal_eur: 100, holders_complete: true,
+       holders: [{name: Xavier AUMONT, kind: PERSON, shares: 155}, {name: Antonio BLANCO MARINA, kind: PERSON, shares: 155}, {name: Franck GICQUEL, kind: PERSON, shares: 60}],
+       evidence: [p3.14, p3.15, p3.16]}
+  issues:
+    - Shares were paid up by half at incorporation (18,500 EUR deposited); later statutes say fully paid on 31/03/2005.
+
+# ---------------------------------------------------------------- 2006-01-03 EGM of 17 May 2005
+63e9593b8be6eb9f9d257ec4:
+  summary_en: Minutes of the EGM of 17 May 2005 recording that the capital increase planned by the EGM of 4 March 2005 (+113,000 EUR, 1,130 new cash shares of 100 EUR) was carried out, bringing capital to 150,000 EUR; also appointments (out of scope) and updated statutes.
+  decision_dates:
+    - {date: "2005-05-17", body: AGE, evidence: [p1.39]}
+  events:
+    - {code: CAPITAL_INCREASE, status: realisation_of_earlier_decision, effective_date: "2005-05-17", date_basis: EGM of 17 May 2005 records the final completion of the increase,
+       amount_eur: 113000, capital_before_eur: 37000, capital_after_eur: 150000, shares_delta: 1130, nominal_eur: 100, method: numeraire,
+       mechanism: "cash subscription of 1,130 new shares, decided by the EGM of 4 March 2005",
+       gloss_en: "The meeting records the completion of the 113,000 EUR increase through 1,130 new 100 EUR cash shares, bringing capital to 150,000 EUR.",
+       evidence: [p2.29, p2.30, p2.31]}
+  snapshots:
+    - {as_of: "2005-05-17", as_of_basis: article 7 as rewritten by the second resolution, capital_eur: 150000, shares_total: 1500, nominal_eur: 100, evidence: [p2.33, p2.34]}
+  issues:
+    - The EGM of 4 March 2005 that decided the increase is not in the corpus, and the subscribers of the 1,130 new shares are not named.
+    - Holders present or represented own 1,155 of the 1,500 shares (p1.55), so the cap table had holders beyond the three founders.
+
+# ---------------------------------------------------------------- 2006-01-04 EGM of 8 August 2005
+63e9593b8be6eb9f9d257ec2:
+  summary_en: Minutes of the OGM of 2 September 2005 (officers, out of scope) and of the EGM of 8 August 2005, which ratified the sale of all shares held by Malik GUELLATI, Christophe LEROUX and Marielle ROUJEAN and recorded the split resulting from transfer orders dated 16 August 2005.
+  decision_dates:
+    - {date: "2005-08-08", body: AGE, evidence: [p5.9]}
+    - {date: "2005-09-02", body: AGO, evidence: [p1.19]}
+  events:
+    - &exit2005 {code: SHAREHOLDER_END, status: completed_here, effective_date: "2005-08-16", date_basis: "transfer orders dated 16 August 2005 (p6.29)",
+       holder_name: Malik GUELLATI, holder_kind: PERSON, mechanism: sale of all his shares under a protocol derogating from the pre-emption clause,
+       gloss_en: "The meeting approves the protocol for the sale of all shares held by GUELLATI, LEROUX and ROUJEAN.",
+       evidence: [p6.24, p6.25, p6.26]}
+    - {<<: *exit2005, holder_name: Christophe LEROUX}
+    - {<<: *exit2005, holder_name: Marielle ROUJEAN}
+  snapshots:
+    - {as_of: "2005-08-16", as_of_basis: new split after the transfer orders of 16 August 2005, holders_complete: true,
+       holders: [{name: Antonio BLANCO, kind: PERSON, shares: 823, pct: 54.87}, {name: Xavier AUMONT, kind: PERSON, shares: 617, pct: 41.13}, {name: Franck GICQUEL, kind: PERSON, shares: 60, pct: 6.0}],
+       evidence: [p6.29, p6.30, p6.31, p6.32, p6.33, p6.34, p6.35, p6.36, p6.37, p6.38, p6.39]}
+  issues:
+    - "GICQUEL's 60 shares are printed as 6,00 % (60 / 1,500 = 4,00 %); the printed percentages add up to 102 % (checked on the page image)."
+    - The resolution says this split prevails over the one in the sale protocol, which 'contains an error'; the protocol is not in the corpus.
+    - Buyers and per-seller share counts are not stated. The new split is consistent with AUMONT and BLANCO buying the 1,130 shares issued in May 2005 from the three sellers.
+
+# ---------------------------------------------------------------- 2007-02-20 EGM of 20 October 2006
+63e9593b8be6eb9f9d257ec7:
+  summary_en: "EGM of 20 October 2006: capital increase of 50,000 EUR to 200,000 EUR (500 shares of 100 EUR at par, paid by offset of current-account debts) reserved to AUMONT (330), BLANCO MARINA (150) and GICQUEL (20); approval of Michel CAPGRAS as a shareholder and authorisation for AUMONT to sell him 225 shares; attendance sheet; updated statutes."
+  decision_dates:
+    - {date: "2006-10-20", body: AGE, evidence: [p1.34]}
+  events:
+    - {code: CAPITAL_INCREASE, status: completed_here, effective_date: "2006-10-20",
+       date_basis: "decided on 20 October 2006 with rights from that day (p3.13); the updated statutes filed with the minutes show 200,000 EUR",
+       amount_eur: 50000, capital_before_eur: 150000, capital_after_eur: 200000, shares_delta: 500, nominal_eur: 100, method: numeraire,
+       mechanism: "reserved issue at par, paid by offset against debts (compensation de créances)",
+       subscribers: [{name: Xavier AUMONT, shares: 330}, {name: Antonio BLANCO MARINA, shares: 150}, {name: Franck GICQUEL, shares: 20}],
+       gloss_en: "Capital is increased by 50,000 EUR from 150,000 to 200,000 EUR by creating 500 new 100 EUR shares paid by debt offset.",
+       evidence: [p3.8, p3.9, p3.10, p3.11]}
+    - {code: SHAREHOLDER_ENTRY, status: authorisation_only, effective_date: "2006-10-20", date_basis: approval by the EGM of 20 October 2006,
+       holder_name: Michel CAPGRAS, holder_kind: PERSON, shares: 225, mechanism: approval (agrément) as a new shareholder,
+       gloss_en: The meeting approves Michel CAPGRAS becoming a shareholder., evidence: [p4.31, p4.32, p4.33]}
+    - {code: SHAREHOLDER_SHARE_TRANSFER, status: authorisation_only, effective_date: "2006-10-20", date_basis: authorisation by the EGM of 20 October 2006,
+       from_name: Xavier AUMONT, to_name: Michel CAPGRAS, shares: 225, mechanism: sale authorised, pre-emption rights waived,
+       gloss_en: The meeting authorises Xavier AUMONT to sell 225 shares to Michel CAPGRAS., evidence: [p5.2, p5.3, p5.4]}
+  snapshots:
+    - {as_of: "2006-10-20", as_of_basis: attendance sheet of the EGM (before its decisions), capital_eur: 150000, shares_total: 1500, holders_complete: true,
+       holders: [{name: Antonio BLANCO, kind: PERSON, shares: 803}, {name: Xavier AUMONT, kind: PERSON, shares: 637}, {name: Franck GICQUEL, kind: PERSON, shares: 60}],
+       evidence: [p6.18, p6.19, p6.25, p6.26, p6.32, p6.33, p6.38, p6.39]}
+    - {as_of_basis: updated statutes article 7 filed with the minutes, capital_eur: 200000, shares_total: 2000, nominal_eur: 100, evidence: [p10.21, p10.22]}
+  issues:
+    - The attendance sheet (BLANCO 803, AUMONT 637) disagrees with the split recorded for 16 August 2005 (BLANCO 823, AUMONT 617); no transfer between them is recorded in between.
+    - Resolution 5 (capital increase reserved to employees) was rejected; resolution 6 was not put to the vote.
+    - Resolution 9 approves in principle a future 100,000 EUR increase for new investors; nothing is issued here.
+
+# ---------------------------------------------------------------- HADEAN 2007-09-18 incorporation by contribution
+63f0a89c7a07a2434c069135:
+  summary_en: Incorporation statutes of HADEAN (7 September 2007) - Xavier AUMONT contributes 742 and Franck GICQUEL 80 ARCHEAN TECHNOLOGIES shares, valued at 575 EUR each, in exchange for HADEAN shares.
+  decision_dates:
+    - {date: "2007-09-07", body: constitution (HADEAN), evidence: [p1.16]}
+  events:
+    - {code: SHAREHOLDER_SHARE_TRANSFER, status: completed_here, effective_date: "2007-09-07",
+       date_basis: "contributions take effect on the day of the statutes (p6.28), dated 07/09/2007 (p1.16)",
+       from_name: Xavier AUMONT, to_name: HADEAN, shares: 742, price_per_share_eur: 575, mechanism: contribution in kind (apport en nature) to HADEAN at its incorporation,
+       gloss_en: "Xavier AUMONT contributes full ownership of his 742 ARCHEAN TECHNOLOGIES shares to HADEAN.", evidence: [p5.29, p5.30, p5.31, p5.32, p5.33]}
+    - {code: SHAREHOLDER_SHARE_TRANSFER, status: completed_here, effective_date: "2007-09-07",
+       date_basis: "contributions take effect on the day of the statutes (p6.28), dated 07/09/2007 (p1.16)",
+       from_name: Franck GICQUEL, to_name: HADEAN, shares: 80, price_per_share_eur: 575, mechanism: contribution in kind (apport en nature) to HADEAN at its incorporation,
+       gloss_en: "Franck GICQUEL contributes full ownership of his 80 ARCHEAN TECHNOLOGIES shares to HADEAN.", evidence: [p6.9, p6.10, p6.11, p6.12, p6.13]}
+  snapshots:
+    - {as_of: "2007-09-07", as_of_basis: description of ARCHEAN TECHNOLOGIES in the contribution clause, capital_eur: 200000, shares_total: 2000, nominal_eur: 100, evidence: [p5.27, p5.28]}
+  issues:
+    - "AUMONT's 742 shares equal the 2006 attendance sheet (637 + 330 - 225), not the August 2005 split (617 + 330 - 225 = 722)."
+    - The origin of GICQUEL's shares cites subscriptions to the increases of 17 May 2005 and 20 October 2006, but ARCHEAN's records show him at 60 shares both before and after May 2005; only the 2006 subscription (20 shares) is corroborated.
+    - The contributed stake is described as a minority one (p7.1), consistent with 822 of 2,000 shares.
+
+# ---------------------------------------------------------------- HADEAN 2008-04-30 contribution auditor's report
+63f0a89c7a07a2434c069136:
+  summary_en: Contribution auditor's report (18 April 2008) on Michel CAPGRAS's proposed contribution of 225 ARCHEAN TECHNOLOGIES shares to HADEAN, described as part of a restructuring bringing in a third-party investor.
+  events:
+    - {code: SHAREHOLDER_SHARE_TRANSFER, status: decided_pending_realisation, date_basis: proposal described in the auditor's report; realised per HADEAN's EGM of 30 April 2008,
+       from_name: Michel CAPGRAS, to_name: HADEAN, shares: 225, mechanism: proposed contribution in kind,
+       gloss_en: Michel CAPGRAS proposes to contribute to HADEAN the 225 ARCHEAN TECHNOLOGIES shares he holds., evidence: [p3.14, p3.15]}
+
+# ---------------------------------------------------------------- HADEAN 2008-05-29 EGM of 30 April 2008
+63f0a89c7a07a2434c069137:
+  summary_en: HADEAN's EGM of 30 April 2008 approves Michel CAPGRAS's contribution of 225 ARCHEAN TECHNOLOGIES shares (valued at 129,375 EUR) and records it as completed; HADEAN's updated statutes restate the 2007 contributions.
+  decision_dates:
+    - {date: "2008-04-30", body: AGE (HADEAN), evidence: [p25.18, p25.19]}
+  events:
+    - {code: SHAREHOLDER_SHARE_TRANSFER, status: completed_here, effective_date: "2008-04-30",
+       date_basis: "contribution agreement dated 30 April 2008, approved and recorded as completed by HADEAN's EGM that day (p25.13-14)",
+       from_name: Michel CAPGRAS, to_name: HADEAN, shares: 225, price_per_share_eur: 575, mechanism: contribution in kind (apport en nature),
+       gloss_en: "HADEAN's meeting approves the agreement by which Michel CAPGRAS contributes his 225 ARCHEAN TECHNOLOGIES shares, valued at 129,375 EUR.",
+       evidence: [p23.25, p23.26, p23.27, p23.28, p23.29]}
+  snapshots:
+    - {as_of: "2008-04-30", as_of_basis: description of ARCHEAN TECHNOLOGIES in the contribution resolution, capital_eur: 200000, evidence: [p23.26, p23.27]}
+  issues:
+    - AIR SYSTEM SERVICE (RCS 352 890 354) subscribes cash in HADEAN at the same meeting; it does not acquire ARCHEAN shares.
+
+# ---------------------------------------------------------------- 2008-06-23 / 2008-09-08 special advantages reports
+63e9593b8be6eb9f9d257ec6:
+  summary_en: Report of the special-advantages auditor on the preference shares A, B and B' to be created by the EGM of 27 June 2008. Describes rights; decides nothing.
+63e9593b8be6eb9f9d257ec1:
+  summary_en: Supplementary special-advantages report on the same preference shares. Describes rights; decides nothing.
+
+# ---------------------------------------------------------------- 2008-07-15 sole shareholder decisions of 27 June 2008
+63e9593b8be6eb9f9d257ec3:
+  summary_en: "Extract of the sole shareholder's (HADEAN) decisions of 27 June 2008: par value divided by 100, creation of preference shares A, B and B', reserved increase of 17,241 A shares and of 150,861 B shares (with warrants) at 5.80 EUR, bringing capital from 200,000 to 368,102 EUR; updated statutes."
+  decision_dates:
+    - {date: "2008-06-27", body: associée unique, evidence: [p1.20, p1.21]}
+  events:
+    - {code: CAPITAL_DUAL_CLASS, status: completed_here, effective_date: "2008-06-27", date_basis: decision of the sole shareholder on 27 June 2008,
+       share_class: A, mechanism: "preference shares A (art. L. 228-11), conditional on both capital increases",
+       gloss_en: The sole shareholder creates class A preference shares., evidence: [p2.18, p2.26, p2.27]}
+    - {code: CAPITAL_DUAL_CLASS, status: completed_here, effective_date: "2008-06-27", date_basis: decision of the sole shareholder on 27 June 2008,
+       share_class: B and B', mechanism: "preference shares B and B' (B convertible into B'), conditional on both capital increases",
+       gloss_en: The sole shareholder creates class B and B' preference shares., evidence: [p2.29, p2.37, p2.38, p2.39]}
+    - {code: CAPITAL_INCREASE, status: completed_here, effective_date: "2008-06-27",
+       date_basis: "decided on 27 June 2008 with subscriptions open until 18 July 2008 (p3.12-13); the statutes filed with the decisions already show 368,102 EUR",
+       amount_eur: 17241, capital_before_eur: 200000, capital_after_eur: 217241, shares_delta: 17241, nominal_eur: 1, share_class: A, price_per_share_eur: 5.8, method: numeraire,
+       mechanism: "reserved issue of 17,241 preference shares A at 5.80 EUR (4.80 EUR premium), payable in cash or by debt offset",
+       gloss_en: "Capital increase I: nominal increase of 17,241 EUR by issuing 17,241 new class A shares of 1 EUR.", evidence: [p2.48, p2.49, p2.50]}
+    - {code: CAPITAL_INCREASE, status: completed_here, effective_date: "2008-06-27",
+       date_basis: "decided on 27 June 2008 with subscriptions open until 18 July 2008 (p4.8-9); the statutes filed with the decisions already show 368,102 EUR",
+       amount_eur: 150861, capital_before_eur: 217241, capital_after_eur: 368102, shares_delta: 150861, nominal_eur: 1, share_class: B, price_per_share_eur: 5.8, method: numeraire,
+       mechanism: "reserved issue of 150,861 preference shares B with warrants for convertible bonds (ABSOC) at 5.80 EUR, to persons named in resolutions 12-15",
+       gloss_en: "Capital increase II: nominal increase of 150,861 EUR by issuing 150,861 new class B shares of 1 EUR.", evidence: [p3.42, p3.43, p3.44]}
+  snapshots:
+    - {as_of: "2008-06-27", as_of_basis: HADEAN acts as sole shareholder (associée unique) when the decisions are taken, holders_complete: true,
+       holders: [{name: HADEAN, kind: COMPANY, siren: "499979540"}], evidence: [p1.32, p1.33, p1.34]}
+    - {as_of: "2008-06-27", as_of_basis: first resolution (par value divided by 100), capital_eur: 200000, shares_total: 200000, nominal_eur: 1, evidence: [p1.47, p1.48]}
+    - {as_of: "2008-06-27", as_of_basis: statutes updated after the decisions of 27 June 2008 (p5.7-8), capital_eur: 368102, shares_total: 368102, nominal_eur: 1,
+       evidence: [p8.12, p8.13, p8.16, p8.17]}
+  issues:
+    - This is an extract - resolutions 7, 10, 12-15, 17 and 18 are omitted, so the subscribers of both reserved increases are not named. The four funds whose shares are bought back in 2017 hold exactly the B-share total (150,861).
+    - The par value is divided by 100 (100 EUR to 1 EUR, 2,000 to 200,000 shares) before the increases; nobody's percentage changes.
+    - HADEAN is sole shareholder here, but ARCHEAN's filings never record how BLANCO's shares reached HADEAN.
+
+# ---------------------------------------------------------------- 2017-01-20 EGM of 19 January 2017 (authorisation)
+63e9593b8be6eb9f9d257ebf:
+  summary_en: "Mixed general meeting of 19 January 2017: authorises a capital reduction of up to 150,861 EUR (368,102 to 217,241 EUR) by buying back and cancelling minority shareholders' shares at 2.72 EUR, subject to bank financing and creditor opposition."
+  decision_dates:
+    - {date: "2017-01-19", body: AGM mixte, evidence: [p2.10, p2.12]}
+  events:
+    - {code: CAPITAL_DECREASE, status: authorisation_only, effective_date: "2017-01-19", date_basis: authorisation by the meeting of 19 January 2017,
+       amount_eur: 150861, capital_before_eur: 368102, capital_after_eur: 217241, shares_delta: 150861, nominal_eur: 1, price_per_share_eur: 2.72, method: autre,
+       mechanism: "buyback and cancellation of minority shareholders' shares (L. 225-207)",
+       gloss_en: "The meeting authorises reducing capital by up to 150,861 EUR, from 368,102 to 217,241 EUR, by buying back minority shareholders' shares for cancellation.",
+       evidence: [p3.24, p3.25, p3.26, p3.27, p3.28]}
+  issues:
+    - The authorisation targets shares held by 'associés minoritaires' without naming them.
+
+# ---------------------------------------------------------------- 2017-03-28 president's decisions of 21 February 2017
+63e9593a8be6eb9f9d257ebe:
+  summary_en: President's decisions of 21 February 2017 carrying out the authorised reduction - 150,861 shares bought back from four funds and cancelled, capital reduced to 217,241 EUR, now wholly held by HADEAN; auditor's report; updated statutes.
+  decision_dates:
+    - {date: "2017-02-21", body: président, evidence: [p2.8, p2.9]}
+  events:
+    - {code: CAPITAL_DECREASE, status: realisation_of_earlier_decision, effective_date: "2017-02-21", date_basis: "shares bought back are cancelled 'à compter de ce jour', 21 February 2017 (p3.16)",
+       amount_eur: 150861, capital_before_eur: 368102, capital_after_eur: 217241, shares_delta: 150861, nominal_eur: 1, price_per_share_eur: 2.72, method: autre,
+       mechanism: "buyback and cancellation (excess of 259,480.92 EUR over par charged to other reserves)",
+       gloss_en: "The president records that capital is reduced by 150,861 EUR from 368,102 to 217,241 EUR, in 217,241 shares of 1 EUR.",
+       evidence: [p3.17, p3.18, p3.19]}
+    - &exit2017 {code: SHAREHOLDER_END, status: realisation_of_earlier_decision, effective_date: "2017-02-21", date_basis: "buyback recorded by the president on 21 February 2017",
+       holder_name: FPCI SECURITE, holder_kind: COMPANY, shares: 64655, mechanism: all shares bought back and cancelled,
+       gloss_en: The company buys back 64,655 shares from FPCI SECURITE., evidence: [p3.8, p3.9]}
+    - {<<: *exit2017, holder_name: FIP GALIA PME 4, shares: 12931, gloss_en: "The company buys back 12,931 shares from FIP GALIA PME 4.", evidence: [p3.10, p3.11]}
+    - {<<: *exit2017, holder_name: GALIA VENTURE, shares: 30172, gloss_en: "The company buys back 30,172 shares from GALIA VENTURE.", evidence: [p3.12, p3.13]}
+    - {<<: *exit2017, holder_name: FPCI FINANCIERE DE BRIENNE, shares: 43103, gloss_en: "The company buys back 43,103 shares from FPCI FINANCIERE DE BRIENNE.", evidence: [p3.14, p3.15]}
+  snapshots:
+    - {as_of: "2017-02-21", as_of_basis: article 7 as amended by the president, capital_eur: 217241, shares_total: 217241, nominal_eur: 1, holders_complete: true,
+       holders: [{name: HADEAN, kind: COMPANY, shares: 217241, share_class: A}], evidence: [p3.31, p3.32, p3.33]}
+  issues:
+    - The four funds appear for the first time in ARCHEAN's filings; when they acquired their shares is never recorded (presumably the reserved B issue of 27 June 2008).
+    - The OCR puts the buyback list's names and share counts on separate lines; they were paired using the page image.
+    - "The buyback 'd'une part' required bank financing and no creditor opposition; the president records no opposition by 14 February 2017 (p2.31-32)."
+
+# ---------------------------------------------------------------- 2018-05-30 sole shareholder decisions of 23 March 2018
+63e9593b8be6eb9f9d257ec0:
+  summary_en: Sole shareholder (HADEAN) decisions of 23 March 2018 - capital increase by capitalising other reserves, bringing capital from 217,241 to 400,000 EUR; articles 6 and 7 amended; updated statutes.
+  decision_dates:
+    - {date: "2018-03-23", body: associée unique, evidence: [p2.13, p2.14]}
+  events:
+    - {code: CAPITAL_INCREASE, status: completed_here, effective_date: "2018-03-23", date_basis: "decision of the sole shareholder on 23 March 2018, new shares carry rights from that day (p2.35)",
+       amount_eur: 182759, capital_before_eur: 217241, capital_after_eur: 400000, shares_delta: 182759, nominal_eur: 1, method: incorporation de reserves,
+       mechanism: capitalisation of 'Autres réserves', new shares allotted free to the sole shareholder,
+       subscribers: [{name: HADEAN, kind: COMPANY, shares: 182759}],
+       gloss_en: "The sole shareholder increases capital by 182,759 EUR out of other reserves, creating 182,759 new 1 EUR shares.",
+       evidence: [p2.31, p2.32, p2.33, p2.34]}
+    - {code: CAPITAL_INCREASE, status: restated_history, effective_date: "2018-03-23", date_basis: clause added to article 6 by the second decision,
+       amount_eur: 185759, capital_after_eur: 400000, method: incorporation de reserves,
+       gloss_en: "The amended article 6 says capital was increased by 185,759 EUR out of reserves to 400,000 EUR.",
+       evidence: [p3.5, p3.6, p3.7]}
+  snapshots:
+    - {as_of: "2018-03-23", as_of_basis: article 7 as amended by the second decision, capital_eur: 400000, shares_total: 400000, nominal_eur: 1, holders_complete: true,
+       holders: [{name: HADEAN, kind: COMPANY, shares: 400000, share_class: A}], evidence: [p3.10, p3.11, p3.12]}
+  issues:
+    - "The amended article 6 (p3 and p7) says +185,759 EUR; the decision and its agenda say +182,759 EUR (p2). 217,241 + 182,759 = 400,000, so the statutes clause carries a typo (checked on the page image)."
+
+# ---------------------------------------------------------------- filings with nothing new on capital
+63e9593b8be6eb9f9d257ec8:
+  summary_en: AGM of 30 November 2010 - accounts, dividend to the class A holder, an authorisation to issue up to 3% of capital to employees (never used in the filings), object change. No capital movement.
+63e9593b8be6eb9f9d257ec9:
+  summary_en: Filing with the 2010 minutes and updated statutes restating the capital history up to 368,102 EUR. Restated history not labelled.
+63e9593c8be6eb9f9d257eca:
+  summary_en: EGM of 20 May 2011 changing the financial year end. No capital content beyond the letterhead (368,102 EUR).
+63e9593c8be6eb9f9d257ecb:
+  summary_en: Filing with the 2011 decision and updated statutes restating the capital history up to 368,102 EUR. Restated history not labelled.
+63e9593a8be6eb9f9d257ebd:
+  summary_en: 2013 president's decision moving the registered office, with updated statutes restating capital at 368,102 EUR. Restated history not labelled.
+63e9593c8be6eb9f9d257ecc:
+  summary_en: Extract of the sole shareholder's decisions of 29 June 2018 - allocation of profit and auditors. Letterhead capital 400,000 EUR. No capital movement.
+6936b4160bb493b0e4098925:
+  summary_en: AGM of 24 June 2024 - accounts, profit allocation, auditors. Letterhead capital 400,000 EUR. No capital movement.

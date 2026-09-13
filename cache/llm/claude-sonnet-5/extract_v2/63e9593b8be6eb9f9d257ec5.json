@@ -1,0 +1,185 @@
+{
+  "inpi_id": "63e9593b8be6eb9f9d257ec5",
+  "model": "claude-sonnet-5",
+  "prompt_version": "extract_v2",
+  "request_ids": [
+    "req_011Cf1dMZkMg7AHVjUDUmiqF"
+  ],
+  "attempts": 1,
+  "elapsed_s": 19.9,
+  "usage": {
+    "input_tokens": 41879,
+    "output_tokens": 2331,
+    "cache_creation_input_tokens": 8599,
+    "cache_read_input_tokens": 0
+  },
+  "extraction": {
+    "summary_en": "This is the founding constitution (statuts) of ARCHEAN Technologies SAS, signed 15 December 2004 in Montauban. The founders (Xavier AUMONT, Antonio BLANCO MARINA, Franck GICQUEL) contributed a total of 37,000 euros in cash, divided into 370 shares of 100 euros nominal each, paid up to half. No later capital movements are recorded in this document.",
+    "decision_dates": [
+      {
+        "date": "2004-12-15",
+        "body": "constitution",
+        "evidence": {
+          "line_ids": [
+            "p24.11",
+            "p24.12"
+          ],
+          "quote_fr": "Fait à Montauban Le 15 décembre 2004"
+        }
+      }
+    ],
+    "events": [
+      {
+        "code": "SHAREHOLDER_ENTRY",
+        "status": "completed_here",
+        "effective_date": "2004-12-15",
+        "date_basis": "Date of signature of the founding statutes recording the initial share allocation.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "constitution - apport en numéraire",
+        "share_class": null,
+        "holder_name": "Xavier AUMONT",
+        "holder_kind": "PERSON",
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": 155,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p3.17",
+            "p3.18"
+          ],
+          "quote_fr": "Monsieur Xavier AUMONT 155 actions"
+        },
+        "gloss_en": "Xavier AUMONT is a founding shareholder holding 155 shares at incorporation.",
+        "confidence": "medium",
+        "notes": null
+      },
+      {
+        "code": "SHAREHOLDER_ENTRY",
+        "status": "completed_here",
+        "effective_date": "2004-12-15",
+        "date_basis": "Date of signature of the founding statutes recording the initial share allocation.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "constitution - apport en numéraire",
+        "share_class": null,
+        "holder_name": "Antonio BLANCO MARINA",
+        "holder_kind": "PERSON",
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": 155,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p3.19",
+            "p3.20"
+          ],
+          "quote_fr": "155 actions Monsieur Antonio BLANCO MARINA"
+        },
+        "gloss_en": "Antonio BLANCO MARINA is a founding shareholder holding 155 shares at incorporation.",
+        "confidence": "medium",
+        "notes": null
+      },
+      {
+        "code": "SHAREHOLDER_ENTRY",
+        "status": "completed_here",
+        "effective_date": "2004-12-15",
+        "date_basis": "Date of signature of the founding statutes recording the initial share allocation.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "constitution - apport en numéraire",
+        "share_class": null,
+        "holder_name": "Franck GICQUEL",
+        "holder_kind": "PERSON",
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": 60,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p3.22",
+            "p3.23"
+          ],
+          "quote_fr": "60 actions Monsieur Franck GICQUEL"
+        },
+        "gloss_en": "Franck GICQUEL is a founding shareholder holding 60 shares at incorporation.",
+        "confidence": "medium",
+        "notes": null
+      }
+    ],
+    "snapshots": [
+      {
+        "as_of": "2004-12-15",
+        "as_of_basis": "Statutes article 7 'Capital social', as signed at incorporation.",
+        "capital_eur": 37000.0,
+        "shares_total": 370,
+        "nominal_eur": 100.0,
+        "holders": [
+          {
+            "name": "Xavier AUMONT",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 155,
+            "share_class": null,
+            "pct": null
+          },
+          {
+            "name": "Antonio BLANCO MARINA",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 155,
+            "share_class": null,
+            "pct": null
+          },
+          {
+            "name": "Franck GICQUEL",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 60,
+            "share_class": null,
+            "pct": null
+          }
+        ],
+        "holders_complete": true,
+        "evidence": {
+          "line_ids": [
+            "p3.13",
+            "p3.14",
+            "p3.15",
+            "p3.16",
+            "p3.17",
+            "p3.18",
+            "p3.19",
+            "p3.20",
+            "p3.22",
+            "p3.23"
+          ],
+          "quote_fr": "Le capital social est fixé à la somme de trente sept mille (37.0o0) euros. Il est divisé en trois cent soixante dix (370) actions d'une seule catégorie de cent (100) euros de nominal chacune, libérées pour moitié, et attribuées aux actionnaires suivant la répartition suivante : Monsieur Xavier AUMONT 155 actions ... 155 actions Monsieur Antonio BLANCO MARINA ... 60 actions Monsieur Franck GICQUEL"
+        }
+      }
+    ],
+    "issues": [
+      "The OCR table pairing names to share counts by position (row y-coordinates) sums to 155+155+60=370, matching the stated total of 370 actions, confirming the alignment.",
+      "Shares were only libérées pour moitié (half paid-up) at constitution; this does not affect the nominal capital figure recorded."
+    ]
+  }
+}

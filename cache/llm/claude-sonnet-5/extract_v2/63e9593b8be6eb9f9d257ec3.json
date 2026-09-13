@@ -1,0 +1,297 @@
+{
+  "inpi_id": "63e9593b8be6eb9f9d257ec3",
+  "model": "claude-sonnet-5",
+  "prompt_version": "extract_v2",
+  "request_ids": [
+    "req_011Cf1dTtjHg6b7RErbZVRWn"
+  ],
+  "attempts": 1,
+  "elapsed_s": 68.0,
+  "usage": {
+    "input_tokens": 49825,
+    "output_tokens": 7413,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 8599
+  },
+  "extraction": {
+    "summary_en": "Minutes of the sole shareholder (HADEAN) of ARCHEAN Technologies dated 27 June 2008, followed by the updated statutes. The filing (i) splits the nominal value of shares by 100 (capital unchanged at €200,000), (ii) creates two new preference share classes (A, and B/B'), (iii) resolves two capital increases in cash (€17,241 issuing 17,241 Actions A, and €150,861 issuing 150,861 Actions B with attached BSOC), bringing capital to €368,102, and (iv) transfers the registered office. The attached updated statutes already show the capital at €368,102 divided into 217,241 A shares and 150,861 B shares, so both increases are treated as realised by this filing.",
+    "decision_dates": [
+      {
+        "date": "2008-06-27",
+        "body": "associée unique (HADEAN)",
+        "evidence": {
+          "line_ids": [
+            "p1.20",
+            "p1.21",
+            "p1.32",
+            "p1.34"
+          ],
+          "quote_fr": "EXTRAIT DU PROCES-VERBAL DES DECISIONS DE L'ASSOCIEE EN DATE DU 27 JUIN 2008 ... La société HADEAN, société par actions simplifiée au capital de 578.450 euros ... Associée Unique de la TECHNOLOGIES"
+        }
+      }
+    ],
+    "events": [
+      {
+        "code": "CAPITAL_DUAL_CLASS",
+        "status": "completed_here",
+        "effective_date": "2008-06-27",
+        "date_basis": "Date of the associée unique decision (6ème résolution).",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "Création d'actions de préférence de catégorie A, art. L.228-11 s. C. com., avec droit à dividende prioritaire.",
+        "share_class": "A",
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p2.17",
+            "p2.18",
+            "p2.26",
+            "p2.27"
+          ],
+          "quote_fr": "6EME RESOLUTION Création d'actions de préférence de catégorie A ... DÉCIDE, conformément aux dispositions des articles L. 228-11 et suivants du Code de commerce, de créer des actions de préférence de catégorie A (ci-après les « Actions A »),"
+        },
+        "gloss_en": "Creation of preference share class A.",
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "code": "CAPITAL_DUAL_CLASS",
+        "status": "completed_here",
+        "effective_date": "2008-06-27",
+        "date_basis": "Date of the associée unique decision (8ème résolution).",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "Création d'actions de préférence de catégorie B et B', art. L.228-11 s. C. com., avec droits de gouvernance renforcés (Comité de Suivi) et liquidation préférentielle.",
+        "share_class": "B and B'",
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p2.28",
+            "p2.29",
+            "p2.37",
+            "p2.38",
+            "p2.39"
+          ],
+          "quote_fr": "8ÈME RESOLUTION Création d'actions de préférence de catégorie B et B' ... DÉCIDE, conformément aux dispositions des articles L. 228-11 et suivants du Code de commerce, de créer des actions de préférence de catégorie B (ci-après les « Actions B ») et des actions de préférence de catégorie B' (ci-après les « Actions B' »),"
+        },
+        "gloss_en": "Creation of preference share classes B and B'.",
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "completed_here",
+        "effective_date": "2008-06-27",
+        "date_basis": "Meeting date of the associée unique; the updated statutes attached to this filing already reflect the resulting capital of €217,241 (then €368,102 after the second increase), so the increase is treated as realised at this act despite a subscription window mentioned until 18 July 2008.",
+        "amount_eur": 17241.0,
+        "capital_before_eur": 200000.0,
+        "capital_after_eur": 217241.0,
+        "shares_delta": 17241,
+        "nominal_eur": 1.0,
+        "method": "numeraire",
+        "mechanism": "Libération en numéraire, y compris par compensation avec des créances certaines, liquides et exigibles ; émission d'Actions A à 5,80 euros l'une (prime d'émission incluse).",
+        "share_class": "A",
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": 5.8,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p2.41",
+            "p2.42",
+            "p2.48",
+            "p2.49",
+            "p2.50",
+            "p3.1",
+            "p3.2",
+            "p3.3"
+          ],
+          "quote_fr": "Augmentation de Capital I : Augmentation du capital social d'un montant nominal de 17.241 euros, par l'émission de 17.241 Actions A ... DÉciDE d'augmenter le capital social de la Société d'un montant nominal de 17.241 euros, par l'émission de 17.241 Actions A ... DÉCIDE que les Actions A Nouvelles seront émises au prix de 5,80 euros l'une (prime d'émission incluse), soit un prix de souscription total de 99.997,80 euros, et seront intégralement libérées en numéraire, y compris par voie de compensation avec des créances certaines, liquides et exigibles"
+        },
+        "gloss_en": "Capital increase of €17,241 by issuance of 17,241 new Actions A (Augmentation de Capital I).",
+        "confidence": "medium",
+        "notes": null
+      },
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "completed_here",
+        "effective_date": "2008-06-27",
+        "date_basis": "Meeting date of the associée unique; the updated statutes attached to this filing already reflect the resulting capital of €368,102, so the increase is treated as realised at this act.",
+        "amount_eur": 150861.0,
+        "capital_before_eur": 217241.0,
+        "capital_after_eur": 368102.0,
+        "shares_delta": 150861,
+        "nominal_eur": 1.0,
+        "method": "numeraire",
+        "mechanism": "Émission d'ABSOCg (Actions B assorties d'un bon de souscription d'obligations convertibles en Actions B), libération intégrale en numéraire à 5,80 euros l'unité (prime d'émission incluse).",
+        "share_class": "B",
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": 5.8,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p3.33",
+            "p3.34",
+            "p3.42",
+            "p3.43",
+            "p3.47",
+            "p3.48"
+          ],
+          "quote_fr": "Augmentation de Capital Il : Augmentation du capital social d'un montant nominal de 150.861 euros, par l'émission de 150.861 Actions B à bon de souscription d'obligations convertibles en Actions B ... d'augmenter le capital social d'un montant nominal de 150.861 euros par l'émission de 150.861 Actions B nouvelles ... DECIDE que les ABSOCe seront émises au prix unitaire de 5,80 euros (prime d'émission incluse)"
+        },
+        "gloss_en": "Capital increase of €150,861 by issuance of 150,861 new Actions B with attached BSOC (Augmentation de Capital II).",
+        "confidence": "medium",
+        "notes": null
+      },
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "restated_history",
+        "effective_date": "2005-05-17",
+        "date_basis": "Date of the AGE recalled in the statutes' 'Apports' article.",
+        "amount_eur": 113000.0,
+        "capital_before_eur": 37000.0,
+        "capital_after_eur": 150000.0,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p8.0",
+            "p8.1"
+          ],
+          "quote_fr": "Aux termes de l'assemblée générale extraordinaire du 17/05/2005, le capital social a été augmenté de 113.000 euros afin d'être porté à 150.000 euros."
+        },
+        "gloss_en": "Prior capital increase of €113,000 recalled in the statutes history (to €150,000).",
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "restated_history",
+        "effective_date": "2006-10-20",
+        "date_basis": "Date of the AGE recalled in the statutes' 'Apports' article.",
+        "amount_eur": 50000.0,
+        "capital_before_eur": 150000.0,
+        "capital_after_eur": 200000.0,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p8.2",
+            "p8.3"
+          ],
+          "quote_fr": "Aux termes de l'assemblée générale extraordinaire du 20/10/2006, le capital social a été augmenté de 50.000 euros afin d'être porté à 200.000 euros."
+        },
+        "gloss_en": "Prior capital increase of €50,000 recalled in the statutes history (to €200,000).",
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "snapshots": [
+      {
+        "as_of": "2008-06-27",
+        "as_of_basis": "Capital as fixed by the 2nd resolution before the two subsequent increases, sole shareholder identified in the preamble.",
+        "capital_eur": 200000.0,
+        "shares_total": 200000,
+        "nominal_eur": 1.0,
+        "holders": [
+          {
+            "name": "HADEAN",
+            "kind": "COMPANY",
+            "siren": null,
+            "shares": null,
+            "share_class": null,
+            "pct": 100.0
+          }
+        ],
+        "holders_complete": true,
+        "evidence": {
+          "line_ids": [
+            "p1.32",
+            "p1.34",
+            "p1.54",
+            "p1.55"
+          ],
+          "quote_fr": "La société HADEAN, société par actions simplifiée au capital de 578.450 euros ... Associée Unique de la TECHNOLOGIES ... « Le capital social est fixé à la somme de 200.000 euros. Il est divisé en 200.000 actions de UN euro (EUR. 1) chacune de valeur nominale, intégralement libérées et de même catégorie. »"
+        }
+      },
+      {
+        "as_of": "2008-06-27",
+        "as_of_basis": "Final article 7 of the updated statutes attached to this filing, after both capital increases.",
+        "capital_eur": 368102.0,
+        "shares_total": 368102,
+        "nominal_eur": 1.0,
+        "holders": [],
+        "holders_complete": false,
+        "evidence": {
+          "line_ids": [
+            "p8.11",
+            "p8.12",
+            "p8.13",
+            "p8.16",
+            "p8.17"
+          ],
+          "quote_fr": "ARTICLE 7 - CAPITAL SOCIAL Le capital social est fixé à la somme de 368.102 euros. Il est divisé en 368.102 actions de 1 euro chacune entièrement libérées. ... 217.241 actions de préférence de catégorie A, 150.861 actions de préférence de catégorie B."
+        }
+      }
+    ],
+    "issues": [
+      "Resolution 1 divides the nominal value of shares by 100 (200,000 shares of €1 replacing 2,000 of €100); capital unchanged at €200,000, so no CAPITAL_INCREASE/DECREASE event was recorded, only a snapshot note.",
+      "The two capital increases (Augmentation de Capital I and II) were decided subject to a subscription period running until 18 July 2008 (after this filing's deposit date of 15 July 2008) and to suspensive conditions (adoption of other resolutions), yet the statutes attached to and dated the same day as this act already show the final capital of €368,102 fully realised; this is treated per instructions as completed_here but the timing is internally inconsistent and could not be fully resolved from this document.",
+      "Named subscribers to Augmentation de Capital I and II ('personnes dénommées') are referenced (resolutions 10 and 12-15) but not included in the OCR provided, so SHAREHOLDER_ENTRY/subscribers could not be determined.",
+      "Resolution 7 (referenced by numbering gap between 6th and 8th resolutions) is missing from the OCR."
+    ]
+  }
+}

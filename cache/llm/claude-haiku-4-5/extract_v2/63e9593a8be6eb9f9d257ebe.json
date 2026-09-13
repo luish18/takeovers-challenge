@@ -1,0 +1,243 @@
+{
+  "inpi_id": "63e9593a8be6eb9f9d257ebe",
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_version": "extract_v2",
+  "request_ids": [
+    "req_011Cf1dQ1F68w2T7UsbEBHJ6"
+  ],
+  "attempts": 1,
+  "elapsed_s": 24.0,
+  "usage": {
+    "input_tokens": 41046,
+    "output_tokens": 2472,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 6333
+  },
+  "extraction": {
+    "summary_en": "This filing records the President's decision of 21 February 2017 implementing a capital reduction authorized by the AGE of 19 January 2017. The company repurchased and cancelled 150,861 shares at €2.72 per share, reducing capital from €368,102 to €217,241. After completion, all 217,241 remaining shares are held entirely by HADEAN as actions de préférence de catégorie A.",
+    "decision_dates": [
+      {
+        "date": "2017-01-19",
+        "body": "Assemblée Générale Extraordinaire",
+        "evidence": {
+          "line_ids": [
+            "p2.20",
+            "p2.21",
+            "p2.22"
+          ],
+          "quote_fr": "par délibérations en date du 19 janvier 2017, l'Assemblée Générale Extraordinaire des associés de la Société a décidé de réduire le capital social d'un montant maximum de 150 861 euros par voie de rachat d'actions de la Société"
+        }
+      },
+      {
+        "date": "2017-02-21",
+        "body": "Décision du Président",
+        "evidence": {
+          "line_ids": [
+            "p2.8",
+            "p2.9"
+          ],
+          "quote_fr": "PROCES-VERBAL DES DECISIONS DU PRESIDENT EN DATE DU 21 FEVRIER 2017"
+        }
+      }
+    ],
+    "events": [
+      {
+        "code": "CAPITAL_DECREASE",
+        "status": "completed_here",
+        "effective_date": "2017-02-21",
+        "date_basis": "Date of President's decision recording completion of buyback and cancellation; creditor opposition period had expired on 14 February 2017.",
+        "amount_eur": 150861.0,
+        "capital_before_eur": 368102.0,
+        "capital_after_eur": 217241.0,
+        "shares_delta": 150861,
+        "nominal_eur": null,
+        "method": "numeraire",
+        "mechanism": "rachat et annulation d'actions",
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": 2.72,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p3.2",
+            "p3.3",
+            "p3.6",
+            "p3.17",
+            "p3.18",
+            "p3.19"
+          ],
+          "quote_fr": "Le Président constate que les offres d'achat reçues représentent un montant nominal total de 150 861 euros. Ce montant correspondant au montant maximum fixé par l'Assemblée, le Président constate qu'il peut être donné satisfaction à chacune des offres. Le Président arrête le montant des actions rachetées par la Société à 150 861 et fixe la liste des associés concernés... En conséquence, le Président constate que le capital social est réduit de 150 861 euros pour être ramené de 368 102 euros à 217 241 euros et divisé en 217 241 actions de 1 euro de valeur nominale chacune."
+        },
+        "gloss_en": "",
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "code": "SHAREHOLDER_END",
+        "status": "completed_here",
+        "effective_date": "2017-02-21",
+        "date_basis": "Date of President's decision; all shares of these shareholders were repurchased and cancelled.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": "FPCI SECURITE",
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": 64655,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p3.8",
+            "p3.9"
+          ],
+          "quote_fr": "à FPCI SECURITE 64 655 actions"
+        },
+        "gloss_en": "",
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "code": "SHAREHOLDER_END",
+        "status": "completed_here",
+        "effective_date": "2017-02-21",
+        "date_basis": "Date of President's decision; all shares of this shareholder were repurchased and cancelled.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": "FIP GALIA PME 4",
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": 12931,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p3.10",
+            "p3.11"
+          ],
+          "quote_fr": "à FIP GALIA PME 4 12 931 actions"
+        },
+        "gloss_en": "",
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "code": "SHAREHOLDER_END",
+        "status": "completed_here",
+        "effective_date": "2017-02-21",
+        "date_basis": "Date of President's decision; all shares of this shareholder were repurchased and cancelled.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": "GALIA VENTURE",
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": 30172,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p3.12",
+            "p3.13"
+          ],
+          "quote_fr": "30 172 actions - à GALIA VENTURE"
+        },
+        "gloss_en": "",
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "code": "SHAREHOLDER_END",
+        "status": "completed_here",
+        "effective_date": "2017-02-21",
+        "date_basis": "Date of President's decision; all shares of this shareholder were repurchased and cancelled.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": "FPCI FINANCIERE DE BRIENNE",
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": 43103,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p3.14",
+            "p3.15"
+          ],
+          "quote_fr": "à FPCI FINANCIERE DE BRIENNE 43 103 actions"
+        },
+        "gloss_en": "",
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "snapshots": [
+      {
+        "as_of": "2017-02-21",
+        "as_of_basis": "After completion of capital reduction decision by President on 21 February 2017, as stated in updated statutes Article 7.",
+        "capital_eur": 217241.0,
+        "shares_total": 217241,
+        "nominal_eur": 1.0,
+        "holders": [
+          {
+            "name": "HADEAN",
+            "kind": "COMPANY",
+            "siren": null,
+            "shares": 217241,
+            "share_class": "A",
+            "pct": 100.0
+          }
+        ],
+        "holders_complete": true,
+        "evidence": {
+          "line_ids": [
+            "p3.31",
+            "p3.32",
+            "p3.33"
+          ],
+          "quote_fr": "Le capital social est fixé à la somme de 217 241 euros. Il est divisé en 217 241 actions de 1 euro chacune entièrement libérées, intégralerent détenues par la société HADEAN, titulaire d'actions de préférence de catégorie A."
+        }
+      }
+    ],
+    "issues": [
+      "OCR error at p3.32: 'intégralerent' should be 'intégralement'.",
+      "OCR error at p4.7: 'AUMANT' should be 'AUMONT' (corrected in text).",
+      "The four shareholders exiting (FPCI SECURITE, FIP GALIA PME 4, GALIA VENTURE, FPCI FINANCIERE DE BRIENNE) held shares that sum to 150,861, matching exactly the nominal value of shares cancelled. These were all repurchased and cancelled in this single transaction, making them SHAREHOLDER_END events."
+    ]
+  }
+}

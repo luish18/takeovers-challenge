@@ -1,0 +1,135 @@
+{
+  "inpi_id": "63e9593b8be6eb9f9d257ec0",
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_version": "extract_v2",
+  "request_ids": [
+    "req_011Cf1dQvBmByCkkX8qyX6Zg"
+  ],
+  "attempts": 1,
+  "elapsed_s": 23.4,
+  "usage": {
+    "input_tokens": 39134,
+    "output_tokens": 2139,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 6333
+  },
+  "extraction": {
+    "summary_en": "Minutes of unique shareholder decision dated 23 March 2018 recording a capital increase of 182,759 euros (or 185,759 euros per statutes Article 6 – see issues) by incorporation of reserves, raising capital to 400,000 euros divided into 400,000 shares of 1 euro each, all held by HADEAN. Updated statutes effective 23 March 2018. Two preference share classes (A and B) are defined in the statutes but none are currently issued.",
+    "decision_dates": [
+      {
+        "date": "2018-03-23",
+        "body": "Associée Unique",
+        "evidence": {
+          "line_ids": [
+            "p2.14",
+            "p2.18",
+            "p2.19"
+          ],
+          "quote_fr": "EN DATE DU 23 MARS 2018\nLa société HADEAN, représentée par Monsieur Xavier AUMONT, Président, en sa qualité d'Associée unique de la société ARCHEAN TECHNOLOGIES a pris les décisions relatives à l'ordre du jour suivant"
+        }
+      }
+    ],
+    "events": [
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "completed_here",
+        "effective_date": "2018-03-23",
+        "date_basis": "Unique shareholder decision dated 23 March 2018 on that date.",
+        "amount_eur": 182759.0,
+        "capital_before_eur": 217241.0,
+        "capital_after_eur": 400000.0,
+        "shares_delta": 182759,
+        "nominal_eur": 1.0,
+        "method": "incorporation de reserves",
+        "mechanism": "prélèvement sur le poste « Autres Réserves »",
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p2.31",
+            "p2.32",
+            "p2.33",
+            "p2.34"
+          ],
+          "quote_fr": "L'Associée Unique décide d'augmenter le capital social d'un montant de 182 759 euros par prélèvement sur le poste « Autres Réserves ». En représentation de cette augmentation de capital, il sera créé 182 759 actions nouvelles de 1 euro de valeur nominale, entièrement libérées."
+        },
+        "gloss_en": "",
+        "confidence": "medium",
+        "notes": "The decision minutes state 182,759 euros but the updated Article 6 of statutes states 185,759 euros. The effective 23 March 2018 decision and statutory update both show capital after as 400,000 euros."
+      },
+      {
+        "code": "SHAREHOLDER_ENTRY",
+        "status": "restated_history",
+        "effective_date": "2004-12-22",
+        "date_basis": "Incorporation date per Article 6.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": "HADEAN",
+        "holder_kind": "COMPANY",
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": 37000,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p6.24",
+            "p6.25",
+            "p6.26"
+          ],
+          "quote_fr": "Lors de la constitution, les associés ont fait apports à la Société d'une somme en numéraire d'un montant total de 37.000 euros, correspondant au montant du capital social et à 370 actions de 100 euros de nominal chacune, souscrites en totalité et libérées de la moitié"
+        },
+        "gloss_en": "",
+        "confidence": "medium",
+        "notes": "Initial founder; the document does not name the founder(s) by name at incorporation, only referring to 'les associés' and later showing HADEAN as the current unique shareholder."
+      }
+    ],
+    "snapshots": [
+      {
+        "as_of": "2018-03-23",
+        "as_of_basis": "Updated statutes effective 23 March 2018 per Article 7.",
+        "capital_eur": 400000.0,
+        "shares_total": 400000,
+        "nominal_eur": 1.0,
+        "holders": [
+          {
+            "name": "HADEAN",
+            "kind": "COMPANY",
+            "siren": null,
+            "shares": 400000,
+            "share_class": "A",
+            "pct": 100.0
+          }
+        ],
+        "holders_complete": true,
+        "evidence": {
+          "line_ids": [
+            "p7.11",
+            "p7.12",
+            "p7.13"
+          ],
+          "quote_fr": "Le capital social est fixé à la somme de 400 000 euros. Il est divisé en 400 000 actions de 1 euro chacune entièrement libérées, intégralement détenues par la société HADEAN, titulaire d'actions de préférence de catégorie A."
+        }
+      }
+    ],
+    "issues": [
+      "Discrepancy between decision minutes (p2.31: 182,759 euros increase) and updated Article 6 of statutes (p7.7-7.9: 185,759 euros increase). Both show capital after as 400,000 euros. The difference is 3,000 euros and may reflect an OCR error or a transcription error.",
+      "The filing does not name the founder(s) at the 2004 incorporation; only 'les associés' is mentioned. The current holder HADEAN's acquisition date is not documented in this filing.",
+      "Preference share classes A and B are defined in the statutes (Articles 7, 11, 15.3.1) with specific rights, but the current outstanding shares are all class A. No class B shares have been issued as of 23 March 2018."
+    ]
+  }
+}

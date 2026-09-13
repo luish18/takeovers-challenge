@@ -1,0 +1,72 @@
+{
+  "inpi_id": "63e9593b8be6eb9f9d257ec6",
+  "model": "claude-sonnet-5",
+  "prompt_version": "extract_v2",
+  "request_ids": [
+    "req_011Cf1dTELijqQ1rsCuGazBv"
+  ],
+  "attempts": 1,
+  "elapsed_s": 34.8,
+  "usage": {
+    "input_tokens": 13531,
+    "output_tokens": 3249,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 8599
+  },
+  "extraction": {
+    "summary_en": "This filing is the Commissaire aux Avantages Particuliers report (art. L.225-147) dated 18 June 2008, prepared ahead of the Extraordinary General Meeting of ARCHEAN TECHNOLOGIES scheduled for 27 June 2008 (i.e. after this report and its deposit at the greffe on 23 June 2008). It describes and evaluates the particular rights attached to a planned creation of preference shares of categories \"A\", \"B\" and \"B'\", but does not itself record that the AGE adopted the resolution nor any resulting capital or shareholder change. No cap table, shareholder names, or nominal capital movement are stated in this document beyond the letterhead capital of 200,000 euros.",
+    "decision_dates": [
+      {
+        "date": "2008-06-27",
+        "body": "AGE",
+        "evidence": {
+          "line_ids": [
+            "p1.15"
+          ],
+          "quote_fr": "Assemblée Générale Extraordinaire du 27 juin 2008"
+        }
+      }
+    ],
+    "events": [
+      {
+        "code": "CAPITAL_DUAL_CLASS",
+        "status": "authorisation_only",
+        "effective_date": null,
+        "date_basis": "Report dated 18 June 2008, referencing an AGE scheduled for 27 June 2008 that had not yet occurred as of the report and the greffe deposit date.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "Création d'actions de préférence de catégorie A (dividende prioritaire plafonné, conversion obligatoire en actions ordinaires) et de catégorie B/B' (droits d'information et d'audit renforcés, sièges au comité de suivi, droit de liquidation préférentielle, conversion en B' anti-dilutive) ; opération décrite comme envisagée pour l'AGE du 27 juin 2008, non encore tenue à la date de ce rapport (18 juin 2008) ni à la date de dépôt (23 juin 2008).",
+        "share_class": "A, B and B'",
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p2.13",
+            "p2.14",
+            "p1.15"
+          ],
+          "quote_fr": "Cette opération consiste en la création d’actions de préférence dites de catégorie « A » et de catégorie « B » et « B' », bénéficiant des droits particuliers suivants : ... Assemblée Générale Extraordinaire du 27 juin 2008"
+        },
+        "gloss_en": "CAC report evaluating planned preference share classes A/B/B' ahead of the 27 June 2008 AGE; not yet a completed capital event in this filing.",
+        "confidence": "medium",
+        "notes": "The report itself makes no finding of capital amount or realised issuance; it only evaluates rights to be proposed to the AGE. A parenthetical formula later states 150,861 'B' shares to be issued under the forthcoming resolutions, but this is a formula parameter, not a confirmed capital movement."
+      }
+    ],
+    "snapshots": [],
+    "issues": [
+      "This filing is a preparatory CAC report dated 18 June 2008 for an AGE scheduled 27 June 2008, deposited at the greffe on 23 June 2008 (i.e. before the AGE took place); it therefore does not itself confirm that the preference-share creation was adopted, so no completed CAPITAL_DUAL_CLASS or CAPITAL_INCREASE event could be recorded from this document alone.",
+      "A formula on p7 mentions 150,861 'B' shares to be issued 'en vertu des présentes résolutions' and a subscription price of 5.80 euros per 'B' share, but no total nominal capital increase amount or resulting capital figure is stated in this document.",
+      "No shareholder names, share transfers, or cap table snapshot appear anywhere in this filing; only the letterhead capital of 200,000 euros is mentioned, which per instructions is not treated as a snapshot."
+    ]
+  }
+}

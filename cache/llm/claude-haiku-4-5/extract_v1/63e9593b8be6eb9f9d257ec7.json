@@ -1,0 +1,297 @@
+{
+  "inpi_id": "63e9593b8be6eb9f9d257ec7",
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_version": "extract_v1",
+  "request_ids": [
+    "req_011Cf1cYEgL8ohzLyXpLtFmC"
+  ],
+  "attempts": 1,
+  "elapsed_s": 34.8,
+  "usage": {
+    "input_tokens": 32042,
+    "output_tokens": 3482,
+    "cache_creation_input_tokens": 5904,
+    "cache_read_input_tokens": 0
+  },
+  "extraction": {
+    "summary_en": "Minutes and updated statutes of an EGM on 20 October 2006. The company increased its share capital from €150,000 to €200,000 by compensation de comptes courants (debt offset), creating 500 new shares reserved to three named existing shareholders. One new shareholder (Michel CAPGRAS) was approved and authorized to receive 225 shares from Xavier AUMONT.",
+    "decision_dates": [
+      {
+        "date": "2006-10-20",
+        "body": "Assemblée Générale Extraordinaire",
+        "evidence": {
+          "line_ids": [
+            "p1.26",
+            "p1.27",
+            "p1.28",
+            "p1.34",
+            "p1.35"
+          ],
+          "quote_fr": "ASSEMBLÉE GENERALE EXTRAORDINAIRE Pénalités: 43 € DU 20 OCTOBRE 2006 ... Le 20 octobre 2006, A 10 heures 30, Les associés de la société ARCHEAN TECHNOLOGIES se sont réunis en assemblée générale extraordinaire"
+        }
+      }
+    ],
+    "events": [
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "completed_here",
+        "effective_date": "2006-10-20",
+        "date_basis": "Capital increase was decided and effective the same day (20 October 2006 EGM). Updated statutes dated 20 October show the new €200,000 capital.",
+        "amount_eur": 50000.0,
+        "capital_before_eur": 150000.0,
+        "capital_after_eur": 200000.0,
+        "shares_delta": 500,
+        "nominal_eur": 100.0,
+        "method": "numeraire",
+        "mechanism": "compensation de comptes courants",
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [
+          {
+            "name": "Xavier AUMONT",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 330,
+            "share_class": null,
+            "pct": null
+          },
+          {
+            "name": "Antonio BLANCO MARINA",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 150,
+            "share_class": null,
+            "pct": null
+          },
+          {
+            "name": "Franck GICQUEL",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 20,
+            "share_class": null,
+            "pct": null
+          }
+        ],
+        "evidence": {
+          "line_ids": [
+            "p3.4",
+            "p3.5",
+            "p3.6",
+            "p3.7",
+            "p3.8",
+            "p3.9",
+            "p3.10",
+            "p3.11",
+            "p3.12",
+            "p3.13",
+            "p3.14"
+          ],
+          "quote_fr": "L'Assemblée Générale, après avoir entendu la lecture du rapport du Président et du rapport spécial du Commissaire aux comptes sur la suppression du droit préférentiel de souscription au profit de bénéficiaires dénommés, décide, sous la condition suspensive de l'adoption de la troisième résolution relative à la suppression du droit préférentiel de souscription, d'augmenter le capital social d'une somme de 50.000 euros, pour le porter de 150.000 euros à 200.000 euros, par création de 500 actions nouvelles de 100 euros de valeur nominale chacune, émises au pair, à libérer en totalité lors de la souscription, par compensation avec des créances certaines, liquides et exigibles sur la Société."
+        },
+        "gloss_en": "Capital increase of €50,000 (150,000 to 200,000 euros) by creation of 500 shares at par, funded by debt compensation (comptes courants).",
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "code": "SHAREHOLDER_ENTRY",
+        "status": "completed_here",
+        "effective_date": "2006-10-20",
+        "date_basis": "Michel CAPGRAS was approved as a shareholder on 20 October 2006 (Resolution 7).",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "agrément et cession de 225 actions",
+        "share_class": null,
+        "holder_name": "Michel CAPGRAS",
+        "holder_kind": "PERSON",
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": 225,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p4.31",
+            "p4.32",
+            "p4.33",
+            "p4.34",
+            "p5.2",
+            "p5.3",
+            "p5.4"
+          ],
+          "quote_fr": "SEPTIEME RESOLUTION L'Assemblée Générale, après avoir pris connaissance du rapport du Président agrée à devenir actionnaire Monsieur Michel CAPGRAS, né te 16 juillet 1956, demeurant 161 rue Jean-Jacques Rousseau à Montauban (82ooo), célibataire, de nationalité Française. Cette résolution est adoptée à l'unanimité. HUITIEME RESOLUTION L'Assemblée Générale autorise Monsieur Xavier AUMONt à céder 225 actions à Monsieur Michel CAPGRAs."
+        },
+        "gloss_en": "Michel CAPGRAS approved as a new shareholder and authorized to receive 225 shares from Xavier AUMONT.",
+        "confidence": "medium",
+        "notes": null
+      },
+      {
+        "code": "SHAREHOLDER_SHARE_TRANSFER",
+        "status": "decided_pending_realisation",
+        "effective_date": null,
+        "date_basis": "Transfer authorized on 20 October 2006 but no transfer order date (ordre de mouvement) is provided.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "authorized transfer with waiver of preemptive rights",
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": "Xavier AUMONT",
+        "to_name": "Michel CAPGRAS",
+        "shares": 225,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p5.2",
+            "p5.3",
+            "p5.4",
+            "p5.5"
+          ],
+          "quote_fr": "L'Assemblée Générale autorise Monsieur Xavier AUMONt à céder 225 actions à Monsieur Michel CAPGRAs. Ce faisant, chaque actionnaire renonce individuellement à son droit de préemption. Cette résolution est adoptée à l'unanimité"
+        },
+        "gloss_en": "Xavier AUMONT authorized to transfer 225 shares to Michel CAPGRAS with unanimous waiver of preemptive rights, but no transfer order date stated.",
+        "confidence": "medium",
+        "notes": null
+      }
+    ],
+    "snapshots": [
+      {
+        "as_of": "2006-10-20",
+        "as_of_basis": "Attendance sheet at the EGM on 20 October 2006, before the capital increase resolutions took effect.",
+        "capital_eur": 150000.0,
+        "shares_total": 1500,
+        "nominal_eur": 100.0,
+        "holders": [
+          {
+            "name": "Antonio BLANCO",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 803,
+            "share_class": null,
+            "pct": null
+          },
+          {
+            "name": "Xavier AUMONT",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 637,
+            "share_class": null,
+            "pct": null
+          },
+          {
+            "name": "Franck GICQUEL",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 60,
+            "share_class": null,
+            "pct": null
+          }
+        ],
+        "holders_complete": true,
+        "evidence": {
+          "line_ids": [
+            "p6.8",
+            "p6.9",
+            "p6.10",
+            "p6.11",
+            "p6.12",
+            "p6.13",
+            "p6.14",
+            "p6.15",
+            "p6.16",
+            "p6.17",
+            "p6.18",
+            "p6.19",
+            "p6.20",
+            "p6.21",
+            "p6.22",
+            "p6.23",
+            "p6.24",
+            "p6.25",
+            "p6.26",
+            "p6.27",
+            "p6.28",
+            "p6.29",
+            "p6.30",
+            "p6.31",
+            "p6.32",
+            "p6.33",
+            "p6.34",
+            "p6.35",
+            "p6.36",
+            "p6.37",
+            "p6.38",
+            "p6.39"
+          ],
+          "quote_fr": "ARCHEAN Technologies ... FEUILLE DE PRESENCE ... No. Nom Nombre Nombre Signature d'ordre Adresse de Voix De Parts 1) Monsieur Antonio BLANCO 803 803 Cami de la Pedra Estela, 9 Reus Tarragona 43205 Espagne 2) Monsieur Xavier AUMONT 637 637 ... 721 avenue de Beausoleil 82000 MONTAUBAN 3) Monsieur Franck GICQUEL 60 60 30 allée Jean Mermoz 31820 PIBRAC Certifiée sincère et véritable la présente feuille de présence, arrêtée à 3 associés présents ou représentés possédant ensemble 1500 actions."
+        }
+      },
+      {
+        "as_of": "2006-10-20",
+        "as_of_basis": "Updated statutes showing capital after the capital increase decided and completed the same day.",
+        "capital_eur": 200000.0,
+        "shares_total": 2000,
+        "nominal_eur": 100.0,
+        "holders": [
+          {
+            "name": "Antonio BLANCO MARINA",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 953,
+            "share_class": null,
+            "pct": null
+          },
+          {
+            "name": "Xavier AUMONT",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 967,
+            "share_class": null,
+            "pct": null
+          },
+          {
+            "name": "Franck GICQUEL",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 80,
+            "share_class": null,
+            "pct": null
+          }
+        ],
+        "holders_complete": true,
+        "evidence": {
+          "line_ids": [
+            "p8.3",
+            "p8.4",
+            "p8.5",
+            "p10.20",
+            "p10.21",
+            "p10.22",
+            "p10.23"
+          ],
+          "quote_fr": "ARCHEAN Technologies Société par Actions Simplifiée au capital de 200.000 Euros ... ARTICLE 7  CAPITAL SOCIAL Le capital social est fixé à la somme de deux cent mille (200.000) euros. Il est divisé en deux mille (2000) actions d'une seule catégorie de cent (100) euros de nominal chacune, libérées en totalité."
+        }
+      }
+    ],
+    "issues": [
+      "The transfer of 225 shares from Xavier AUMONT to Michel CAPGRAS is authorized (Resolution 8) on 20 October 2006, but no transfer order date (ordre de mouvement) is provided. The snapshot after capital increase assumes the transfer has occurred (Michel CAPGRAS appears with 225 shares), but the document only authorizes it, not confirms completion.",
+      "The updated statutes show €200,000 capital and 2000 shares, which implies the capital increase was completed. However, Resolution 4 set a deadline of 16 November 2006 for bénéficiaires to exercise subscription rights and liberate by compensation. The certificate of debt and CAC report were to be established at that date. The statutes here do not indicate whether the certification and realization occurred before the greffe deposit on 20 February 2007."
+    ]
+  }
+}

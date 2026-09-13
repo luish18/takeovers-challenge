@@ -1,0 +1,254 @@
+{
+  "inpi_id": "63e9593b8be6eb9f9d257ec4",
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_version": "extract_v2",
+  "request_ids": [
+    "req_011Cf1dMoUrhS3HjfSRA5to8"
+  ],
+  "attempts": 1,
+  "elapsed_s": 26.6,
+  "usage": {
+    "input_tokens": 39018,
+    "output_tokens": 2661,
+    "cache_creation_input_tokens": 6333,
+    "cache_read_input_tokens": 0
+  },
+  "extraction": {
+    "summary_en": "Minutes of 17 May 2005 AGE confirming the realisation of a capital increase decided on 4 March 2005; capital raised from 37,000 € to 150,000 € (113,000 € increase via 1,130 new cash-paid shares), with updated statutes showing final composition of 1,500 actions of 100 € nominal, fully paid.",
+    "decision_dates": [
+      {
+        "date": "2005-03-04",
+        "body": "AGE (Assemblée Générale Extraordinaire)",
+        "evidence": {
+          "line_ids": [
+            "p2.14",
+            "p2.15"
+          ],
+          "quote_fr": "Constatation de la réalisation de l'augmentation de capital telle que planifiée par l'AGE du 4 mars 2005"
+        }
+      },
+      {
+        "date": "2005-05-17",
+        "body": "AGE (Assemblée Générale Extraordinaire)",
+        "evidence": {
+          "line_ids": [
+            "p1.39",
+            "p1.40",
+            "p1.41",
+            "p1.42"
+          ],
+          "quote_fr": "Le 17 mai 2005, A 10 heures 30, Les associés de Ia société ARCHEAN TECHNOLOGIE se sont réunis en assemblée générale Extraordinaire"
+        }
+      },
+      {
+        "date": "2004-12-15",
+        "body": "Constitution de la SAS (signature des statuts)",
+        "evidence": {
+          "line_ids": [
+            "p27.24"
+          ],
+          "quote_fr": "Le 15 décembre 2004"
+        }
+      }
+    ],
+    "events": [
+      {
+        "code": "SHAREHOLDER_ENTRY",
+        "status": "completed_here",
+        "effective_date": "2004-12-22",
+        "date_basis": "Signature date of the incorporation statutes",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": "Xavier AUMONT",
+        "holder_kind": "PERSON",
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p4.6",
+            "p4.7",
+            "p4.8"
+          ],
+          "quote_fr": "Monsieur Xavier AUMONT né le 07 février 1966 à Caen (14), demeurant à Montauban (82) 721 avenue de Beausoleil"
+        },
+        "gloss_en": "Xavier AUMONT joins as a founder with an initial shareholding.",
+        "confidence": "medium",
+        "notes": null
+      },
+      {
+        "code": "SHAREHOLDER_ENTRY",
+        "status": "completed_here",
+        "effective_date": "2004-12-22",
+        "date_basis": "Signature date of the incorporation statutes",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": "Antonio BLANCO MARINA",
+        "holder_kind": "PERSON",
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p4.10",
+            "p4.11",
+            "p4.12"
+          ],
+          "quote_fr": "Monsieur Antonio BLANCO MARINA né le 27 juin1958 à Bienvenida (Badajoz  Espagne), demeurant à Reus Tarragona (43205)"
+        },
+        "gloss_en": "Antonio BLANCO MARINA joins as a founder with an initial shareholding.",
+        "confidence": "medium",
+        "notes": null
+      },
+      {
+        "code": "SHAREHOLDER_ENTRY",
+        "status": "completed_here",
+        "effective_date": "2004-12-22",
+        "date_basis": "Signature date of the incorporation statutes",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": "Franck Charles GICQUEL",
+        "holder_kind": "PERSON",
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p4.14",
+            "p4.15",
+            "p4.16"
+          ],
+          "quote_fr": "Monsieur Franck, Charles GICQUEL né le 21 janvier 1964 à Dugny (93), demeurant à PIBRAC (31820)"
+        },
+        "gloss_en": "Franck Charles GICQUEL joins as a founder with an initial shareholding.",
+        "confidence": "medium",
+        "notes": null
+      },
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "realisation_of_earlier_decision",
+        "effective_date": "2005-05-17",
+        "date_basis": "Date of the AGE meeting that confirmed realisation of the previously-decided capital increase",
+        "amount_eur": 113000.0,
+        "capital_before_eur": 37000.0,
+        "capital_after_eur": 150000.0,
+        "shares_delta": 1130,
+        "nominal_eur": 100.0,
+        "method": "numeraire",
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p2.29",
+            "p2.30",
+            "p2.31"
+          ],
+          "quote_fr": "L'Assemblée Générale , après avoir entendu lecture du rapport du Président, constate la réalisation définitive de l'augmentation de capital de 113 000 € par la création de 1 130 actions nouvelles de numéraire de 100 euros , pour porter le capital à 150 000 €."
+        },
+        "gloss_en": "Realisation of capital increase from 37,000 € to 150,000 € (113,000 € increase) via 1,130 new cash-paid actions of 100 € nominal.",
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "snapshots": [
+      {
+        "as_of": "2004-12-22",
+        "as_of_basis": "Date of incorporation statutes signature and bank certificate of deposit",
+        "capital_eur": 37000.0,
+        "shares_total": 370,
+        "nominal_eur": 100.0,
+        "holders": [
+          {
+            "name": "Xavier AUMONT",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": null,
+            "share_class": null,
+            "pct": null
+          },
+          {
+            "name": "Antonio BLANCO MARINA",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": null,
+            "share_class": null,
+            "pct": null
+          },
+          {
+            "name": "Franck Charles GICQUEL",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": null,
+            "share_class": null,
+            "pct": null
+          }
+        ],
+        "holders_complete": true,
+        "evidence": {
+          "line_ids": [
+            "p6.6",
+            "p6.7",
+            "p6.8",
+            "p6.9",
+            "p6.10"
+          ],
+          "quote_fr": "Lors de la constitution, les associés font apports d'une sommne en numéraire d'un montant total de TRENTE SEPT MILLE EUROS euros (37 000 euros), correspondant au montant du capital social et à TROIS CENT SOIXANTE DIX (370) actions de CENT (100) euros de nominal chacune, souscrites en totalité et libérées de la moitié, ainsi qu'il résulte du certificat établi en date du 22/12/2004"
+        }
+      },
+      {
+        "as_of": "2005-05-17",
+        "as_of_basis": "Date of AGE meeting that recorded the realisation of the capital increase",
+        "capital_eur": 150000.0,
+        "shares_total": 1500,
+        "nominal_eur": 100.0,
+        "holders": [],
+        "holders_complete": false,
+        "evidence": {
+          "line_ids": [
+            "p2.33",
+            "p2.34"
+          ],
+          "quote_fr": "« Le capital social est fixé à cent cinquante mille euros ( 150 000 €) Il est divisé en 1 500 actions de 100 € chacune , de même catégorie. »"
+        }
+      }
+    ],
+    "issues": [
+      "The document does not name the specific shareholders who subscribed to the 1,130 new actions in the 17 May 2005 capital increase, so SHAREHOLDER_ENTRY events cannot be emitted for new entrants (if any) or for existing founders increasing their stakes. The capital increase was decided on 4 March 2005 (referenced on p2.14-p2.15) but the full decision details are not in this filing—only the realisation is recorded on 17 May 2005. The initial shareholding breakdown among the three founders is also not stated in the provided documents."
+    ]
+  }
+}

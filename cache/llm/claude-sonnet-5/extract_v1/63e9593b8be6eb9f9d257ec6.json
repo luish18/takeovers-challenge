@@ -1,0 +1,154 @@
+{
+  "inpi_id": "63e9593b8be6eb9f9d257ec6",
+  "model": "claude-sonnet-5",
+  "prompt_version": "extract_v1",
+  "request_ids": [
+    "req_011Cf1ccyPxdvAB4Y2bWCAwa"
+  ],
+  "attempts": 1,
+  "elapsed_s": 38.7,
+  "usage": {
+    "input_tokens": 10714,
+    "output_tokens": 3803,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 8019
+  },
+  "extraction": {
+    "summary_en": "This filing is a commissaire aux avantages particuliers (special-advantages auditor) report dated 18 June 2008, prepared under a Toulouse court order (14 May 2008), ahead of an Extraordinary General Meeting of ARCHEAN TECHNOLOGIES scheduled for 27 June 2008. It describes and assesses the fairness of preferential rights attached to three planned new share classes (préférence \"A\", \"B\" and \"B'\") — priority dividend, mandatory/optional conversion terms, reinforced information/audit rights, board seats, liquidation preference — but does not itself record any capital increase, subscription, or shareholder change; it only opines that the proposed advantages call for no observation. The only capital figure given is descriptive (200,000 € on the letterhead) and a mention that 150,861 \"B\" shares are to be issued under the draft resolutions, with a subscription price of 5.80 € each, but this document does not state before/after capital figures or confirm the AGE actually adopted the resolutions.",
+    "decision_dates": [
+      {
+        "date": "2008-06-27",
+        "body": "AGE",
+        "evidence": {
+          "line_ids": [
+            "p1.15"
+          ],
+          "quote_fr": "Assemblée Générale Extraordinaire du 27 juin 2008"
+        }
+      },
+      {
+        "date": "2008-06-18",
+        "body": "commissaire aux avantages particuliers",
+        "evidence": {
+          "line_ids": [
+            "p9.22"
+          ],
+          "quote_fr": "Fait à Toulouse, le 18 juin 2008"
+        }
+      }
+    ],
+    "events": [
+      {
+        "code": "CAPITAL_DUAL_CLASS",
+        "status": "decided_pending_realisation",
+        "effective_date": null,
+        "date_basis": "",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "Actions de préférence 'A': dividende prioritaire plafonné à 32 000 €/an jusqu'à 160 000 € cumulés ou clôture 2013, conversion automatique en actions ordinaires selon conditions (introduction en bourse, cession totale, décision unanime, plafond de dividende atteint).",
+        "share_class": "A",
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p2.13",
+            "p2.14",
+            "p2.15",
+            "p2.16",
+            "p2.17",
+            "p2.18"
+          ],
+          "quote_fr": "Cette opération consiste en la création d’actions de préférence dites de catégorie « A » et de catégorie « B » et « B' », bénéficiant des droits particuliers suivants : ... Les titulaires d’actions « A » auront droit ... à l’attribution préférentielle du bénéfice distribué à hauteur d'un montant annuel maximum de 32 000 €"
+        },
+        "gloss_en": "Creation of preference share class 'A' with priority dividend rights and mandatory conversion terms, proposed to the AGE of 27 June 2008.",
+        "confidence": "medium",
+        "notes": "Report prepared before the AGE date it references; document does not confirm the resolution was actually adopted."
+      },
+      {
+        "code": "CAPITAL_DUAL_CLASS",
+        "status": "decided_pending_realisation",
+        "effective_date": null,
+        "date_basis": "",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "Actions de préférence 'B': droit d'information renforcé, droit d'audit, sièges au Comité de Suivi, droit politique (majorité renforcée), liquidation préférentielle, conversion en actions ordinaires ou en actions 'B'' selon prix de référence 5,80 €; 150.861 actions B émises en vertu des résolutions.",
+        "share_class": "B",
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p2.13",
+            "p2.14",
+            "p7.25",
+            "p7.26",
+            "p7.2",
+            "p7.3"
+          ],
+          "quote_fr": "« N° » désigne le nombre d’actions « B » émises en vertu des présentes résolutions, soit 150.861 actions ... « P » est le prix de souscription des actions « B », soit 5,80 euros"
+        },
+        "gloss_en": "Creation of preference share class 'B' (150,861 shares at 5.80€ subscription price) with enhanced investor rights, proposed to the AGE of 27 June 2008.",
+        "confidence": "medium",
+        "notes": "Share count and price relate to the planned issuance of class B shares; no explicit before/after capital figures given in this document."
+      },
+      {
+        "code": "CAPITAL_DUAL_CLASS",
+        "status": "decided_pending_realisation",
+        "effective_date": null,
+        "date_basis": "",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "Actions de préférence 'B'' résultant de la conversion optionnelle des actions 'B', droits identiques aux actions 'B' sauf droit de conversion supplémentaire.",
+        "share_class": "B'",
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p8.24",
+            "p8.25",
+            "p8.26"
+          ],
+          "quote_fr": "Les actions « B' » seront les actions qui résulteront, le cas échéant, de la conversion des actions « B » et bénéficieront de droits identiques à ceux des actions « B » à l'exception du droit de conversion en actions « B' »."
+        },
+        "gloss_en": "Creation of preference share class 'B'' arising from conversion of class 'B' shares, proposed to the AGE of 27 June 2008.",
+        "confidence": "low",
+        "notes": "B' shares only come into existence upon conversion of B shares; treated here as part of the same class-creation operation described in the report."
+      }
+    ],
+    "snapshots": [],
+    "issues": [
+      "This filing is a preparatory auditor's report (CAC aux avantages particuliers) dated 18 June 2008 for an AGE scheduled 27 June 2008 (after the greffe deposit date of 23 June 2008); it does not confirm whether the AGE actually adopted the resolutions creating the preference shares.",
+      "No before/after capital figures, total share count, or full cap table are given in this document; only the letterhead states nominal capital of 200,000 € (not treated as a snapshot per instructions).",
+      "The 150,861 'B' shares figure and 5.80 € subscription price imply a capital increase reserved to identified 'Investisseurs Financiers', but subscriber names, amounts and resulting capital are not stated in this document."
+    ]
+  }
+}

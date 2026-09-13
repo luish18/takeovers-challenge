@@ -1,0 +1,128 @@
+{
+  "inpi_id": "63e9593b8be6eb9f9d257ec2",
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_version": "extract_v2",
+  "request_ids": [
+    "req_011Cf1dMoY5U9YA4X1Aj4ATM"
+  ],
+  "attempts": 1,
+  "elapsed_s": 14.6,
+  "usage": {
+    "input_tokens": 6782,
+    "output_tokens": 1854,
+    "cache_creation_input_tokens": 6333,
+    "cache_read_input_tokens": 0
+  },
+  "extraction": {
+    "summary_en": "Minutes of two shareholder assemblies (8 August and 2 September 2005) for ARCHEAN TECHNOLOGIES, a SAS with capital of 150,000 euros. The extraordinary assembly on 8 August ratified a share transfer protocol dated 16 August 2005 transferring all shares held by Malik Guellati, Christophe Leroux, and Marielle Roujean to other existing shareholders. The ordinary assembly on 2 September dealt only with board nominations. No capital increase or decrease occurred.",
+    "decision_dates": [],
+    "events": [
+      {
+        "code": "SHAREHOLDER_SHARE_TRANSFER",
+        "status": "completed_here",
+        "effective_date": "2005-08-16",
+        "date_basis": "Transfer orders (ordres de mouvement) dated 16 August 2005, ratified at the extraordinary assembly on 8 August 2005.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": "Malik GUELLATI, Christophe LEROUX, Marielle ROUJEAN",
+        "to_name": "Antonio BLANCO, Xavier AUMONT, Franck GICQUEL",
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p6.24",
+            "p6.25",
+            "p6.26",
+            "p6.29",
+            "p6.30"
+          ],
+          "quote_fr": "L'assemblée générale, après avoir pris connaissance d'un protocole de cession de la totalité des actions détenues par Messieurs Malik GUELLATI, Christophe LEROUX et Madame Marielle ROUJEAN, associés d'ARCHEAN TECHNOLOGIES, approuve la dérogation à l'article 15 des statuts... Il en résulte au terme des ordres de mouvement à émettre en date du 16 août 2005, la nouvelle répartition suivante entre les associés"
+        },
+        "gloss_en": "Share transfer protocol transferring all shares held by three shareholders to other existing shareholders, with new allocation confirmed after transfer orders.",
+        "confidence": "medium",
+        "notes": "Document ratifies a transfer protocol for 'la totalité des actions détenues par Messieurs Malik GUELLATI, Christophe LEROUX et Madame Marielle ROUJEAN' (all shares held by these three). The specific share counts per transferor are not detailed in the minutes; the post-transfer allocation is: Blanco 823, Aumont 617, Gicquel 60. The document notes the register of share movements shows the true distribution."
+      }
+    ],
+    "snapshots": [
+      {
+        "as_of": "2005-08-16",
+        "as_of_basis": "Share transfer orders dated 16 August 2005 (ordres de mouvement), after ratification at extraordinary assembly on 8 August 2005.",
+        "capital_eur": 150000.0,
+        "shares_total": 1500,
+        "nominal_eur": null,
+        "holders": [
+          {
+            "name": "Antonio BLANCO",
+            "kind": "UNKNOWN",
+            "siren": null,
+            "shares": 823,
+            "share_class": null,
+            "pct": 54.87
+          },
+          {
+            "name": "Xavier AUMONT",
+            "kind": "UNKNOWN",
+            "siren": null,
+            "shares": 617,
+            "share_class": null,
+            "pct": 41.13
+          },
+          {
+            "name": "Franck GICQUEL",
+            "kind": "UNKNOWN",
+            "siren": null,
+            "shares": 60,
+            "share_class": null,
+            "pct": 6.0
+          }
+        ],
+        "holders_complete": true,
+        "evidence": {
+          "line_ids": [
+            "p6.29",
+            "p6.31",
+            "p6.32",
+            "p6.33",
+            "p6.34",
+            "p6.35",
+            "p6.36",
+            "p6.37",
+            "p6.38",
+            "p6.39"
+          ],
+          "quote_fr": "Il en résulte au terme des ordres de mouvement à émettre en date du 16 août 2005, la nouvelle répartition suivante entre les associés : Antonio BLANCO 823 actions 54,87 % 617 actions 41,13 % Xavier AUMONT 60 actions Franck GICQUEL 6,00 %"
+        }
+      },
+      {
+        "as_of": "2005-08-08",
+        "as_of_basis": "Attendance sheet at extraordinary assembly meeting on 8 August 2005.",
+        "capital_eur": 150000.0,
+        "shares_total": 1500,
+        "nominal_eur": null,
+        "holders": [],
+        "holders_complete": false,
+        "evidence": {
+          "line_ids": [
+            "p5.23",
+            "p5.24",
+            "p5.25"
+          ],
+          "quote_fr": "La feuille de présence, certifiée exacte par les membres du bureau, permet de constater que les associés présents ou ayant donné pouvoir possèdent 1500 actions sur les 1500 actions ayant le droit de vote."
+        }
+      }
+    ],
+    "issues": [
+      "The document ratifies a share transfer protocol but does not specify how many shares each of the three exiting shareholders (Guellati, Leroux, Roujean) held before the transfer. The minutes state the protocol 'contains an error' and defer to 'le registre des mouvements de titres' (the share movement register), which is not included in the filing. The exact composition of shareholders before 16 August 2005 cannot be fully reconstructed from this document alone."
+    ]
+  }
+}

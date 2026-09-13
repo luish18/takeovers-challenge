@@ -1,0 +1,85 @@
+{
+  "model": "claude-haiku-4-5",
+  "events": {
+    "gold": 29,
+    "model": 24,
+    "matched": 21,
+    "recall": 0.724,
+    "precision": 0.875,
+    "date_mismatches": [
+      "2007-09-07 SHAREHOLDER_ENTRY HADEAN 822: model says 2004-12-22",
+      "2007-09-07 SHAREHOLDER_END Franck GICQUEL 80: model says 2008-04-30",
+      "2007-09-07 SHAREHOLDER_END Xavier AUMONT 742: model says 2008-04-30",
+      "2007-09-07 SHAREHOLDER_SHARE_TRANSFER Xavier AUMONT -> HADEAN 742: model says 2008-04-30",
+      "2007-09-07 SHAREHOLDER_SHARE_TRANSFER Franck GICQUEL -> HADEAN 80: model says 2008-04-30",
+      "2008-06-27 SHAREHOLDER_END Antonio BLANCO MARINA 953: model says 2017-02-21"
+    ],
+    "value_mismatches": [
+      "2007-09-07 SHAREHOLDER_ENTRY HADEAN 822: shares 822 vs 37000"
+    ],
+    "missed": [
+      "2005-08-16 SHAREHOLDER_END Malik GUELLATI",
+      "2005-08-16 SHAREHOLDER_END Christophe LEROUX",
+      "2005-08-16 SHAREHOLDER_END Marielle ROUJEAN",
+      "2008-06-27 SHAREHOLDER_SHARE_TRANSFER Antonio BLANCO MARINA -> HADEAN 953",
+      "2008-06-27 CAPITAL_DUAL_CLASS A",
+      "2008-06-27 CAPITAL_DUAL_CLASS B and B'",
+      "2008-06-27 CAPITAL_INCREASE  217241.0",
+      "2008-06-27 CAPITAL_INCREASE  368102.0"
+    ],
+    "extra": [
+      "2005-08-16 SHAREHOLDER_END HADEAN 37000",
+      "2005-08-16 SHAREHOLDER_SHARE_TRANSFER Malik GUELLATI, Christophe LEROUX, Marielle ROUJEAN -> Antonio BLANCO, Xavier AUMONT, Franck GICQUEL",
+      "2008-04-30 SHAREHOLDER_ENTRY HADEAN 1047"
+    ],
+    "grounded_rate": 1.0,
+    "same_source_page_rate": 0.619,
+    "mean_bbox_iou_on_same_page": 0.895
+  },
+  "timeline": {
+    "gold_states": 12,
+    "model_states": 9,
+    "exact_matches": 5,
+    "diffs": [
+      "2005-05-17 capital 150,000: holders {'ANTONIO BLANCO MARINA': 155, 'FRANCK GICQUEL': 60, 'UNIDENTIFIED HOLDERS': 1130, 'XAVIER AUMONT': 155} vs {'ANTONIO BLANCO MARINA': 155, 'FRANCK GICQUEL': 60, 'HADEAN': 37000, 'UNIDENTIFIED HOLDERS': 1130, 'XAVIER AUMONT': 155}",
+      "2007-09-07 capital 200,000: no model state",
+      "2008-06-27 capital 200,000: no model state",
+      "2008-06-27 capital 217,241: no model state",
+      "2008-06-27 capital 368,102: no model state",
+      "2017-02-21 capital 217,241: shares_total 217241 vs -148861",
+      "2018-03-23 capital 400,000: shares_total 400000 vs 33898"
+    ],
+    "extra_states": [
+      "2004-12-22 capital 37,000: {'ANTONIO BLANCO MARINA': 155, 'FRANCK GICQUEL': 60, 'HADEAN': 37000, 'XAVIER AUMONT': 155}"
+    ]
+  },
+  "pipeline_summary": {
+    "mentions": {
+      "completed_here": 19,
+      "grounded": 24,
+      "realisation_of_earlier_decision": 1,
+      "restated_history": 3,
+      "decided_pending_realisation": 1
+    },
+    "events": {
+      "SHAREHOLDER_ENTRY": 6,
+      "CAPITAL_INCREASE": 3,
+      "SHAREHOLDER_END": 9,
+      "SHAREHOLDER_SHARE_TRANSFER": 5,
+      "CAPITAL_DECREASE": 1
+    },
+    "derived": 6,
+    "states": 9,
+    "checks": 13,
+    "missing": 10
+  },
+  "usage": {
+    "prompt_version": "extract_v2",
+    "documents": 10,
+    "input_tokens": 285380,
+    "output_tokens": 20053,
+    "cache_creation_input_tokens": 25332,
+    "cache_read_input_tokens": 37998,
+    "estimated_usd": 0.4211
+  }
+}

@@ -1,0 +1,373 @@
+{
+  "inpi_id": "63e9593a8be6eb9f9d257ebe",
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_version": "extract_v1",
+  "request_ids": [
+    "req_011Cf1cbJEEgHnfGdVB8euck"
+  ],
+  "attempts": 1,
+  "elapsed_s": 29.3,
+  "usage": {
+    "input_tokens": 30543,
+    "output_tokens": 3155,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5904
+  },
+  "extraction": {
+    "summary_en": "Presidential decision of 21 February 2017 recording the execution of a capital reduction authorized by an AGE of 19 January 2017. Reduction by buyback-and-cancel of 150,861 euros of nominal capital, from 368,102 euros to 217,241 euros. After reduction, HADEAN holds all 217,241 shares as category A preference shares.",
+    "decision_dates": [
+      {
+        "date": "2017-01-19",
+        "body": "Assemblée Générale Extraordinaire",
+        "evidence": {
+          "line_ids": [
+            "p2.20",
+            "p2.21",
+            "p2.22"
+          ],
+          "quote_fr": "par délibérations en date du 19 janvier 2017, l'Assemblée Générale Extraordinaire des associés de la Société a décidé de réduire le capital social d'un montant maximum de 150 861 euros par voie de rachat d'actions de la Société"
+        }
+      },
+      {
+        "date": "2017-02-21",
+        "body": "Décision du Président",
+        "evidence": {
+          "line_ids": [
+            "p2.9"
+          ],
+          "quote_fr": "PROCES-VERBAL DES DECISIONS DU PRESIDENT EN DATE DU 21 FEVRIER 2017"
+        }
+      }
+    ],
+    "events": [
+      {
+        "code": "CAPITAL_DECREASE",
+        "status": "realisation_of_earlier_decision",
+        "effective_date": "2017-02-21",
+        "date_basis": "Président decision date recording the realization of the authorized reduction.",
+        "amount_eur": 150861.0,
+        "capital_before_eur": 368102.0,
+        "capital_after_eur": 217241.0,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": "autre",
+        "mechanism": "rachat et annulation d'actions",
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p3.2",
+            "p3.3",
+            "p3.4",
+            "p3.5",
+            "p3.6",
+            "p3.16",
+            "p3.17",
+            "p3.18",
+            "p3.19"
+          ],
+          "quote_fr": "Le Président constate que les offres d'achat reçues représentent un montant nominal total de 150 861 euros. Ce montant correspondant au montant maximum fixé par l'Assemblée, le Président constate qu'il peut être donné satisfaction à chacune des offres. Le Président arrête le montant des actions rachetées par la Société à 150 861 et fixe la liste des associés concernés comme suit : [...] Les actions rachetées sont annulées à compter de ce jour. En conséquence, le Président constate que le capital social est réduit de 150 861 euros pour être ramené de 368 102 euros à 217 241 euros et divisé en 217 241 actions de 1 euro de valeur nominale chacune."
+        },
+        "gloss_en": "",
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "code": "SHAREHOLDER_END",
+        "status": "realisation_of_earlier_decision",
+        "effective_date": "2017-02-21",
+        "date_basis": "Président decision date when shares were cancelled.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": "FPCI SECURITE",
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": 64655,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p3.8",
+            "p3.9"
+          ],
+          "quote_fr": "à FPCI SECURITE 64 655 actions"
+        },
+        "gloss_en": "",
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "code": "SHAREHOLDER_END",
+        "status": "realisation_of_earlier_decision",
+        "effective_date": "2017-02-21",
+        "date_basis": "Président decision date when shares were cancelled.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": "FIP GALIA PME 4",
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": 12931,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p3.10",
+            "p3.11"
+          ],
+          "quote_fr": "à FIP GALIA PME 4 12 931 actions"
+        },
+        "gloss_en": "",
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "code": "SHAREHOLDER_END",
+        "status": "realisation_of_earlier_decision",
+        "effective_date": "2017-02-21",
+        "date_basis": "Président decision date when shares were cancelled.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": "GALIA VENTURE",
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": 30172,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p3.12",
+            "p3.13"
+          ],
+          "quote_fr": "à GALIA VENTURE 30 172 actions"
+        },
+        "gloss_en": "",
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "code": "SHAREHOLDER_END",
+        "status": "realisation_of_earlier_decision",
+        "effective_date": "2017-02-21",
+        "date_basis": "Président decision date when shares were cancelled.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": "FPCI FINANCIERE DE BRIENNE",
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": 43103,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p3.14",
+            "p3.15"
+          ],
+          "quote_fr": "à FPCI FINANCIERE DE BRIENNE 43 103 actions"
+        },
+        "gloss_en": "",
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "restated_history",
+        "effective_date": "2005-05-17",
+        "date_basis": "AGE date per statutes Article 6.",
+        "amount_eur": 113000.0,
+        "capital_before_eur": 37000.0,
+        "capital_after_eur": 150000.0,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": "numeraire",
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p9.30",
+            "p9.31"
+          ],
+          "quote_fr": "Aux termes de l'assemblée générale extraordinaire du 17/05/2005, le capital social a été augmenté de 113.000 euros afin d'être porté à 150.000 euros."
+        },
+        "gloss_en": "",
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "restated_history",
+        "effective_date": "2006-10-20",
+        "date_basis": "AGE date per statutes Article 6.",
+        "amount_eur": 50000.0,
+        "capital_before_eur": 150000.0,
+        "capital_after_eur": 200000.0,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": "numeraire",
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p9.32",
+            "p9.33"
+          ],
+          "quote_fr": "Aux termes de l'assemblée générale extraordinaire du 20/10/2006, le capital social a été augmenté de 50.000 euros afin d'être porté à 200.000 euros."
+        },
+        "gloss_en": "",
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "restated_history",
+        "effective_date": "2008-06-27",
+        "date_basis": "AGE date per statutes Article 6.",
+        "amount_eur": 17241.0,
+        "capital_before_eur": 200000.0,
+        "capital_after_eur": 217241.0,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": "numeraire",
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p10.0",
+            "p10.1"
+          ],
+          "quote_fr": "Aux termes de l'assemblée générale extraordinaire du 27/06/2008, le capital social a été augmenté de 17.241 euros afin d'être porté à 217.241 euros."
+        },
+        "gloss_en": "",
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "restated_history",
+        "effective_date": "2008-06-27",
+        "date_basis": "AGE date per statutes Article 6.",
+        "amount_eur": 150861.0,
+        "capital_before_eur": 217241.0,
+        "capital_after_eur": 368102.0,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": "numeraire",
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p10.2",
+            "p10.3"
+          ],
+          "quote_fr": "Aux termes de l'assemblée générale extraordinaire du 27/06/2008, le capital social a été augmenté de 150.861 euros afin d'être porté à 368.102 euros."
+        },
+        "gloss_en": "",
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "snapshots": [
+      {
+        "as_of": "2017-02-21",
+        "as_of_basis": "After execution of the capital reduction on 21 February 2017.",
+        "capital_eur": 217241.0,
+        "shares_total": 217241,
+        "nominal_eur": 1.0,
+        "holders": [
+          {
+            "name": "HADEAN",
+            "kind": "COMPANY",
+            "siren": null,
+            "shares": 217241,
+            "share_class": "A",
+            "pct": 100.0
+          }
+        ],
+        "holders_complete": true,
+        "evidence": {
+          "line_ids": [
+            "p10.8",
+            "p10.9",
+            "p10.10",
+            "p10.11",
+            "p10.12"
+          ],
+          "quote_fr": "Le capital social est fixé à la somme de 217 241 euros. Il est divisé en 217 241 actions de 1 euro chacune entièrement libérées, intégralement dêtenues par la société HADEAN, titulaire d'actions de préférence de catégorie A."
+        }
+      }
+    ],
+    "issues": [
+      "The 27/06/2008 AGE date appears twice in Article 6 (statutes) with two consecutive capital increases on the same date: +17,241 euros and +150,861 euros. This is internally consistent within the filing but unusual."
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "model": "claude-sonnet-5",
+  "events": {
+    "gold": 29,
+    "model": 29,
+    "matched": 29,
+    "recall": 1.0,
+    "precision": 1.0,
+    "date_mismatches": [],
+    "value_mismatches": [
+      "2006-10-20 SHAREHOLDER_ENTRY Michel CAPGRAS 225: shares 225 vs None"
+    ],
+    "missed": [],
+    "extra": [],
+    "grounded_rate": 1.0,
+    "same_source_page_rate": 0.931,
+    "mean_bbox_iou_on_same_page": 0.663
+  },
+  "timeline": {
+    "gold_states": 12,
+    "model_states": 12,
+    "exact_matches": 12,
+    "diffs": [],
+    "extra_states": []
+  },
+  "pipeline_summary": {
+    "mentions": {
+      "completed_here": 29,
+      "grounded": 59,
+      "realisation_of_earlier_decision": 1,
+      "restated_history": 28,
+      "rejected": 1,
+      "authorisation_only": 5,
+      "decided_pending_realisation": 1
+    },
+    "events": {
+      "SHAREHOLDER_ENTRY": 5,
+      "CAPITAL_INCREASE": 5,
+      "SHAREHOLDER_END": 11,
+      "SHAREHOLDER_SHARE_TRANSFER": 5,
+      "CAPITAL_DUAL_CLASS": 2,
+      "CAPITAL_DECREASE": 1
+    },
+    "derived": 3,
+    "states": 12,
+    "checks": 2,
+    "missing": 0
+  },
+  "usage": {
+    "prompt_version": "extract_v2",
+    "documents": 20,
+    "input_tokens": 573569,
+    "output_tokens": 97251,
+    "cache_creation_input_tokens": 34396,
+    "cache_read_input_tokens": 154782,
+    "estimated_usd": 2.2366
+  }
+}

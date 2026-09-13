@@ -1,0 +1,78 @@
+{
+  "inpi_id": "63f0a89c7a07a2434c069137",
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_version": "extract_v1",
+  "request_ids": [
+    "req_011Cf1caoLuuwfavzRRJK7oK"
+  ],
+  "attempts": 1,
+  "elapsed_s": 19.3,
+  "usage": {
+    "input_tokens": 28805,
+    "output_tokens": 1792,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5904
+  },
+  "extraction": {
+    "summary_en": "Filing by HADEAN depositing statutes and minutes of its 30 April 2008 extraordinary general meeting approving capital increases via in-kind contribution and cash subscription. The document includes detailed descriptions of three shareholders of the subject company ARCHEAN TECHNOLOGIES who are apporting their shares to HADEAN, providing a snapshot of ARCHEAN's cap table but no capital change in ARCHEAN itself.",
+    "decision_dates": [],
+    "events": [],
+    "snapshots": [
+      {
+        "as_of": "2008-04-30",
+        "as_of_basis": "Date of apport transactions described in the statutes and transfer contract of HADEAN; this represents the state of ARCHEAN TECHNOLOGIES' shareholders at the time they transferred their shares.",
+        "capital_eur": 200000.0,
+        "shares_total": 2000,
+        "nominal_eur": 100.0,
+        "holders": [
+          {
+            "name": "Xavier AUMONT",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 742,
+            "share_class": null,
+            "pct": 37.1
+          },
+          {
+            "name": "Franck GICQUEL",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 80,
+            "share_class": null,
+            "pct": 4.0
+          },
+          {
+            "name": "Michel CAPGRAS",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 225,
+            "share_class": null,
+            "pct": 11.25
+          }
+        ],
+        "holders_complete": false,
+        "evidence": {
+          "line_ids": [
+            "p5.8",
+            "p5.9",
+            "p5.10",
+            "p5.12",
+            "p5.13",
+            "p5.29",
+            "p5.31",
+            "p5.32",
+            "p23.25",
+            "p23.26",
+            "p30.7",
+            "p30.8"
+          ],
+          "quote_fr": "Son capital social est actuellement fixé à DEUX CENT MILLE (200.000) euros et est divisé en 2.000 actions de 100 euros de valeur nominale. 6.2- Apport de 742 actions de la SAS ARCHEAN TECHNOLOGIES par Monsieur Xavier AUMONT. Monsier Xavier AUMONT fait apport de la pleine propriété des 742 (sept cent quarante deux) actions de 100 Euros de valeur nominale chacune qu'il possède de la Société ARCHEAN TECHNOLOGIES. 6.3- Apport de 80 actions de la SAS ARCHEAN TECHNOLOGIES par Monsieur Franck GICQUEL. Monsieur Franck GICQUEL fait apport de la pleine propriété des QUATRE VINGT (80) actions de 100 Euros de valeur nominale chacune de la Société ARCHEAN TECHNOLOGIES. - du contrat d'apport en date du 30 avril 2008 aux termes duquel Monsieur Michel CAPGRAS fait apport à la Société de 225 titres qu'il détient dans la société ARCHEAN TECHNOLOGIES. Monsieur Michei CAPGRAS apporte à la société HADEAN, sous les garanties ordinaires et de droit, ce qui est accepté par ladite société, la totalité des DEUX CENT VINGT CINQ (225) titres qu'il détient dans le capital de la société ARCHEAN TECHNOLOGIES."
+        }
+      }
+    ],
+    "issues": [
+      "This filing describes three named shareholders of ARCHEAN TECHNOLOGIES (Xavier AUMONT, Franck GICQUEL, Michel CAPGRAS) holding 742, 80, and 225 shares respectively, totalling 1,047 shares out of 2,000. The identity and shareholding of the remaining 953 shares (47.65% of capital) is not disclosed in this document.",
+      "The document is primarily a HADEAN filing (the filer), not an ARCHEAN TECHNOLOGIES filing. It records ARCHEAN's cap table only as context for the apporteurs' in-kind contribution to HADEAN. No capital events occurred in ARCHEAN itself on 30 April 2008 according to this document—only a transfer of ownership to HADEAN of the apporteurs' shares."
+    ]
+  }
+}

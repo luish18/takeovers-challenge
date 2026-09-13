@@ -1,0 +1,274 @@
+{
+  "inpi_id": "63e9593b8be6eb9f9d257ec0",
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_version": "extract_v1",
+  "request_ids": [
+    "req_011Cf1ccC1DFPa61WHoHEuRS"
+  ],
+  "attempts": 1,
+  "elapsed_s": 27.6,
+  "usage": {
+    "input_tokens": 29180,
+    "output_tokens": 3571,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5904
+  },
+  "extraction": {
+    "summary_en": "Unique shareholder decision (process verbal) of 23 March 2018 approving a capital increase of approximately 182,759–185,759 euros (discrepancy noted) by incorporation of reserves, raising capital from 217,241 to 400,000 euros. The sole shareholder HADEAN receives 182,759 new shares of 1 euro nominal, all shares fully attributed. Updated statutes confirm final capital of 400,000 euros divided into 400,000 shares of 1 euro, entirely held by HADEAN, which holds preference shares class A.",
+    "decision_dates": [
+      {
+        "date": "2018-03-23",
+        "body": "Unique shareholder decision (process verbal)",
+        "evidence": {
+          "line_ids": [
+            "p2.14",
+            "p2.15",
+            "p2.16",
+            "p2.17"
+          ],
+          "quote_fr": "EN DATE DU 23 MARS 2018\nL'an deux mille dix huit\nLe vingt-trois mars\nA dix heures"
+        }
+      }
+    ],
+    "events": [
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "completed_here",
+        "effective_date": "2018-03-23",
+        "date_basis": "Unique shareholder decision dated 23 March 2018; the updated statutes filed on 30 May 2018 incorporate the new capital, confirming completion.",
+        "amount_eur": 182759.0,
+        "capital_before_eur": 217241.0,
+        "capital_after_eur": 400000.0,
+        "shares_delta": 182759,
+        "nominal_eur": 1.0,
+        "method": "incorporation de reserves",
+        "mechanism": "incorporation de réserves, prélèvement sur le poste 'Autres Réserves'",
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [
+          {
+            "name": "HADEAN",
+            "kind": "COMPANY",
+            "siren": null,
+            "shares": 182759,
+            "share_class": "A",
+            "pct": null
+          }
+        ],
+        "evidence": {
+          "line_ids": [
+            "p2.31",
+            "p2.32",
+            "p2.33",
+            "p2.34",
+            "p2.35",
+            "p2.36"
+          ],
+          "quote_fr": "L'Associée Unique décide d'augmenter le capital social d'un montant de 182 759 euros par prélèvement sur le poste « Autres Réserves ». En représentation de cette augmentation de capital, il sera créé 182 759 actions nouvelles de 1 euro de valeur nominale, entièrement libérées. Ces actions porteront jouissance à compter de ce jour et seront attribuées gratuitement à l'Associé Unique."
+        },
+        "gloss_en": "Unique shareholder approves capital increase of 182,759 euros by incorporating 'Other Reserves', creating 182,759 new shares of 1 euro, attributed free to HADEAN.",
+        "confidence": "medium",
+        "notes": "Discrepancy in filing: lines p3.5–p3.6 state 'augmenté de 185 759 euros'. The operative decision text uses 182,759; the statutes reflect final capital of 400,000. See issues."
+      },
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "restated_history",
+        "effective_date": "2005-05-17",
+        "date_basis": "Restated in Article 6 (Apports) of updated statutes as historical record.",
+        "amount_eur": 113000.0,
+        "capital_before_eur": 37000.0,
+        "capital_after_eur": 150000.0,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": "autre",
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p6.30",
+            "p6.31"
+          ],
+          "quote_fr": "Aux termes de l'assemblée générale extraordinaire du 17/05/2005, le capital social a été augmenté de 113.000 euros afin d'être porté à 150.000 euros."
+        },
+        "gloss_en": "Extraordinary general meeting of 17 May 2005 approved capital increase of 113,000 euros raising capital to 150,000 euros.",
+        "confidence": "medium",
+        "notes": null
+      },
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "restated_history",
+        "effective_date": "2006-10-20",
+        "date_basis": "Restated in Article 6 (Apports) of updated statutes.",
+        "amount_eur": 50000.0,
+        "capital_before_eur": 150000.0,
+        "capital_after_eur": 200000.0,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": "autre",
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p6.32",
+            "p6.33"
+          ],
+          "quote_fr": "Aux termes de l'assemblée générale extraordinaire du 20/10/2006, le capital social a été augmenté de 50.000 euros afin d'être porté à 200.000 euros."
+        },
+        "gloss_en": "Extraordinary general meeting of 20 October 2006 approved capital increase of 50,000 euros raising capital to 200,000 euros.",
+        "confidence": "medium",
+        "notes": null
+      },
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "restated_history",
+        "effective_date": "2008-06-27",
+        "date_basis": "Restated in Article 6 (Apports) of updated statutes.",
+        "amount_eur": 17241.0,
+        "capital_before_eur": 200000.0,
+        "capital_after_eur": 217241.0,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": "autre",
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p7.0",
+            "p7.1"
+          ],
+          "quote_fr": "Aux termes de l'assemblée générale extraordinaire du 27/06/2008, le capital social a été augmenté de 17.241 euros afin d'être porté à 217.241 euros."
+        },
+        "gloss_en": "Extraordinary general meeting of 27 June 2008 approved capital increase of 17,241 euros raising capital to 217,241 euros.",
+        "confidence": "medium",
+        "notes": null
+      },
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "restated_history",
+        "effective_date": "2008-06-27",
+        "date_basis": "Restated in Article 6 (Apports) of updated statutes.",
+        "amount_eur": 150861.0,
+        "capital_before_eur": 217241.0,
+        "capital_after_eur": 368102.0,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": "autre",
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p7.2",
+            "p7.3"
+          ],
+          "quote_fr": "Aux termes de l'assemblée générale extraordinaire du 27/06/2008, le capital social a été augmenté de 150.861 euros afin d'être porté à 368.102 euros."
+        },
+        "gloss_en": "Extraordinary general meeting of 27 June 2008 approved capital increase of 150,861 euros raising capital to 368,102 euros.",
+        "confidence": "medium",
+        "notes": null
+      },
+      {
+        "code": "CAPITAL_DECREASE",
+        "status": "restated_history",
+        "effective_date": "2017-02-21",
+        "date_basis": "Restated in Article 6 (Apports) of updated statutes; decision dated 19 January 2017 (AGE) and implemented by President decision 21 February 2017.",
+        "amount_eur": 150861.0,
+        "capital_before_eur": 368102.0,
+        "capital_after_eur": 217241.0,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": "autre",
+        "mechanism": "rachat et annulation d'actions",
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p7.4",
+            "p7.5",
+            "p7.6"
+          ],
+          "quote_fr": "Aux termes des délibérations de l'Assemblée Générale Extraordinaire en date du 19 janvier 2017 et de décisions du Président en date du 21 février 2017, le capital social a été réduit de 150 861 euros pour être ramené à 217 241 euros par voie de rachat d'actions."
+        },
+        "gloss_en": "Extraordinary general meeting decision of 19 January 2017 and President implementation decision of 21 February 2017 reduced capital by 150,861 euros through share buyback and cancellation, reducing capital to 217,241 euros.",
+        "confidence": "medium",
+        "notes": null
+      }
+    ],
+    "snapshots": [
+      {
+        "as_of": "2018-03-23",
+        "as_of_basis": "After unique shareholder decision of 23 March 2018 implementing capital increase; decision completed and reflected in updated statutes.",
+        "capital_eur": 400000.0,
+        "shares_total": 400000,
+        "nominal_eur": 1.0,
+        "holders": [
+          {
+            "name": "HADEAN",
+            "kind": "COMPANY",
+            "siren": null,
+            "shares": 400000,
+            "share_class": "A",
+            "pct": 100.0
+          }
+        ],
+        "holders_complete": true,
+        "evidence": {
+          "line_ids": [
+            "p7.11",
+            "p7.12",
+            "p7.13"
+          ],
+          "quote_fr": "Le capital social est fixé à la somme de 400 000 euros. Il est divisé en 400 000 actions de 1 euro chacune entièrement libérées, intégralement détenues par la société HADEAN, titulaire d'actions de préférence de catégorie A."
+        }
+      }
+    ],
+    "issues": [
+      "Discrepancy in capital increase amount: lines p2.31–p2.34 state 182,759 euros, but lines p3.5–p3.6 state 'augmenté de 185 759 euros'. Final capital is 400,000 euros, confirming that if prior capital was 217,241, then 217,241 + 182,759 = 400,000, suggesting 182,759 is correct. The 185,759 figure may be an OCR error or a typo in the statutes text (note the word 'été' is fragmented as 'té' on p7.8).",
+      "Historical note: two separate capital increases on 27 June 2008 (one of 17,241 euros and one of 150,861 euros) are both recorded. It is unusual but plausible that these occurred on the same date. The 150,861 euros increase was later reversed by a capital reduction in 2017."
+    ]
+  }
+}

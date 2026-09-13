@@ -1,0 +1,24 @@
+# Human adjudications, applied to extracted events before consolidation. Each needs a reason; the log lands in
+# results.json notes. Match keys: inpi_id (suffix), code, status, effective_date, holder_name / from_name / to_name.
+
+aliases:
+  "Franck GICOUEL": "Franck GICQUEL"
+  "Antonio BLANCO": "Antonio BLANCO MARINA"
+
+events:
+  - match: {inpi_id: 63e9593b8be6eb9f9d257ec7, code: SHAREHOLDER_SHARE_TRANSFER, to_name: Michel CAPGRAS}
+    set: {status: completed_here, effective_date: "2006-10-20"}
+    reason: >-
+      The EGM of 20/10/2006 only authorises AUMONT to sell 225 shares to CAPGRAS, but the sale happened: CAPGRAS
+      contributes "225 titres qu'il détient" to HADEAN on 30/04/2008 (HADEAN acte 63f0a89c7a07a2434c069137 p23), and
+      AUMONT's 742 shares contributed on 07/09/2007 equal 637 + 330 - 225. The exact sale date is not documented; the
+      authorisation date is used.
+  - match: {inpi_id: 63e9593b8be6eb9f9d257ec7, code: SHAREHOLDER_ENTRY, holder_name: Michel CAPGRAS}
+    set: {status: completed_here, effective_date: "2006-10-20"}
+    reason: Same evidence as the CAPGRAS transfer; his approval as a shareholder is taken as his entry date.
+  - match: {inpi_id: 63f0a89c7a07a2434c069136, code: SHAREHOLDER_SHARE_TRANSFER, from_name: Michel CAPGRAS}
+    set: {status: decided_pending_realisation}
+    reason: >-
+      This filing is the contribution auditor's report of 18/04/2008 on a contribution CAPGRAS "propose de faire"
+      (p3.14); it decides nothing. The contribution is approved and recorded as completed by HADEAN's EGM of
+      30/04/2008 (63f0a89c7a07a2434c069137 p23-p25), which must supply the date. Added after scoring prompt v2.

@@ -1,0 +1,38 @@
+{
+  "inpi_id": "63e9593c8be6eb9f9d257ecc",
+  "model": "claude-sonnet-5",
+  "prompt_version": "extract_v1",
+  "request_ids": [
+    "req_011Cf1cnR2pc86oXhovnfFLj"
+  ],
+  "attempts": 1,
+  "elapsed_s": 6.5,
+  "usage": {
+    "input_tokens": 1567,
+    "output_tokens": 646,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 8019
+  },
+  "extraction": {
+    "summary_en": "This filing records decisions of the sole shareholder (associée unique) of ARCHEAN TECHNOLOGIES dated 29 June 2018: allocation of the year's profit to legal and other reserves, and replacement of the statutory auditor. It contains no capital increase/decrease, share transfer, or shareholder identity information beyond the generic 'Associée Unique' label; the capital figure of 400,000 euros appears only in the letterhead and is not treated as a snapshot per the rules.",
+    "decision_dates": [
+      {
+        "date": "2018-06-29",
+        "body": "associé unique",
+        "evidence": {
+          "line_ids": [
+            "p2.11",
+            "p2.12"
+          ],
+          "quote_fr": "EXTRAIT DES DECISIONS DE L'ASSOCIEE UNIQUE EN DATE DU 29 JUIN 2018"
+        }
+      }
+    ],
+    "events": [],
+    "snapshots": [],
+    "issues": [
+      "The letterhead states the company's capital as 400,000 euros but per instructions this is not recorded as a snapshot since it is a letterhead mention, not an explicit capital table.",
+      "The sole shareholder's identity is not named anywhere in the extract."
+    ]
+  }
+}

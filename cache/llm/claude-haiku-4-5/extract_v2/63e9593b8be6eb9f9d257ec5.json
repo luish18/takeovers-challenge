@@ -1,0 +1,181 @@
+{
+  "inpi_id": "63e9593b8be6eb9f9d257ec5",
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_version": "extract_v2",
+  "request_ids": [
+    "req_011Cf1dMogWWVCix9xwWRsip"
+  ],
+  "attempts": 1,
+  "elapsed_s": 11.3,
+  "usage": {
+    "input_tokens": 35712,
+    "output_tokens": 1088,
+    "cache_creation_input_tokens": 6333,
+    "cache_read_input_tokens": 0
+  },
+  "extraction": {
+    "summary_en": "Incorporation documents (statutes) of SAS ARCHEAN TECHNOLOGIES dated 15 December 2004, establishing an SAS with initial capital of €37,000 divided into 370 shares at €100 par value, half-paid at formation, subscribed by three founders: Xavier AUMONT (155 shares), Antonio BLANCO MARINA (155 shares), and Franck GICQUEL (60 shares).",
+    "decision_dates": [
+      {
+        "date": "2004-12-15",
+        "body": "Constitution de la SAS",
+        "evidence": {
+          "line_ids": [
+            "p24.11",
+            "p24.12"
+          ],
+          "quote_fr": "Fait à Montauban Le 15 décembre 2004"
+        }
+      }
+    ],
+    "events": [
+      {
+        "code": "SHAREHOLDER_ENTRY",
+        "status": "completed_here",
+        "effective_date": "2004-12-15",
+        "date_basis": "Signature date of incorporation statutes",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": "Xavier AUMONT",
+        "holder_kind": "PERSON",
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": 155,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p3.17",
+            "p3.18"
+          ],
+          "quote_fr": "Monsieur Xavier AUMONT 155 actions"
+        },
+        "gloss_en": "",
+        "confidence": "medium",
+        "notes": null
+      },
+      {
+        "code": "SHAREHOLDER_ENTRY",
+        "status": "completed_here",
+        "effective_date": "2004-12-15",
+        "date_basis": "Signature date of incorporation statutes",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": "Antonio BLANCO MARINA",
+        "holder_kind": "PERSON",
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": 155,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p3.20",
+            "p3.22"
+          ],
+          "quote_fr": "Monsieur Antonio BLANCO MARINA 155 actions"
+        },
+        "gloss_en": "",
+        "confidence": "medium",
+        "notes": null
+      },
+      {
+        "code": "SHAREHOLDER_ENTRY",
+        "status": "completed_here",
+        "effective_date": "2004-12-15",
+        "date_basis": "Signature date of incorporation statutes",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": "Franck GICQUEL",
+        "holder_kind": "PERSON",
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": 60,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p3.23",
+            "p3.22"
+          ],
+          "quote_fr": "Monsieur Franck GICQUEL 60 actions"
+        },
+        "gloss_en": "",
+        "confidence": "medium",
+        "notes": null
+      }
+    ],
+    "snapshots": [
+      {
+        "as_of": "2004-12-15",
+        "as_of_basis": "Signature date of incorporation statutes",
+        "capital_eur": 37000.0,
+        "shares_total": 370,
+        "nominal_eur": 100.0,
+        "holders": [
+          {
+            "name": "Xavier AUMONT",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 155,
+            "share_class": null,
+            "pct": 41.89
+          },
+          {
+            "name": "Antonio BLANCO MARINA",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 155,
+            "share_class": null,
+            "pct": 41.89
+          },
+          {
+            "name": "Franck GICQUEL",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 60,
+            "share_class": null,
+            "pct": 16.22
+          }
+        ],
+        "holders_complete": true,
+        "evidence": {
+          "line_ids": [
+            "p3.15",
+            "p3.16",
+            "p3.17",
+            "p3.18",
+            "p3.20",
+            "p3.22",
+            "p3.23"
+          ],
+          "quote_fr": "Il est divisé en trois cent soixante dix (370) actions d'une seule catégorie de cent (100) euros de nominal chacune, libérées pour moitié, et attribuées aux actionnaires suivant la répartition suivante : Monsieur Xavier AUMONT 155 actions Monsieur Antonio BLANCO MARINA 155 actions Monsieur Franck GICQUEL 60 actions"
+        }
+      }
+    ],
+    "issues": [
+      "OCR: Line p3.14 shows '37.0o0' which should be '37.000'; OCR: Line p1.23 shows 'Caen (14)' but p24.11-12 signature location is Montauban; Xavier AUMONT name appears as 'AUMANT' in some OCR lines (p1.22) but corrected to AUMONT based on context; the share count total sums correctly to 370."
+    ]
+  }
+}

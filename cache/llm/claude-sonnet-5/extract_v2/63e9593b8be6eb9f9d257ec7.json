@@ -1,0 +1,349 @@
+{
+  "inpi_id": "63e9593b8be6eb9f9d257ec7",
+  "model": "claude-sonnet-5",
+  "prompt_version": "extract_v2",
+  "request_ids": [
+    "req_011Cf1dMbntURQ3ZadAaux4n"
+  ],
+  "attempts": 1,
+  "elapsed_s": 85.6,
+  "usage": {
+    "input_tokens": 51042,
+    "output_tokens": 9084,
+    "cache_creation_input_tokens": 8599,
+    "cache_read_input_tokens": 0
+  },
+  "extraction": {
+    "summary_en": "Minutes of the AGE of ARCHEAN TECHNOLOGIES held 20 October 2006, together with updated SAS statutes (same date) filed at the greffe on 20 Feb 2007. The AGE approved the FY2005-06 accounts, decided a €50,000 capital increase (from €150,000 to €200,000, 500 new €100 shares) by offset of current-account claims reserved to the three existing associés (Aumont, Blanco Marina, Gicquel), rejected an employee-reserved increase, agréed a new shareholder (Michel Capgras) and authorized Xavier Aumont to sell him 225 shares, and approved in principle a future €100,000 increase to be structured later. The updated statutes confirm the capital at €200,000 (2,000 shares of €100) and recall the capital history since incorporation (€37,000 → €150,000 on 17/05/2005 → €200,000 on 20/10/2006).",
+    "decision_dates": [
+      {
+        "date": "2006-10-20",
+        "body": "AGE",
+        "evidence": {
+          "line_ids": [
+            "p1.28",
+            "p1.34"
+          ],
+          "quote_fr": "DU 20 OCTOBRE 2006 ... Le 20 octobre 2006,"
+        }
+      }
+    ],
+    "events": [
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "completed_here",
+        "effective_date": "2006-10-20",
+        "date_basis": "Decided at the AGE of 20 October 2006 (deuxième résolution); the updated statutes signed the same day (article 6 and article 7) already state the capital at 200.000 euros, showing the increase was realised, though the fourth resolution left until 16 November 2006 for beneficiaries to actually pay up by offset.",
+        "amount_eur": 50000.0,
+        "capital_before_eur": 150000.0,
+        "capital_after_eur": 200000.0,
+        "shares_delta": 500,
+        "nominal_eur": 100.0,
+        "method": "numeraire",
+        "mechanism": "compensation de créances certaines, liquides et exigibles (comptes courants d'associés)",
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [
+          {
+            "name": "Xavier AUMONT",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 330,
+            "share_class": null,
+            "pct": null
+          },
+          {
+            "name": "Antonio BLANCO MARINA",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 150,
+            "share_class": null,
+            "pct": null
+          },
+          {
+            "name": "Franck GICQUEL",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 20,
+            "share_class": null,
+            "pct": null
+          }
+        ],
+        "evidence": {
+          "line_ids": [
+            "p3.8",
+            "p3.9",
+            "p3.10",
+            "p3.11",
+            "p3.20",
+            "p3.21",
+            "p3.22",
+            "p3.28",
+            "p3.29",
+            "p3.32",
+            "p3.33"
+          ],
+          "quote_fr": "d'augmenter le capital social d'une somme de 50.000 euros, pour le porter de 150.000 euros à 200.000 euros, par création de 500 actions nouvelles de 100 euros de valeur nominale chacune, émises au pair, à libérer en totalité lors de la souscription, par compensation avec des créances certaines, liquides et exigibles sur la Société ... réserver la souscription des 5o0 actions nouvelles au profit de : Monsieur Xavier AuMONT Pour 330 actions ... Pour 150 actions Monsieur Antonio BLANCO MARINA ... Pour 20 actions Monsieur Franck GICQUEL"
+        },
+        "gloss_en": "AGE decides a €50,000 capital increase (150,000→200,000) via 500 new €100 shares paid by offsetting current-account claims, reserved to Aumont (330), Blanco (150) and Gicquel (20).",
+        "confidence": "medium",
+        "notes": null
+      },
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "restated_history",
+        "effective_date": null,
+        "date_basis": "Recalled in article 6 (Apports) of the updated statutes as the AGE decision of 17/05/2005.",
+        "amount_eur": 113000.0,
+        "capital_before_eur": 37000.0,
+        "capital_after_eur": 150000.0,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p10.14",
+            "p10.15",
+            "p10.16"
+          ],
+          "quote_fr": "La totalité du capital initial a ensuite été libérée en date du 31/03/2005. L'assemblée générale extraordinaire du 17/05/2005 a ensuite décidé d'augmenter ce capital à 150.000 euros."
+        },
+        "gloss_en": "Statutes recall that the AGE of 17 May 2005 increased capital from €37,000 to €150,000.",
+        "confidence": "medium",
+        "notes": null
+      },
+      {
+        "code": "SHAREHOLDER_SHARE_TRANSFER",
+        "status": "authorisation_only",
+        "effective_date": null,
+        "date_basis": "",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": "Xavier AUMONT",
+        "to_name": "Michel CAPGRAS",
+        "shares": 225,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p5.2",
+            "p5.3",
+            "p5.4"
+          ],
+          "quote_fr": "L'Assemblée Générale autorise Monsieur Xavier AUMONt à céder 225 actions à Monsieur Michel CAPGRAs. Ce faisant, chaque actionnaire renonce individuellement à son droit de préemption."
+        },
+        "gloss_en": "The AGE authorises Xavier Aumont to sell 225 shares to Michel Capgras (authorisation, not a stated completed transfer).",
+        "confidence": "medium",
+        "notes": null
+      },
+      {
+        "code": "SHAREHOLDER_ENTRY",
+        "status": "completed_here",
+        "effective_date": null,
+        "date_basis": "",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "agrément préalable à une cession de 225 actions par Xavier Aumont (huitième résolution, autorisation, réalisation non confirmée dans cet acte)",
+        "share_class": null,
+        "holder_name": "Michel CAPGRAS",
+        "holder_kind": "PERSON",
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p4.31",
+            "p4.32",
+            "p4.33",
+            "p4.34"
+          ],
+          "quote_fr": "L'Assemblée Générale, après avoir pris connaissance du rapport du Président agrée à devenir actionnaire Monsieur Michel CAPGRAS, né te 16 juillet 1956, demeurant 161 rue Jean-Jacques Rousseau à Montauban (82ooo), célibataire, de nationalité Française. Cette résolution est adoptée à l’unanimité."
+        },
+        "gloss_en": "The AGE agrees to admit Michel Capgras as a new shareholder, pending the authorised transfer of 225 shares from Aumont.",
+        "confidence": "medium",
+        "notes": null
+      },
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "rejected",
+        "effective_date": null,
+        "date_basis": "",
+        "amount_eur": 10000.0,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p4.19",
+            "p4.20",
+            "p4.21",
+            "p4.22",
+            "p4.23"
+          ],
+          "quote_fr": "d'autoriser le Président, à procéder, dans un délai maximum de cinq (5) ans à compter de ce jour, à une augmentation de capital d'un montant maximum de 10.000 euros, qui sera réservée aux salariés adhérant audit plan et réalisée conformément aux dispositions de l'article L. 443-5, al.3 du Code du travail. Cette résolution est rejetée à l'unanimité."
+        },
+        "gloss_en": "Resolution authorising a future €10,000 employee-reserved capital increase is rejected unanimously.",
+        "confidence": "medium",
+        "notes": null
+      },
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "authorisation_only",
+        "effective_date": null,
+        "date_basis": "",
+        "amount_eur": 100000.0,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p5.6",
+            "p5.7",
+            "p5.8",
+            "p5.9",
+            "p5.13",
+            "p5.14"
+          ],
+          "quote_fr": "NEUVIEME RESOLUTION ... approuve le principe d'une augmentation de capital de 100.000 euros (plus une prime d'émission), au profit d'un ou plusieurs nouveaux actionnaires à définir ... Mandat est donné au président pour rechercher les futurs partenaires au tour de table et présenter un nouveau protocole d'augmentation du capital dans les 6 mois à venir."
+        },
+        "gloss_en": "The AGE approves in principle a future €100,000 capital increase to new investors to be identified, and mandates the president to prepare a protocol within 6 months.",
+        "confidence": "medium",
+        "notes": null
+      }
+    ],
+    "snapshots": [
+      {
+        "as_of": "2006-10-20",
+        "as_of_basis": "Feuille de présence for the AGE of 20 October 2006, arrêtée à 3 associés présents ou représentés possédant ensemble 1500 actions (pre-increase capital).",
+        "capital_eur": 150000.0,
+        "shares_total": 1500,
+        "nominal_eur": 100.0,
+        "holders": [
+          {
+            "name": "Antonio BLANCO",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 803,
+            "share_class": null,
+            "pct": null
+          },
+          {
+            "name": "Xavier AUMONT",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 637,
+            "share_class": null,
+            "pct": null
+          },
+          {
+            "name": "Franck GICQUEL",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 60,
+            "share_class": null,
+            "pct": null
+          }
+        ],
+        "holders_complete": true,
+        "evidence": {
+          "line_ids": [
+            "p6.17",
+            "p6.18",
+            "p6.19",
+            "p6.20",
+            "p6.24",
+            "p6.25",
+            "p6.26",
+            "p6.27",
+            "p6.31",
+            "p6.32",
+            "p6.33",
+            "p6.34",
+            "p6.38",
+            "p6.39"
+          ],
+          "quote_fr": "Monsieur Antonio BLANCO ... 803 803 ... Monsieur Xavier AUMONT ... 637 637 ... Monsieur Franck GICQUEL ... 60 60 ... Certifiée sincère et véritable la présente feuille de présence, arrêtée à 3 associés présents ou représentés possédant ensemble 1500 actions."
+        }
+      },
+      {
+        "as_of": "2006-10-20",
+        "as_of_basis": "Article 7 of the updated statutes signed 20 October 2006, stating the capital post-increase.",
+        "capital_eur": 200000.0,
+        "shares_total": 2000,
+        "nominal_eur": 100.0,
+        "holders": [],
+        "holders_complete": false,
+        "evidence": {
+          "line_ids": [
+            "p10.21",
+            "p10.22",
+            "p10.23"
+          ],
+          "quote_fr": "Le capital social est fixé à la somme de deux cent mille (200.000) euros. Il est divisé en deux mille (2000) actions d'une seule catégorie de cent (100) euros de nominal chacune, libérées en totalité."
+        }
+      }
+    ],
+    "issues": [
+      "The fifth/sixth resolution numbering in the OCR text is internally inconsistent (the fifth resolution refers to 'la cinquième résolution' as the suspensive condition for itself); treated as: fifth resolution (employee-reserved increase) rejected, sixth resolution (related DPS suppression) not put to vote as a consequence.",
+      "The eighth resolution only authorises Xavier Aumont to sell 225 shares to Michel Capgras; no ordre de mouvement or completion date is given in this filing, so the transfer's actual execution is not confirmed, even though the seventh resolution already agrées Capgras as a shareholder.",
+      "The pre-increase feuille de présence capital (150,000 euros, 1500 shares at 100 euros nominal) is inferred from the statutes' stated nominal value, since the feuille de présence itself only states share/voice counts, not a capital amount.",
+      "The statutes' Article 6 recalls an initial incorporation capital of 37,000 euros (2004) which is out of scope per the incorporation rule (this filing is not the incorporation act) and is therefore not emitted as an event."
+    ]
+  }
+}

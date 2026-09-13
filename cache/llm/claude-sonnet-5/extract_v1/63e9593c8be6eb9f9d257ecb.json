@@ -1,0 +1,244 @@
+{
+  "inpi_id": "63e9593c8be6eb9f9d257ecb",
+  "model": "claude-sonnet-5",
+  "prompt_version": "extract_v1",
+  "request_ids": [
+    "req_011Cf1cisnY8TZTr8kT79ham",
+    "req_011Cf1ckpvSqosq9yTD7hh4F"
+  ],
+  "attempts": 2,
+  "elapsed_s": 48.0,
+  "usage": {
+    "input_tokens": 69625,
+    "output_tokens": 5066,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 16038
+  },
+  "extraction": {
+    "summary_en": "This filing is a full copy of ARCHEAN TECHNOLOGIES' updated statutes (SAS) following an AGE dated 20 May 2011, deposited mainly for a change of fiscal-year end. Article 6 (\"Apports\") restates the company's capital history from constitution (2004) through several increases to the current capital of 368,102 euros, and Article 7 states the current capital is divided into 368,102 shares of 1 euro each, split into two preference classes (217,241 class-A and 150,861 class-B preference shares). No new capital movement is decided in this act itself; all capital changes recorded here are restated history corroborating earlier filings, and no shareholder names/holdings are given.",
+    "decision_dates": [
+      {
+        "date": "2011-05-20",
+        "body": "AGE",
+        "evidence": {
+          "line_ids": [
+            "p1.15"
+          ],
+          "quote_fr": "Mis à jour par Assemblée Générale Extraordinaire en date du 20 mai 2011"
+        }
+      }
+    ],
+    "events": [
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "restated_history",
+        "effective_date": "2004-12-22",
+        "date_basis": "Date of the depositary bank's certificate attesting the initial cash contribution at incorporation.",
+        "amount_eur": 37000.0,
+        "capital_before_eur": 0.0,
+        "capital_after_eur": 37000.0,
+        "shares_delta": 370,
+        "nominal_eur": 100.0,
+        "method": "numeraire",
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p4.26",
+            "p4.27",
+            "p4.28",
+            "p4.29",
+            "p4.30",
+            "p4.31"
+          ],
+          "quote_fr": "Lors de la constitution, les associés ont fait apports à la Société d'une somme en numéraire d'un montant total de 37.000 euros, correspondant au montant du capital social et à 370 actions de 100 euros de nominal chacune, souscrites en totalité et libérées de la moitié, ainsi qu'il résulte du certificat établi en date du 22/12/2004 établi par la Banque CCF..."
+        },
+        "gloss_en": "Incorporation: cash capital of 37,000 euros (370 shares of 100 euros), half paid up; fully paid on 31/03/2005.",
+        "confidence": "medium",
+        "notes": "Initial capital at formation, not a subsequent increase; included for provenance."
+      },
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "restated_history",
+        "effective_date": "2005-05-17",
+        "date_basis": "Date of the AGE stated in the 'Apports' article as when the increase was decided.",
+        "amount_eur": 113000.0,
+        "capital_before_eur": 37000.0,
+        "capital_after_eur": 150000.0,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p4.33",
+            "p4.34"
+          ],
+          "quote_fr": "Aux termes de l'assemblée générale extraordinaire du 17/05/2005, le capital social a été augmenté de 113.000 euros afin d'être porté à 150.000 euros."
+        },
+        "gloss_en": "AGE of 17/05/2005 increased capital by 113,000 euros to 150,000 euros.",
+        "confidence": "medium",
+        "notes": null
+      },
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "restated_history",
+        "effective_date": "2006-10-20",
+        "date_basis": "Date of the AGE stated in the 'Apports' article.",
+        "amount_eur": 50000.0,
+        "capital_before_eur": 150000.0,
+        "capital_after_eur": 200000.0,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p5.0",
+            "p5.1"
+          ],
+          "quote_fr": "Aux termes de l'assemblée générale extraordinaire du 20/10/2006, le capital social a été augmenté de 50.000 euros afin d'être porté à 200.000 euros."
+        },
+        "gloss_en": "AGE of 20/10/2006 increased capital by 50,000 euros to 200,000 euros.",
+        "confidence": "medium",
+        "notes": null
+      },
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "restated_history",
+        "effective_date": "2008-06-27",
+        "date_basis": "Date of the AGE stated in the 'Apports' article; same-day AGE as the nominal-value split and the following increase.",
+        "amount_eur": 17241.0,
+        "capital_before_eur": 200000.0,
+        "capital_after_eur": 217241.0,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p5.5",
+            "p5.6"
+          ],
+          "quote_fr": "Aux termes de l'assemblée générale extraordinaire du 27/06/2008, le capital social a été augmenté de 17.241 euros afin d'être porté à 217.241 euros."
+        },
+        "gloss_en": "AGE of 27/06/2008 increased capital by 17,241 euros to 217,241 euros.",
+        "confidence": "medium",
+        "notes": null
+      },
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "restated_history",
+        "effective_date": "2008-06-27",
+        "date_basis": "Date of the AGE stated in the 'Apports' article; this increase created the 150,861 class-B preference shares matching the current cap table.",
+        "amount_eur": 150861.0,
+        "capital_before_eur": 217241.0,
+        "capital_after_eur": 368102.0,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p5.7",
+            "p5.8"
+          ],
+          "quote_fr": "Aux termes de l'assemblée générale extraordinaire du 27/06/2008, le capital social a été augmenté de 150.861 euros afin d'être porté à 368.102 euros."
+        },
+        "gloss_en": "AGE of 27/06/2008 increased capital by 150,861 euros to 368,102 euros (current capital).",
+        "confidence": "medium",
+        "notes": null
+      }
+    ],
+    "snapshots": [
+      {
+        "as_of": "2011-05-20",
+        "as_of_basis": "Statutes as updated following the AGE of 20 May 2011, reflecting Article 7 'Capital social'.",
+        "capital_eur": 368102.0,
+        "shares_total": 368102,
+        "nominal_eur": 1.0,
+        "holders": [
+          {
+            "name": "Actions de préférence catégorie A",
+            "kind": "UNKNOWN",
+            "siren": null,
+            "shares": 217241,
+            "share_class": "A",
+            "pct": null
+          },
+          {
+            "name": "Actions de préférence catégorie B",
+            "kind": "UNKNOWN",
+            "siren": null,
+            "shares": 150861,
+            "share_class": "B",
+            "pct": null
+          }
+        ],
+        "holders_complete": false,
+        "evidence": {
+          "line_ids": [
+            "p5.9",
+            "p5.10",
+            "p5.11",
+            "p5.12",
+            "p5.13",
+            "p5.14",
+            "p5.16"
+          ],
+          "quote_fr": "Le capital social est fixé à la somme de 368.102 euros. Il est divisé en 368.102 actions de 1 euro chacune entièrement libérées. Il est divisé en actions de préférence de catégorie A et en actions de préférence de catégorie B, à savoir : 217.241 actions de préférence de catégorie A, 150.861 actions de préférence de catégorie B."
+        }
+      }
+    ],
+    "issues": [
+      "The AGE of 27/06/2008 also divided the par value of shares by 100 (200,000 shares of 1 euro instead of 2,000 shares of 100 euros) without changing total capital or any percentage; no event emitted for this, only noted here (see p5.2-p5.4).",
+      "The document does not state the method (numéraire, apport en nature, incorporation de réserves) for the 2005, 2006, and the two 2008 capital increases; left null.",
+      "The statutes describe the existing class-A/class-B preference-share structure (Article 7) but no explicit 'création de catégorie' language is present in this filing; the class split likely originated with the 27/06/2008 increases (class B share count of 150,861 matches the last 2008 increase exactly) but this is inferred, not stated, so no CAPITAL_DUAL_CLASS creation event was recorded.",
+      "No shareholder names or individual holdings are given anywhere in this filing; the Article 7 snapshot only shows the split by preference class, not by holder."
+    ]
+  }
+}

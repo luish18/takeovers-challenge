@@ -1,0 +1,287 @@
+{
+  "inpi_id": "63e9593b8be6eb9f9d257ec3",
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_version": "extract_v1",
+  "request_ids": [
+    "req_011Cf1cas4ekxpfMPmy2UL1z"
+  ],
+  "attempts": 1,
+  "elapsed_s": 42.8,
+  "usage": {
+    "input_tokens": 31967,
+    "output_tokens": 4207,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5904
+  },
+  "extraction": {
+    "summary_en": "Extract of unique shareholder decisions (27 June 2008) recording: division of share par value by 100 (from 100€ to 1€) without capital change; creation of A and B category preference shares; two capital increases totalling 168,102€ (raising capital from 200,000€ to 368,102€) via subscription of preference shares. Updated statutes confirm final capital composition of 217,241 A-shares and 150,861 B-shares, held entirely by HADEAN.",
+    "decision_dates": [
+      {
+        "date": "2008-06-27",
+        "body": "Assemblée générale extraordinaire de l'associée unique",
+        "evidence": {
+          "line_ids": [
+            "p1.21"
+          ],
+          "quote_fr": "EN DATE DU 27 JUIN 2008"
+        }
+      }
+    ],
+    "events": [
+      {
+        "code": "CAPITAL_DECREASE",
+        "status": "completed_here",
+        "effective_date": "2008-06-27",
+        "date_basis": "Date of the meeting decision",
+        "amount_eur": 0.0,
+        "capital_before_eur": 200000.0,
+        "capital_after_eur": 200000.0,
+        "shares_delta": 198000,
+        "nominal_eur": 1.0,
+        "method": "autre",
+        "mechanism": "Division de la valeur nominale par 100 (par value split from 100€ to 1€ per share)",
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p1.44",
+            "p1.45",
+            "p1.46",
+            "p1.47",
+            "p1.48"
+          ],
+          "quote_fr": "DÉCIDE de diviser la valeur nominale des actions par 100, chaque associé recevant, pour chacune de ses actions de 100 euros de valeur nominale, 100 actions d'une valeur nominale de 1 euro chacune, PRÉcisE qu'au résultat de cette opération, le capital qui reste fixé à 200.000 euros est désormais divisé en 200.000 actions d'une valeur nominale de 1 euro chacune."
+        },
+        "gloss_en": "Par value divided by 100 without changing total capital or ownership.",
+        "confidence": "high",
+        "notes": "Pure split: 2,000 shares of 100€ become 200,000 shares of 1€; capital unchanged"
+      },
+      {
+        "code": "CAPITAL_DUAL_CLASS",
+        "status": "decided_pending_realisation",
+        "effective_date": null,
+        "date_basis": "Meeting date; subject to suspensive condition of realisation of Capital Increases I and II",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "Création d'actions de préférence A avec droit au dividende prioritaire annuel maximal de 35.000€ jusqu'à atteinte de 245.000€ agrégé",
+        "share_class": "Actions de préférence de catégorie A",
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p2.18",
+            "p2.19",
+            "p2.26",
+            "p2.27"
+          ],
+          "quote_fr": "Création d'actions de préférence de catégorie A\nL'Associée Unique,\nDÉCIDE, conformément aux dispositions des articles L. 228-11 et suivants du Code de commerce, de créer des actions de préférence de catégorie A (ci-après les « Actions A »),"
+        },
+        "gloss_en": "Creation of category A preference shares with preferential dividend right.",
+        "confidence": "high",
+        "notes": "Created under suspensive condition (6ème résolution); realised via Capital Increase I"
+      },
+      {
+        "code": "CAPITAL_DUAL_CLASS",
+        "status": "decided_pending_realisation",
+        "effective_date": null,
+        "date_basis": "Meeting date; subject to suspensive condition of realisation of Capital Increases I and II",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "Création d'actions de préférence B et B' avec droits de gouvernance, d'audit et de liquidation préférentielle",
+        "share_class": "Actions de préférence de catégorie B et B'",
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p2.29",
+            "p2.30",
+            "p2.37",
+            "p2.38",
+            "p2.39"
+          ],
+          "quote_fr": "Création d'actions de préférence de catégorie B et B'\nL'Associée Unique,\nDÉCIDE, conformément aux dispositions des articles L. 228-11 et suivants du Code de commerce, de créer des actions de préférence de catégorie B (ci-après les « Actions B ») et des actions de préférence de catégorie B' (ci-après les « Actions B' »),"
+        },
+        "gloss_en": "Creation of category B and B' preference shares with governance, audit and preferential liquidation rights.",
+        "confidence": "high",
+        "notes": "Created under suspensive condition (8ème résolution); B shares issued via Capital Increase II; B' shares created by conversion of B"
+      },
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "completed_here",
+        "effective_date": "2008-06-27",
+        "date_basis": "Meeting date; conditional on adoption of 10ème resolution but statutes show final capital includes this increase",
+        "amount_eur": 17241.0,
+        "capital_before_eur": 200000.0,
+        "capital_after_eur": 217241.0,
+        "shares_delta": 17241,
+        "nominal_eur": 1.0,
+        "method": "numeraire",
+        "mechanism": "Émission de 17.241 Actions A à 5,80€ l'une (1€ nominal + 4,80€ prime d'émission)",
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": 5.8,
+        "subscribers": [
+          {
+            "name": "HADEAN",
+            "kind": "COMPANY",
+            "siren": null,
+            "shares": 17241,
+            "share_class": null,
+            "pct": null
+          }
+        ],
+        "evidence": {
+          "line_ids": [
+            "p2.41",
+            "p2.42",
+            "p2.48",
+            "p2.49",
+            "p2.50",
+            "p3.1",
+            "p3.2"
+          ],
+          "quote_fr": "Augmentation de Capital I : Augmentation du capital social d'un montant nominal de 17.241 euros, par l'émission de 17.241 Actions A\nDÉciDE d'augmenter le capital social de la Société d'un montant nominal de 17.241 euros, par l'émission de 17.241 Actions A (les « Actions A Nouvelles »), d'une valeur nominale de 1 euro chacune (l' « Augmentation de Capital I »),\nDÉCIDE que les Actions A Nouvelles seront émises au prix de 5,80 euros l'une (prime d'émission incluse), soit un prix de souscription total de 99.997,80 euros, et seront intégralement libérées en numéraire"
+        },
+        "gloss_en": "Capital increase of 17,241€ by issuance of 17,241 A-category preference shares at 5.80€ per share (including share premium), subscribed by HADEAN.",
+        "confidence": "high",
+        "notes": "Conditionally decided (9ème résolution) pending 10ème resolution; subscription period 27 June – 18 July 2008; premium (82.756,80€ total) recorded separately on capital reserves account; updated statutes confirm this increase realised"
+      },
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "completed_here",
+        "effective_date": "2008-06-27",
+        "date_basis": "Meeting date; conditional on adoption of 12-15ème resolutions but statutes show final capital includes this increase",
+        "amount_eur": 150861.0,
+        "capital_before_eur": 217241.0,
+        "capital_after_eur": 368102.0,
+        "shares_delta": 150861,
+        "nominal_eur": 1.0,
+        "method": "numeraire",
+        "mechanism": "Émission de 150.861 Actions B à bon de souscription d'obligations convertibles (BSOC) à 5,80€ l'une (1€ nominal + 4,80€ prime d'émission)",
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": 5.8,
+        "subscribers": [
+          {
+            "name": "HADEAN",
+            "kind": "COMPANY",
+            "siren": null,
+            "shares": 150861,
+            "share_class": null,
+            "pct": null
+          }
+        ],
+        "evidence": {
+          "line_ids": [
+            "p3.33",
+            "p3.34",
+            "p3.42",
+            "p3.43",
+            "p3.44",
+            "p3.47",
+            "p3.48",
+            "p3.49",
+            "p3.50"
+          ],
+          "quote_fr": "Augmentation de Capital Il : Augmentation du capital social d'un montant nominal de 150.861 euros, par l'émission de 150.861 Actions B à bon de souscription d'obligations convertibles en Actions B\nd'augmenter le capital social d'un montant nominal de 150.861 euros par l'émission de 150.861 Actions B nouvelles (les « Actions B Nouvelles ») d'une valeur nominale de 1 euro chacune, à chacune desquelles est attaché un bon de souscription d'obligations convertibles en Actions B\nDECIDE que les ABSOCe seront émises au prix unitaire de 5,80 euros (prime d'émission incluse), correspondant à une souscription d'un montant total de 874.993,80 euros et devront, lors de leur souscription, être intégralement libérées en numéraire pour la totalité de leur montant nominal (soit 150.861 euros) et de la prime d'émission (soit 724.132,80 euros)"
+        },
+        "gloss_en": "Capital increase of 150,861€ by issuance of 150,861 B-category preference shares with convertible bond warrants at 5.80€ per share, subscribed by HADEAN.",
+        "confidence": "high",
+        "notes": "Conditionally decided (11ème résolution) pending 12-15ème resolutions; subscription period 27 June – 18 July 2008; premium split: 603.444€ to restricted reserves (for B→B' conversion funding), 271.549,90€ to capital reserves; updated statutes confirm this increase realised"
+      }
+    ],
+    "snapshots": [
+      {
+        "as_of": "2008-06-27",
+        "as_of_basis": "After adoption of all resolutions and completion of both capital increases",
+        "capital_eur": 368102.0,
+        "shares_total": 368102,
+        "nominal_eur": 1.0,
+        "holders": [
+          {
+            "name": "HADEAN",
+            "kind": "COMPANY",
+            "siren": "499979540",
+            "shares": 368102,
+            "share_class": "Catégories A et B",
+            "pct": 100.0
+          }
+        ],
+        "holders_complete": true,
+        "evidence": {
+          "line_ids": [
+            "p5.3",
+            "p5.4",
+            "p5.5",
+            "p8.12",
+            "p8.13",
+            "p8.14",
+            "p8.15",
+            "p8.16",
+            "p8.17"
+          ],
+          "quote_fr": "au capital de 368.102 euros\nSiège social : 20 Place Prax Paris - Novalia 82 - 82000 Montauban\nRCS Montauban : 480 489 707\nLe capital social est fixé à la somme de 368.102 euros.\nIl est divisé en 368.102 actions de 1 euro chacune entièrement libérées.\nIl est divisé en actions de préférence de catégorie A et en actions de préférence de catégorie B, à savoir :\n217.241 actions de préférence de catégorie A,\n150.861 actions de préférence de catégorie B."
+        }
+      },
+      {
+        "as_of": "2004-12-22",
+        "as_of_basis": "Incorporation; certificate of deposit of funds by CCF bank",
+        "capital_eur": 37000.0,
+        "shares_total": 370,
+        "nominal_eur": 100.0,
+        "holders": [],
+        "holders_complete": false,
+        "evidence": {
+          "line_ids": [
+            "p7.27",
+            "p7.28",
+            "p7.29",
+            "p7.30",
+            "p7.31"
+          ],
+          "quote_fr": "Lors de la constitution, les associés ont fait apports à la Société d'une somme en numéraire d'un montant total de 37.000 euros, correspondant au montant du capital social et à 370 actions de 100 euros de nominal chacune, souscrites en totalité et libérées de la moitié, ainsi qu'il résulte du certificat établi en date du 22/12/2004 établi par la Banque CCF"
+        }
+      }
+    ],
+    "issues": [
+      "The two capital increases (I and II) are formally decided subject to suspensive conditions (adoption of 10ème and 12-15ème resolutions respectively), yet the updated statutes filed with this act show the final capital of 368.102€ as if both were realised. This suggests the conditions were satisfied, but the document does not explicitly state the completion. The subscription period extended to 18 July 2008 (filing date 15 July), so realisation may have occurred after deposit."
+    ]
+  }
+}

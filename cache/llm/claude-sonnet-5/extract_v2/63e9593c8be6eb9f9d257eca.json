@@ -1,0 +1,38 @@
+{
+  "inpi_id": "63e9593c8be6eb9f9d257eca",
+  "model": "claude-sonnet-5",
+  "prompt_version": "extract_v2",
+  "request_ids": [
+    "req_011Cf1dXBPE8CUi9DMeySzvY"
+  ],
+  "attempts": 1,
+  "elapsed_s": 7.7,
+  "usage": {
+    "input_tokens": 1272,
+    "output_tokens": 716,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 8599
+  },
+  "extraction": {
+    "summary_en": "This filing is an extract of the AGE of 20 May 2011 for ARCHEAN TECHNOLOGIES, which only changes the fiscal year-end date (article 20 of the statutes) and grants powers for formalities. It contains no capital increase, decrease, share transfer, or shareholder change. The only capital figure (368.102 euros) appears solely in the letterhead, which per instructions is not to be recorded as a snapshot.",
+    "decision_dates": [
+      {
+        "date": "2011-05-20",
+        "body": "AGE",
+        "evidence": {
+          "line_ids": [
+            "p1.7",
+            "p1.8"
+          ],
+          "quote_fr": "EXTRAIT DES DELIBERATIONS DE L'ASSEMBLEE GÉNERALE EXTRAORDINAIRE DU 2O MAI 2011"
+        }
+      }
+    ],
+    "events": [],
+    "snapshots": [],
+    "issues": [
+      "The letterhead states a share capital of 368.102 euros but per instructions this is not recorded as a snapshot since it is not printed as an article/table stating the cap table.",
+      "The registry label mentions 'Statuts mis à jour' but the updated statutes were not included in the provided OCR pages (only page 1 of the AGE minutes is present)."
+    ]
+  }
+}

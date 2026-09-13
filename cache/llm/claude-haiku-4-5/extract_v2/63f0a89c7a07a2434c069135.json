@@ -1,0 +1,61 @@
+{
+  "inpi_id": "63f0a89c7a07a2434c069135",
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_version": "extract_v2",
+  "request_ids": [
+    "req_011Cf1dNdgXBppaGW1hoU2Nf"
+  ],
+  "attempts": 1,
+  "elapsed_s": 12.1,
+  "usage": {
+    "input_tokens": 33364,
+    "output_tokens": 1216,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 6333
+  },
+  "extraction": {
+    "summary_en": "Incorporation statutes of SAS HADEAN (filer), dated 7 September 2007. This document is not about the subject company ARCHEAN TECHNOLOGIES, but rather records the formation of HADEAN through in-kind contributions of 742 + 80 = 822 shares of ARCHEAN TECHNOLOGIES contributed by Xavier Aumont and Franck Gicquel. The document confirms ARCHEAN TECHNOLOGIES exists with 2,000 shares of 100€ nominal, capital of 200,000€, and shows these two persons as significant shareholders, but records no capital movement of ARCHEAN TECHNOLOGIES itself—only the transfer of their shares to the newly formed HADEAN.",
+    "decision_dates": [],
+    "events": [],
+    "snapshots": [
+      {
+        "as_of": "2007-09-07",
+        "as_of_basis": "Date of signature of HADEAN incorporation statutes, which documents ARCHEAN TECHNOLOGIES' existing cap table.",
+        "capital_eur": 200000.0,
+        "shares_total": 2000,
+        "nominal_eur": 100.0,
+        "holders": [
+          {
+            "name": "Xavier AUMONT",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 742,
+            "share_class": null,
+            "pct": 37.1
+          },
+          {
+            "name": "Franck GICQUEL",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 80,
+            "share_class": null,
+            "pct": 4.0
+          }
+        ],
+        "holders_complete": false,
+        "evidence": {
+          "line_ids": [
+            "p5.27",
+            "p5.28",
+            "p5.31",
+            "p5.32",
+            "p6.11",
+            "p6.12"
+          ],
+          "quote_fr": "Son capital social est actuellement fixé à DEUX CENT MILLE (200.000) euros et est divisé en 2.000 actions de 100 euros de valeur nominale. Monsieur Xavier AUMONT fait apport de la pleine propriété des 742 (sept cent quarante deux) actions de 100 Euros de valeur nominale chacune qu'il possède de la Société ARCHEAN TECHNOLOGIES... Monsieur Franck GICQUEL fait apport de la pleine propriété des QUATRE VINGT (80) actions de 100 Euros de valeur nominale chacune de la Société ARCHEAN TECHNOLOGIES"
+        }
+      }
+    ],
+    "issues": []
+  }
+}

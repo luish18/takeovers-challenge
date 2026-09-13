@@ -1,5 +1,7 @@
 # ARCHEAN TECHNOLOGIES (480489707) — who owned it, from its filings
 
+Link to the submission video [https://drive.google.com/file/d/1htfwWnnzoZ5TDeO82gK76mXHoKjQs4zF/view?usp=sharing](https://drive.google.com/file/d/1htfwWnnzoZ5TDeO82gK76mXHoKjQs4zF/view?usp=sharing)
+
 Submission for the 2026-2 Takeovers challenge, *Actes* track. `results.json` (root) holds the capital and shareholder
 movements and the cap table after each of them. Every value is grounded in a filed document, page and box.
 

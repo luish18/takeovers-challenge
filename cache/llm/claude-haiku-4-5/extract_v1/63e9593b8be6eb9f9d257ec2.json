@@ -1,0 +1,546 @@
+{
+  "inpi_id": "63e9593b8be6eb9f9d257ec2",
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_version": "extract_v1",
+  "request_ids": [
+    "req_011Cf1cYEiKFvRiEkCbCAscn"
+  ],
+  "attempts": 1,
+  "elapsed_s": 41.6,
+  "usage": {
+    "input_tokens": 4946,
+    "output_tokens": 5321,
+    "cache_creation_input_tokens": 5904,
+    "cache_read_input_tokens": 0
+  },
+  "extraction": {
+    "summary_en": "This filing contains two 2005 shareholder meeting minutes (AGE of 8 August, AGO of 2 September) for ARCHEAN TECHNOLOGIES (SAS, capital €150,000, 1,500 shares). The extraordinary assembly ratified a protocol transferring all shares held by Malik GUELLATI, Christophe LEROUX, and Marielle ROUJEAN to Antonio BLANCO MARINA, Xavier AUMONT, and Franck GICQUEL (effective 16 August 2005), with no change to capital amount.",
+    "decision_dates": [
+      {
+        "date": "2005-08-08",
+        "body": "AGE extraordinaire",
+        "evidence": {
+          "line_ids": [
+            "p5.9",
+            "p5.10"
+          ],
+          "quote_fr": "Le 8 août 2005, A 10 heures 30, Les associés de la société ARCHEAN TECHNOLOGIES se sont réunis en assemblée générale extraordinaire"
+        }
+      },
+      {
+        "date": "2005-09-02",
+        "body": "AGO ordinaire",
+        "evidence": {
+          "line_ids": [
+            "p1.19",
+            "p1.20"
+          ],
+          "quote_fr": "Le 2 septembre 2005, A 10 heures 30, Les associés de la société ARCHEAN TECHNOLOGIES se sont réunis en assemblée générale ordinaire"
+        }
+      }
+    ],
+    "events": [
+      {
+        "code": "SHAREHOLDER_SHARE_TRANSFER",
+        "status": "completed_here",
+        "effective_date": "2005-08-16",
+        "date_basis": "Transfer orders dated 16 August 2005 per AGE resolution of 8 August 2005.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "Protocol de cession d'actions",
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": "Malik GUELLATI",
+        "to_name": "Antonio BLANCO MARINA",
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p6.24",
+            "p6.25",
+            "p6.26",
+            "p6.29"
+          ],
+          "quote_fr": "L'assemblée générale, après avoir pris connaissance d'un protocole de cession de la totalité des actions détenues par Messieurs Malik GUELLATI, Christophe LEROUX et Madame Marielle ROUJEAN, associés d'ARCHEAN TECHNOLOGIES, approuve la dérogation à l'article 15 des statuts […] Il en résulte au terme des ordres de mouvement à émettre en date du 16 août 2005"
+        },
+        "gloss_en": "",
+        "confidence": "medium",
+        "notes": "Partial transfer; exact share count not stated individually for GUELLATI."
+      },
+      {
+        "code": "SHAREHOLDER_SHARE_TRANSFER",
+        "status": "completed_here",
+        "effective_date": "2005-08-16",
+        "date_basis": "Transfer orders dated 16 August 2005 per AGE resolution of 8 August 2005.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "Protocol de cession d'actions",
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": "Christophe LEROUX",
+        "to_name": "Antonio BLANCO MARINA",
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p6.24",
+            "p6.25",
+            "p6.26",
+            "p6.29"
+          ],
+          "quote_fr": "L'assemblée générale, après avoir pris connaissance d'un protocole de cession de la totalité des actions détenues par Messieurs Malik GUELLATI, Christophe LEROUX et Madame Marielle ROUJEAN, associés d'ARCHEAN TECHNOLOGIES, approuve la dérogation à l'article 15 des statuts […] Il en résulte au terme des ordres de mouvement à émettre en date du 16 août 2005"
+        },
+        "gloss_en": "",
+        "confidence": "medium",
+        "notes": "Partial transfer; exact share count not stated individually for LEROUX."
+      },
+      {
+        "code": "SHAREHOLDER_SHARE_TRANSFER",
+        "status": "completed_here",
+        "effective_date": "2005-08-16",
+        "date_basis": "Transfer orders dated 16 August 2005 per AGE resolution of 8 August 2005.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "Protocol de cession d'actions",
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": "Marielle ROUJEAN",
+        "to_name": "Antonio BLANCO MARINA",
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p6.24",
+            "p6.25",
+            "p6.26",
+            "p6.29"
+          ],
+          "quote_fr": "L'assemblée générale, après avoir pris connaissance d'un protocole de cession de la totalité des actions détenues par Messieurs Malik GUELLATI, Christophe LEROUX et Madame Marielle ROUJEAN, associés d'ARCHEAN TECHNOLOGIES, approuve la dérogation à l'article 15 des statuts […] Il en résulte au terme des ordres de mouvement à émettre en date du 16 août 2005"
+        },
+        "gloss_en": "",
+        "confidence": "medium",
+        "notes": "Partial transfer; exact share count not stated individually for ROUJEAN."
+      },
+      {
+        "code": "SHAREHOLDER_SHARE_TRANSFER",
+        "status": "completed_here",
+        "effective_date": "2005-08-16",
+        "date_basis": "Transfer orders dated 16 August 2005 per AGE resolution of 8 August 2005.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "Protocol de cession d'actions",
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": "Malik GUELLATI",
+        "to_name": "Xavier AUMONT",
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p6.24",
+            "p6.25",
+            "p6.26",
+            "p6.29"
+          ],
+          "quote_fr": "L'assemblée générale, après avoir pris connaissance d'un protocole de cession de la totalité des actions détenues par Messieurs Malik GUELLATI, Christophe LEROUX et Madame Marielle ROUJEAN, associés d'ARCHEAN TECHNOLOGIES, approuve la dérogation à l'article 15 des statuts […] Il en résulte au terme des ordres de mouvement à émettre en date du 16 août 2005"
+        },
+        "gloss_en": "",
+        "confidence": "medium",
+        "notes": "Partial transfer; exact share count not stated individually for GUELLATI."
+      },
+      {
+        "code": "SHAREHOLDER_SHARE_TRANSFER",
+        "status": "completed_here",
+        "effective_date": "2005-08-16",
+        "date_basis": "Transfer orders dated 16 August 2005 per AGE resolution of 8 August 2005.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "Protocol de cession d'actions",
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": "Christophe LEROUX",
+        "to_name": "Xavier AUMONT",
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p6.24",
+            "p6.25",
+            "p6.26",
+            "p6.29"
+          ],
+          "quote_fr": "L'assemblée générale, après avoir pris connaissance d'un protocole de cession de la totalité des actions détenues par Messieurs Malik GUELLATI, Christophe LEROUX et Madame Marielle ROUJEAN, associés d'ARCHEAN TECHNOLOGIES, approuve la dérogation à l'article 15 des statuts […] Il en résulte au terme des ordres de mouvement à émettre en date du 16 août 2005"
+        },
+        "gloss_en": "",
+        "confidence": "medium",
+        "notes": "Partial transfer; exact share count not stated individually for LEROUX."
+      },
+      {
+        "code": "SHAREHOLDER_SHARE_TRANSFER",
+        "status": "completed_here",
+        "effective_date": "2005-08-16",
+        "date_basis": "Transfer orders dated 16 August 2005 per AGE resolution of 8 August 2005.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "Protocol de cession d'actions",
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": "Marielle ROUJEAN",
+        "to_name": "Xavier AUMONT",
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p6.24",
+            "p6.25",
+            "p6.26",
+            "p6.29"
+          ],
+          "quote_fr": "L'assemblée générale, après avoir pris connaissance d'un protocole de cession de la totalité des actions détenues par Messieurs Malik GUELLATI, Christophe LEROUX et Madame Marielle ROUJEAN, associés d'ARCHEAN TECHNOLOGIES, approuve la dérogation à l'article 15 des statuts […] Il en résulte au terme des ordres de mouvement à émettre en date du 16 août 2005"
+        },
+        "gloss_en": "",
+        "confidence": "medium",
+        "notes": "Partial transfer; exact share count not stated individually for ROUJEAN."
+      },
+      {
+        "code": "SHAREHOLDER_SHARE_TRANSFER",
+        "status": "completed_here",
+        "effective_date": "2005-08-16",
+        "date_basis": "Transfer orders dated 16 August 2005 per AGE resolution of 8 August 2005.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "Protocol de cession d'actions",
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": "Malik GUELLATI",
+        "to_name": "Franck GICQUEL",
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p6.24",
+            "p6.25",
+            "p6.26",
+            "p6.29"
+          ],
+          "quote_fr": "L'assemblée générale, après avoir pris connaissance d'un protocole de cession de la totalité des actions détenues par Messieurs Malik GUELLATI, Christophe LEROUX et Madame Marielle ROUJEAN, associés d'ARCHEAN TECHNOLOGIES, approuve la dérogation à l'article 15 des statuts […] Il en résulte au terme des ordres de mouvement à émettre en date du 16 août 2005"
+        },
+        "gloss_en": "",
+        "confidence": "medium",
+        "notes": "Partial transfer; exact share count not stated individually for GUELLATI."
+      },
+      {
+        "code": "SHAREHOLDER_SHARE_TRANSFER",
+        "status": "completed_here",
+        "effective_date": "2005-08-16",
+        "date_basis": "Transfer orders dated 16 August 2005 per AGE resolution of 8 August 2005.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "Protocol de cession d'actions",
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": "Christophe LEROUX",
+        "to_name": "Franck GICQUEL",
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p6.24",
+            "p6.25",
+            "p6.26",
+            "p6.29"
+          ],
+          "quote_fr": "L'assemblée générale, après avoir pris connaissance d'un protocole de cession de la totalité des actions détenues par Messieurs Malik GUELLATI, Christophe LEROUX et Madame Marielle ROUJEAN, associés d'ARCHEAN TECHNOLOGIES, approuve la dérogation à l'article 15 des statuts […] Il en résulte au terme des ordres de mouvement à émettre en date du 16 août 2005"
+        },
+        "gloss_en": "",
+        "confidence": "medium",
+        "notes": "Partial transfer; exact share count not stated individually for LEROUX."
+      },
+      {
+        "code": "SHAREHOLDER_SHARE_TRANSFER",
+        "status": "completed_here",
+        "effective_date": "2005-08-16",
+        "date_basis": "Transfer orders dated 16 August 2005 per AGE resolution of 8 August 2005.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "Protocol de cession d'actions",
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": "Marielle ROUJEAN",
+        "to_name": "Franck GICQUEL",
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p6.24",
+            "p6.25",
+            "p6.26",
+            "p6.29"
+          ],
+          "quote_fr": "L'assemblée générale, après avoir pris connaissance d'un protocole de cession de la totalité des actions détenues par Messieurs Malik GUELLATI, Christophe LEROUX et Madame Marielle ROUJEAN, associés d'ARCHEAN TECHNOLOGIES, approuve la dérogation à l'article 15 des statuts […] Il en résulte au terme des ordres de mouvement à émettre en date du 16 août 2005"
+        },
+        "gloss_en": "",
+        "confidence": "medium",
+        "notes": "Partial transfer; exact share count not stated individually for ROUJEAN."
+      },
+      {
+        "code": "SHAREHOLDER_END",
+        "status": "completed_here",
+        "effective_date": "2005-08-16",
+        "date_basis": "All shares transferred per AGE resolution; new cap table shows zero holdings.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "Protocol de cession d'actions - totalité des actions",
+        "share_class": null,
+        "holder_name": "Malik GUELLATI",
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p6.24",
+            "p6.25",
+            "p6.26"
+          ],
+          "quote_fr": "L'assemblée générale, après avoir pris connaissance d'un protocole de cession de la totalité des actions détenues par Messieurs Malik GUELLATI, Christophe LEROUX et Madame Marielle ROUJEAN, associés d'ARCHEAN TECHNOLOGIES"
+        },
+        "gloss_en": "",
+        "confidence": "medium",
+        "notes": null
+      },
+      {
+        "code": "SHAREHOLDER_END",
+        "status": "completed_here",
+        "effective_date": "2005-08-16",
+        "date_basis": "All shares transferred per AGE resolution; new cap table shows zero holdings.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "Protocol de cession d'actions - totalité des actions",
+        "share_class": null,
+        "holder_name": "Christophe LEROUX",
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p6.24",
+            "p6.25",
+            "p6.26"
+          ],
+          "quote_fr": "L'assemblée générale, après avoir pris connaissance d'un protocole de cession de la totalité des actions détenues par Messieurs Malik GUELLATI, Christophe LEROUX et Madame Marielle ROUJEAN, associés d'ARCHEAN TECHNOLOGIES"
+        },
+        "gloss_en": "",
+        "confidence": "medium",
+        "notes": null
+      },
+      {
+        "code": "SHAREHOLDER_END",
+        "status": "completed_here",
+        "effective_date": "2005-08-16",
+        "date_basis": "All shares transferred per AGE resolution; new cap table shows zero holdings.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "Protocol de cession d'actions - totalité des actions",
+        "share_class": null,
+        "holder_name": "Marielle ROUJEAN",
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p6.24",
+            "p6.25",
+            "p6.26"
+          ],
+          "quote_fr": "L'assemblée générale, après avoir pris connaissance d'un protocole de cession de la totalité des actions détenues par Messieurs Malik GUELLATI, Christophe LEROUX et Madame Marielle ROUJEAN, associés d'ARCHEAN TECHNOLOGIES"
+        },
+        "gloss_en": "",
+        "confidence": "medium",
+        "notes": null
+      }
+    ],
+    "snapshots": [
+      {
+        "as_of": "2005-08-16",
+        "as_of_basis": "Effective date of share transfer orders per the AGE resolution.",
+        "capital_eur": 150000.0,
+        "shares_total": 1500,
+        "nominal_eur": 100.0,
+        "holders": [
+          {
+            "name": "Antonio BLANCO MARINA",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 823,
+            "share_class": null,
+            "pct": 54.87
+          },
+          {
+            "name": "Xavier AUMONT",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 617,
+            "share_class": null,
+            "pct": 41.13
+          },
+          {
+            "name": "Franck GICQUEL",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 60,
+            "share_class": null,
+            "pct": 6.0
+          }
+        ],
+        "holders_complete": true,
+        "evidence": {
+          "line_ids": [
+            "p6.29",
+            "p6.30",
+            "p6.31",
+            "p6.32",
+            "p6.33",
+            "p6.34",
+            "p6.35",
+            "p6.36",
+            "p6.37",
+            "p6.38",
+            "p6.39"
+          ],
+          "quote_fr": "Il en résulte au terme des ordres de mouvement à émettre en date du 16 août 2005, la nouvelle répartition suivante entre les associés : Antonio BLANCO 823 actions 54,87 % 617 actions 41,13 % Xavier AUMONT 60 actions Franck GICQUEL 6,00 %"
+        }
+      },
+      {
+        "as_of": "2005-09-02",
+        "as_of_basis": "Attendance sheet of the AGO of 2 September 2005.",
+        "capital_eur": 150000.0,
+        "shares_total": 1500,
+        "nominal_eur": 100.0,
+        "holders": [
+          {
+            "name": "Antonio BLANCO MARINA",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 823,
+            "share_class": null,
+            "pct": 54.87
+          },
+          {
+            "name": "Xavier AUMONT",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 617,
+            "share_class": null,
+            "pct": 41.13
+          },
+          {
+            "name": "Franck GICQUEL",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 60,
+            "share_class": null,
+            "pct": 6.0
+          }
+        ],
+        "holders_complete": true,
+        "evidence": {
+          "line_ids": [
+            "p1.35",
+            "p1.36"
+          ],
+          "quote_fr": "la feuille de présence, certifiée exacte par les membres du bureau, permet de constater que les associés présents ou ayant donné pouvoir possèdent 1500 actions sur les 1500 actions ayant le droit de vote."
+        }
+      }
+    ],
+    "issues": [
+      "Individual share counts per transferor (GUELLATI, LEROUX, ROUJEAN) are not stated; only the aggregate post-transfer cap table of 1,500 shares is shown. The document records that the 'protocole' contained an error in répartition but the register of movements is deemed correct. Nominal par value of €100 per share inferred from 150,000 € capital ÷ 1,500 shares."
+    ]
+  }
+}

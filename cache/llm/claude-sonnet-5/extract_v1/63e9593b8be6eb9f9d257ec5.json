@@ -1,0 +1,85 @@
+{
+  "inpi_id": "63e9593b8be6eb9f9d257ec5",
+  "model": "claude-sonnet-5",
+  "prompt_version": "extract_v1",
+  "request_ids": [
+    "req_011Cf1cXyUnG2yn8SG2TDdR2"
+  ],
+  "attempts": 1,
+  "elapsed_s": 23.5,
+  "usage": {
+    "input_tokens": 32645,
+    "output_tokens": 2421,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 8019
+  },
+  "extraction": {
+    "summary_en": "This is the founding constitution act (statuts) of ARCHEAN Technologies SAS, signed 15 December 2004 at Montauban, deposited at the greffe 25 January 2005. It sets initial share capital at 37,000 euros divided into 370 shares of 100 euros nominal each, half paid-up, held by three founding associates. No subsequent capital movement is recorded in this filing.",
+    "decision_dates": [
+      {
+        "date": "2004-12-15",
+        "body": "constitution",
+        "evidence": {
+          "line_ids": [
+            "p24.11",
+            "p24.12"
+          ],
+          "quote_fr": "Fait à Montauban Le 15 décembre 2004"
+        }
+      }
+    ],
+    "events": [],
+    "snapshots": [
+      {
+        "as_of": "2004-12-15",
+        "as_of_basis": "Date of signature of the founding statutes (constitution), matching the incorporation apports article.",
+        "capital_eur": 37000.0,
+        "shares_total": 370,
+        "nominal_eur": 100.0,
+        "holders": [
+          {
+            "name": "Xavier AUMONT",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 155,
+            "share_class": null,
+            "pct": null
+          },
+          {
+            "name": "Antonio BLANCO MARINA",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 60,
+            "share_class": null,
+            "pct": null
+          },
+          {
+            "name": "Franck GICQUEL",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 155,
+            "share_class": null,
+            "pct": null
+          }
+        ],
+        "holders_complete": true,
+        "evidence": {
+          "line_ids": [
+            "p3.14",
+            "p3.15",
+            "p3.16",
+            "p3.17",
+            "p3.18",
+            "p3.20",
+            "p3.22",
+            "p3.23"
+          ],
+          "quote_fr": "Le capital social est fixé à la somme de trente sept mille (37.0o0) euros. Il est divisé en trois cent soixante dix (370) actions d'une seule catégorie de cent (100) euros de nominal chacune, libérées pour moitié, et attribuées aux actionnaires suivant la répartition suivante : Monsieur Xavier AUMONT 155 actions ... Monsieur Antonio BLANCO MARINA 60 actions Monsieur Franck GICQUEL"
+        }
+      }
+    ],
+    "issues": [
+      "The OCR table in Article 7 (Capital social) apportioning the 370 shares among the three founders is garbled: the line '155 actions' appears twice right after Xavier AUMONT's name, then Antonio BLANCO MARINA is followed by '60 actions', and Franck GICQUEL's name is not followed by any explicit share count in the OCR. The extraction assumes AUMONT=155, BLANCO MARINA=60, GICQUEL=155 (summing to the stated total of 370 shares), but the original column alignment could not be fully verified from the OCR."
+    ]
+  }
+}

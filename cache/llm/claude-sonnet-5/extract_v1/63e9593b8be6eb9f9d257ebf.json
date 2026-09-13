@@ -1,0 +1,92 @@
+{
+  "inpi_id": "63e9593b8be6eb9f9d257ebf",
+  "model": "claude-sonnet-5",
+  "prompt_version": "extract_v1",
+  "request_ids": [
+    "req_011Cf1cTuTaPaa2Uj9fFBwMK"
+  ],
+  "attempts": 1,
+  "elapsed_s": 16.5,
+  "usage": {
+    "input_tokens": 3572,
+    "output_tokens": 1710,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 8019
+  },
+  "extraction": {
+    "summary_en": "AGE of ARCHEAN TECHNOLOGIES held 2017-01-19 authorized (subject to suspensive conditions: bank financing and absence of creditor opposition) a capital decrease of up to €150,861 (368,102 → 217,241) via buyback and cancellation of 150,861 shares (nominal €1) held by minority shareholders, at €2.72/share. The decrease was not yet completed as of this filing; it merely authorizes the President to carry it out within 30 days.",
+    "decision_dates": [
+      {
+        "date": "2017-01-19",
+        "body": "AGE",
+        "evidence": {
+          "line_ids": [
+            "p2.12"
+          ],
+          "quote_fr": "DE L'ASSEMBLEE GENERALE MIXTE DU 19 JANVIER 2017"
+        }
+      }
+    ],
+    "events": [
+      {
+        "code": "CAPITAL_DECREASE",
+        "status": "decided_pending_realisation",
+        "effective_date": null,
+        "date_basis": "The AGE of 19 January 2017 authorized the reduction subject to suspensive conditions not shown as satisfied in this document; no realisation date is given.",
+        "amount_eur": 150861.0,
+        "capital_before_eur": 368102.0,
+        "capital_after_eur": 217241.0,
+        "shares_delta": -150861,
+        "nominal_eur": 1.0,
+        "method": "autre",
+        "mechanism": "rachat et annulation d'actions détenues par les associés minoritaires (art. L.225-207 C.com), prix de rachat 2,72 euros/action, décision soumise à conditions suspensives (financement bancaire, absence d'opposition des créanciers)",
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": 2.72,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p3.25",
+            "p3.26",
+            "p3.27",
+            "p3.28",
+            "p3.29",
+            "p3.30"
+          ],
+          "quote_fr": "autorise la réduction du capital social pour un montant maximum de 150 861 euros, pour le ramener de 368 102 euros à 217 241 euros, par voie de rachat d'actions détenues par les associés minoritaires, en vue de leur annulation, selon les modalités fixées par l'article L. 225-207 du Code de commerce. Cette opération sera réalisée par le rachat de 150 861 actions de 1 euro de nominal chacune, au prix de 2,72 euros par action."
+        },
+        "gloss_en": "AGE authorizes a capital decrease of up to €150,861 (368,102→217,241) via buyback/cancellation of up to 150,861 shares from minority shareholders at €2.72/share, subject to suspensive conditions.",
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "snapshots": [
+      {
+        "as_of": "2017-01-19",
+        "as_of_basis": "Capital stated in the AGE resolution prior to the authorized reduction.",
+        "capital_eur": 368102.0,
+        "shares_total": null,
+        "nominal_eur": null,
+        "holders": [],
+        "holders_complete": false,
+        "evidence": {
+          "line_ids": [
+            "p3.25",
+            "p3.26"
+          ],
+          "quote_fr": "autorise la réduction du capital social pour un montant maximum de 150 861 euros, pour le ramener de 368 102 euros à 217 241 euros"
+        }
+      }
+    ],
+    "issues": [
+      "The reduction is conditional on bank financing and absence of creditor opposition; this filing does not show the realisation, only the authorization, so the actual capital-after figure (217,241) may not have been achieved if fewer than 150,861 shares were bought back.",
+      "No shareholder names or share allocations are given in this filing, so no snapshot of the cap table by holder could be built.",
+      "The letterhead states capital of 368,102 euros (pre-reduction), consistent with the resolution text; not used as an independent snapshot per instructions but corroborates the figure."
+    ]
+  }
+}

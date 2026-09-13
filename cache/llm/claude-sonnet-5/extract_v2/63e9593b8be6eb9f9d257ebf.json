@@ -1,0 +1,24 @@
+{
+  "inpi_id": "63e9593b8be6eb9f9d257ebf",
+  "model": "claude-sonnet-5",
+  "prompt_version": "extract_v2",
+  "request_ids": [
+    "req_011Cf1dabVQ5X8E8f2f9QtWu",
+    "req_011Cf1dbqqPB6kscgg7vVGLg"
+  ],
+  "attempts": 2,
+  "elapsed_s": 28.3,
+  "usage": {
+    "input_tokens": 11146,
+    "output_tokens": 3252,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 17198
+  },
+  "extraction": {
+    "summary_en": "This is the minutes of a mixed general meeting of ARCHEAN TECHNOLOGIES held 19 January 2017. The AGM allocated a deficit to reserves, then authorized (subject to suspensive conditions: bank financing and absence of creditor opposition) a capital decrease of up to €150,861 via buyback-and-cancellation of shares held by minority shareholders, reducing capital from €368,102 to €217,241, and gave powers to the President to execute it. No realization of the decrease is recorded in this document.</summary_en>\n<parameter name=\"decision_dates\">[{\"date\":\"2017-01-19\",\"body\":\"AGE\",\"evidence\":{\"line_ids\":[\"p2.12\"],\"quote_fr\":\"DU 19 JANVIER 2017\"}}]</parameter>\n<parameter name=\"events\">[{\"code\":\"CAPITAL_DECREASE\",\"status\":\"decided_pending_realisation\",\"amount_eur\":150861,\"capital_before_eur\":368102,\"capital_after_eur\":217241,\"shares_delta\":150861,\"method\":\"autre\",\"mechanism\":\"rachat et annulation d'actions détenues par les associés minoritaires (art. L.225-207)\",\"effective_date\":null,\"date_basis\":\"Decision taken at the AGE of 19 January 2017; realisation subject to suspensive conditions (bank financing, absence of creditor opposition) not shown as fulfilled in this document.\",\"confidence\":\"high\",\"evidence\":{\"line_ids\":[\"p3.25\",\"p3.26\",\"p3.27\",\"p3.28\",\"p3.29\",\"p3.30\"],\"quote_fr\":\"autorise la réduction du capital social pour un montant maximum de 150 861 euros, pour le ramener de 368 102 euros à 217 241 euros, par voie de rachat d'actions détenues par les associés minoritaires, en vue de leur annulation, selon les modalités fixées par l'article L. 225-207 du Code de commerce. Cette opération sera réalisée par le rachat de 150 861 actions de 1 euro de nominal chacune, au prix de 2,72 euros par action.\"},\"gloss_en\":\"The AGM authorized a capital decrease of up to €150,861 (from €368,102 to €217,241) via buyback and cancellation of 150,861 shares (nominal €1 each) held by minority shareholders, at €2.72/share, subject to suspensive conditions.\",\"notes\":\"Explicitly conditional on obtaining bank financing and absence of (or rejection of) creditor opposition; this filing gives powers to the President to carry it out but does not itself record completion.\"},{\"code\":\"CAPITAL_DECREASE\",\"status\":\"authorisation_only\",\"amount_eur\":150861,\"capital_before_eur\":368102,\"capital_after_eur\":217241,\"method\":\"autre\",\"mechanism\":\"rachat et annulation - pouvoirs donnés au Président pour réaliser l'opération\",\"evidence\":{\"line_ids\":[\"p4.14\",\"p4.15\",\"p4.16\",\"p4.17\"],\"quote_fr\":\"L'Assemblée Générale confère tous pouvoirs au Président aux fins d'acquérir les actions présentées au rachat dans les conditions qui viennent d'être fixées et de réaliser la réduction de capital décidée sous la résolution précédente, en une ou plusieurs fois, dans un délai maximum de trente jours à compter de ce jour et de procéder à la modification corrélative des statuts.\"},\"gloss_en\":\"The AGM delegated to the President full powers to execute the buyback and the capital decrease within 30 days, but this act itself does not confirm realisation.\",\"confidence\":\"medium\"}]</parameter>\n<parameter name=\"snapshots\">[]</parameter>\n<parameter name=\"issues\">[\"The capital decrease (rachat et annulation d'actions des associés minoritaires) is authorized here but subject to suspensive conditions (bank financing, absence of creditor opposition); this filing does not show its realisation, so capital_after_eur of 217,241 is a projected/decided figure, not confirmed as effective.\", \"The minority shareholders whose shares would be bought back are not individually named in this document, so no SHAREHOLDER_END events could be attributed to specific holders.\"]</parameter>\n</invoke>\n",
+    "decision_dates": [],
+    "events": [],
+    "snapshots": [],
+    "issues": []
+  }
+}

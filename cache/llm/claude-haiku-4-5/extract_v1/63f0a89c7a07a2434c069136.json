@@ -1,0 +1,97 @@
+{
+  "inpi_id": "63f0a89c7a07a2434c069136",
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_version": "extract_v1",
+  "request_ids": [
+    "req_011Cf1cZds8L3ANXksMWqWNZ"
+  ],
+  "attempts": 1,
+  "elapsed_s": 16.7,
+  "usage": {
+    "input_tokens": 3017,
+    "output_tokens": 1587,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5904
+  },
+  "extraction": {
+    "summary_en": "CAA report dated 2008-04-18 for an in-kind contribution of 225 ARCHEAN TECHNOLOGIES shares by Michel CAPGRAS to HADEAN, valued at 129,375 euros. The document establishes that ARCHEAN TECHNOLOGIES had a capital of 200,000 euros divided into 2,000 shares at 100 euros nominal value; Capgras held at least 225 of these shares.",
+    "decision_dates": [
+      {
+        "date": "2008-04-02",
+        "body": "Ordonnance du Président du Tribunal de Commerce de Toulouse",
+        "evidence": {
+          "line_ids": [
+            "p3.2",
+            "p3.3"
+          ],
+          "quote_fr": "En exécution de la mission qui m'a été confiée par ordonnance de Monsieur le Président du Tribunal de Commerce de Toulouse en date du 2 avril 2008 concernant l'apport de 225 actions de la société ARCHEAN TECHNOLOGIES à la société HADEAN"
+        }
+      }
+    ],
+    "events": [
+      {
+        "code": "SHAREHOLDER_SHARE_TRANSFER",
+        "status": "completed_here",
+        "effective_date": "2008-04-18",
+        "date_basis": "CAA report date; the apport-en-nature is being reported to authorities as completed",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "apport en nature",
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": "Michel CAPGRAS",
+        "to_name": "HADEAN",
+        "shares": 225,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p3.14",
+            "p3.15",
+            "p4.29",
+            "p4.30"
+          ],
+          "quote_fr": "Monsieur Michel CAPGRAS propose de faire apport à la SAS HADEAN de 225 actions qu'il détient dans le capital de la société ARCHEAN TECHNOLOGIES. En conclusion de mes travaux, je suis d'avis que la valeur des apports s'élevant à 129 375 euros n'est pas surévaluée"
+        },
+        "gloss_en": "Michel Capgras transfers 225 shares of ARCHEAN TECHNOLOGIES to HADEAN via in-kind contribution valued at 129,375 euros.",
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "snapshots": [
+      {
+        "as_of": "2008-04-18",
+        "as_of_basis": "Date of the CAA report; state of ARCHEAN TECHNOLOGIES capital at the time of the apport-en-nature",
+        "capital_eur": 200000.0,
+        "shares_total": 2000,
+        "nominal_eur": 100.0,
+        "holders": [
+          {
+            "name": "Michel CAPGRAS",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 225,
+            "share_class": null,
+            "pct": null
+          }
+        ],
+        "holders_complete": false,
+        "evidence": {
+          "line_ids": [
+            "p3.23",
+            "p3.14",
+            "p3.15"
+          ],
+          "quote_fr": "Son capital est de 200 000 euros, divisé en 2 000 actions de 100 euros de valeur nominale. Monsieur Michel CAPGRAS propose de faire apport à la SAS HADEAN de 225 actions qu'il détient dans le capital de la société ARCHEAN TECHNOLOGIES, constituée le 15 décembre 2004"
+        }
+      }
+    ],
+    "issues": []
+  }
+}

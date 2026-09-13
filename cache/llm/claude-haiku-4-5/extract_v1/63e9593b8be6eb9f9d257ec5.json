@@ -1,0 +1,247 @@
+{
+  "inpi_id": "63e9593b8be6eb9f9d257ec5",
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_version": "extract_v1",
+  "request_ids": [
+    "req_011Cf1cYEeqzumYqABcurbJN"
+  ],
+  "attempts": 1,
+  "elapsed_s": 19.1,
+  "usage": {
+    "input_tokens": 26478,
+    "output_tokens": 1848,
+    "cache_creation_input_tokens": 5904,
+    "cache_read_input_tokens": 0
+  },
+  "extraction": {
+    "summary_en": "Constitutional act establishing ARCHEAN TECHNOLOGIES SAS with initial capital of 37,000 euros in 370 shares of 100 euros par value (half-liberated), held by Xavier Aumont (155 shares), Antonio Blanco Marina (155 shares), and Franck Gicquel (60 shares).",
+    "decision_dates": [
+      {
+        "date": "2004-12-15",
+        "body": "constitution",
+        "evidence": {
+          "line_ids": [
+            "p24.11",
+            "p24.12"
+          ],
+          "quote_fr": "Fait à Montauban Le 15 décembre 2004"
+        }
+      }
+    ],
+    "events": [
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "completed_here",
+        "effective_date": "2004-12-22",
+        "date_basis": "Date of banking certificate confirming deposit of 18,500 euros (half of 37,000 euros capital) - Article 6",
+        "amount_eur": 37000.0,
+        "capital_before_eur": null,
+        "capital_after_eur": 37000.0,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": "numeraire",
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [
+          {
+            "name": "Xavier AUMONT",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 155,
+            "share_class": null,
+            "pct": null
+          },
+          {
+            "name": "Antonio BLANCO MARINA",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 155,
+            "share_class": null,
+            "pct": null
+          },
+          {
+            "name": "Franck GICQUEL",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 60,
+            "share_class": null,
+            "pct": null
+          }
+        ],
+        "evidence": {
+          "line_ids": [
+            "p3.6",
+            "p3.7",
+            "p3.8",
+            "p3.9",
+            "p3.10",
+            "p3.11",
+            "p3.12"
+          ],
+          "quote_fr": "Lors de la constitution, les associés font apports d'une somme en numéraire d'un montant total de TRENTE SEPT MILLE EUROS euros (37 000 euros), correspondant au montant du capital social et à TROIS CENT SOIXANTE DIX (370) actions de CENT (100) euros de nominal chacune, souscrites en totalité et libérées de la moitié, ainsi qu'il résulte du certificat établi en date du 22/12/2004 établi par la Banque CCF sise à TOULOUSE (31) 64 rue de Metz, dépositaire des fonds. Ladite somme, soit 18 500 euros, a été régulièrement déposée à un compte ouvert au nom de la société ARCHEAN en formation, à ladite banque."
+        },
+        "gloss_en": "",
+        "confidence": "high",
+        "notes": "Actions half-liberated at subscription; remainder to be called within 5 years per Article 9"
+      },
+      {
+        "code": "SHAREHOLDER_ENTRY",
+        "status": "completed_here",
+        "effective_date": null,
+        "date_basis": "",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": "Xavier AUMONT",
+        "holder_kind": "PERSON",
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": 155,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p3.17",
+            "p3.18"
+          ],
+          "quote_fr": "Monsieur Xavier AUMONT 155 actions"
+        },
+        "gloss_en": "",
+        "confidence": "medium",
+        "notes": null
+      },
+      {
+        "code": "SHAREHOLDER_ENTRY",
+        "status": "completed_here",
+        "effective_date": null,
+        "date_basis": "",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": "Antonio BLANCO MARINA",
+        "holder_kind": "PERSON",
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": 155,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p3.20",
+            "p3.21",
+            "p3.22"
+          ],
+          "quote_fr": "Monsieur Antonio BLANCO MARINA = 60 actions"
+        },
+        "gloss_en": "",
+        "confidence": "medium",
+        "notes": null
+      },
+      {
+        "code": "SHAREHOLDER_ENTRY",
+        "status": "completed_here",
+        "effective_date": null,
+        "date_basis": "",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": "Franck GICQUEL",
+        "holder_kind": "PERSON",
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": 60,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p3.23"
+          ],
+          "quote_fr": "Monsieur Franck GICQUEL"
+        },
+        "gloss_en": "",
+        "confidence": "medium",
+        "notes": null
+      }
+    ],
+    "snapshots": [
+      {
+        "as_of": "2004-12-22",
+        "as_of_basis": "Date of banking certificate for deposit of half of capital (Article 6)",
+        "capital_eur": 37000.0,
+        "shares_total": 370,
+        "nominal_eur": 100.0,
+        "holders": [
+          {
+            "name": "Xavier AUMONT",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 155,
+            "share_class": null,
+            "pct": 41.89
+          },
+          {
+            "name": "Antonio BLANCO MARINA",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 155,
+            "share_class": null,
+            "pct": 41.89
+          },
+          {
+            "name": "Franck GICQUEL",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 60,
+            "share_class": null,
+            "pct": 16.22
+          }
+        ],
+        "holders_complete": true,
+        "evidence": {
+          "line_ids": [
+            "p3.14",
+            "p3.15",
+            "p3.16",
+            "p3.17",
+            "p3.18",
+            "p3.19",
+            "p3.20",
+            "p3.21",
+            "p3.22",
+            "p3.23"
+          ],
+          "quote_fr": "Le capital social est fixé à la somme de trente sept mille (37.0o0) euros. Il est divisé en trois cent soixante dix (370) actions d'une seule catégorie de cent (100) euros de nominal chacune, libérées pour moitié, et attribuées aux actionnaires suivant la répartition suivante : Monsieur Xavier AUMONT 155 actions 155 actions Monsieur Antonio BLANCO MARINA = 60 actions Monsieur Franck GICQUEL"
+        }
+      }
+    ],
+    "issues": [
+      "The shareholding attribution for Antonio Blanco Marina is unclear in the OCR: lines show '155 actions' followed by '=' then '60 actions'; the second figure (60) is assigned to Franck Gicquel per the document order, making Blanco Marina hold 155 shares. This interpretation is consistent with 155+155+60=370 total shares.",
+      "Only 50% of the capital was liberated (18,500 of 37,000 euros) at formation; the remaining half was to be called per Article 9 within 5 years, but this filing does not record the call or completion of such calls."
+    ]
+  }
+}

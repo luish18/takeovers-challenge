@@ -1,0 +1,89 @@
+{
+  "inpi_id": "63e9593b8be6eb9f9d257ebf",
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_version": "extract_v2",
+  "request_ids": [
+    "req_011Cf1dPvBVKXzeCKDohM1G1"
+  ],
+  "attempts": 1,
+  "elapsed_s": 13.6,
+  "usage": {
+    "input_tokens": 4167,
+    "output_tokens": 1164,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 6333
+  },
+  "extraction": {
+    "summary_en": "Minutes of the 19 January 2017 mixed general assembly of ARCHEAN TECHNOLOGIES (SAS). The assembly authorizes a capital reduction from 368,102 euros to 217,241 euros (reduction of 150,861 euros maximum) by buyback and cancellation of 150,861 shares at €2.72 per share held by minority shareholders, subject to bank financing and creditor-opposition clearance.",
+    "decision_dates": [
+      {
+        "date": "2017-01-19",
+        "body": "capital reduction authorization",
+        "evidence": {
+          "line_ids": [
+            "p2.12"
+          ],
+          "quote_fr": "DU 19 JANVIER 2017"
+        }
+      }
+    ],
+    "events": [
+      {
+        "code": "CAPITAL_DECREASE",
+        "status": "decided_pending_realisation",
+        "effective_date": null,
+        "date_basis": "Decision date is 19 January 2017 (assembly meeting), but realization is conditional on bank financing and creditor-opposition clearance, neither shown as completed in this filing.",
+        "amount_eur": 150861.0,
+        "capital_before_eur": 368102.0,
+        "capital_after_eur": 217241.0,
+        "shares_delta": 150861,
+        "nominal_eur": null,
+        "method": "autre",
+        "mechanism": "rachat et annulation d'actions",
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p3.25",
+            "p3.26",
+            "p3.27",
+            "p3.28",
+            "p3.29",
+            "p3.30"
+          ],
+          "quote_fr": "autorise la réduction du capital social pour un montant maximum de 150 861 euros, pour le ramener de 368 102 euros à 217 241 euros, par voie de rachat d'actions détenues par les associés minoritaires, en vue de leur annulation, selon les modalités fixées par l'article L. 225-207 du Code de commerce. Cette opération sera réalisée par le rachat de 150 861 actions de 1 euro de nominal chacune, au prix de 2,72 euros par action."
+        },
+        "gloss_en": "Assembly authorizes buyback and cancellation of 150,861 shares (€1 par value) at €2.72 per share to reduce capital from €368,102 to €217,241.",
+        "confidence": "medium",
+        "notes": null
+      }
+    ],
+    "snapshots": [
+      {
+        "as_of": "2017-01-19",
+        "as_of_basis": "Before the capital reduction decision, per the assembly meeting date and the capital stated in the meeting header.",
+        "capital_eur": 368102.0,
+        "shares_total": null,
+        "nominal_eur": null,
+        "holders": [],
+        "holders_complete": false,
+        "evidence": {
+          "line_ids": [
+            "p2.4"
+          ],
+          "quote_fr": "Société par actions simplifiée au capital de 368 102 euros"
+        }
+      }
+    ],
+    "issues": [
+      "The capital reduction is conditional on bank financing and creditor-opposition clearance (p4.1-4), neither of which is shown as satisfied in this filing. The statutes are not reproduced, so the post-reduction capital cannot be verified against updated articles."
+    ]
+  }
+}

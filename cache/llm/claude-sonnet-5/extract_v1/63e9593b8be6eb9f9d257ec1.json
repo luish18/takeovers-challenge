@@ -1,0 +1,128 @@
+{
+  "inpi_id": "63e9593b8be6eb9f9d257ec1",
+  "model": "claude-sonnet-5",
+  "prompt_version": "extract_v1",
+  "request_ids": [
+    "req_011Cf1cfu37B438wBgbRTvD3"
+  ],
+  "attempts": 1,
+  "elapsed_s": 34.8,
+  "usage": {
+    "input_tokens": 10742,
+    "output_tokens": 3532,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 8019
+  },
+  "extraction": {
+    "summary_en": "This filing is a complementary report by the Commissaire aux Avantages Particuliers (André Daïde), dated 22 July 2008, appraising the \"avantages particuliers\" attached to new preference share categories \"A\", \"B\" and \"B'\" that ARCHEAN TECHNOLOGIES was creating (per the AGE of 27 June 2008, mission ordered by the Tribunal de Commerce on 14 May 2008). The report describes the rights (priority dividend, mandatory conversion, reinforced information/audit rights, board seats, liquidation preference, B-to-B' conversion mechanics) and concludes with no objection; it does not itself contain the capital-increase resolutions or a cap table, only a reference that 150,861 \"B\" shares were issued under the relevant resolutions.",
+    "decision_dates": [
+      {
+        "date": "2008-06-27",
+        "body": "AGE",
+        "evidence": {
+          "line_ids": [
+            "p4.9",
+            "p4.10"
+          ],
+          "quote_fr": "En outre, dès lors qu'il serait envisagé de procéder à l'une des opérations visées à l'article 15.3.3.c) du projet de statuts présenté à l'Assemblée Générale du 27 juin 2008"
+        }
+      },
+      {
+        "date": "2008-05-14",
+        "body": "ordonnance du Président du Tribunal de Commerce",
+        "evidence": {
+          "line_ids": [
+            "p2.2",
+            "p2.3"
+          ],
+          "quote_fr": "En exécution de la mission qui m'a été confiée par ordonnance du Président du Tribunal de Commerce de Toulouse en date du 14 mai 2008 concernant la création d'actions de préférence par la société ARCHEAN TECHNOLOGIES"
+        }
+      },
+      {
+        "date": "2008-07-22",
+        "body": "commissaire aux avantages particuliers",
+        "evidence": {
+          "line_ids": [
+            "p9.23"
+          ],
+          "quote_fr": "Fait à Toulouse, le 22 juillet 2008"
+        }
+      }
+    ],
+    "events": [
+      {
+        "code": "CAPITAL_DUAL_CLASS",
+        "status": "restated_history",
+        "effective_date": "2008-06-27",
+        "date_basis": "Report refers to preference shares created per the AGE whose draft statuts/resolutions are dated 27 June 2008; this document itself only appraises the advantages, dated 22 July 2008.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "Actions de préférence A: dividende prioritaire plafonné (35 000 €/an, jusqu'à 245 000 € agrégés ou AGO 2015) et conversion obligatoire en actions ordinaires (cotation, cession totale, décision unanime, ou seuils de dividendes/2013).",
+        "share_class": "A",
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p2.15",
+            "p2.16",
+            "p2.17"
+          ],
+          "quote_fr": "Cette opération consiste en la création d'actions de préférence dites de catégorie « A » et de catégorie « B » et « B' », bénéficiant des droits particuliers suivants : I.1. Actions de catégorie A"
+        },
+        "gloss_en": "Creation of category 'A' preference shares with a priority dividend and mandatory conversion into ordinary shares, decided at the 27 June 2008 AGE referenced by this report.",
+        "confidence": "medium",
+        "notes": null
+      },
+      {
+        "code": "CAPITAL_DUAL_CLASS",
+        "status": "restated_history",
+        "effective_date": "2008-06-27",
+        "date_basis": "Report refers to preference shares created per the AGE whose draft statuts/resolutions are dated 27 June 2008; this document itself only appraises the advantages, dated 22 July 2008.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": 150861,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "Actions de préférence B (et B' par conversion): droit d'information renforcé, droit d'audit, sièges au Comité de Suivi, liquidation préférentielle, et conversion B->ordinaires ou B->B' selon formule liée au prix de souscription (5,80 €); 150.861 actions B émises.",
+        "share_class": "B / B'",
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": 5.8,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p2.15",
+            "p2.16",
+            "p7.25",
+            "p7.26"
+          ],
+          "quote_fr": "«N° » désigne le nombre d'actions « B» émises en vertu des présentes résolutions, soit 150.861 actions"
+        },
+        "gloss_en": "Creation of category 'B' (and derivative 'B'') preference shares with enhanced information/audit/board rights, liquidation preference and conversion mechanics; 150,861 B shares issued at 5.80€ each.",
+        "confidence": "medium",
+        "notes": null
+      }
+    ],
+    "snapshots": [],
+    "issues": [
+      "This document is only the Commissaire aux Avantages Particuliers' complementary report; it does not include the AGE resolutions themselves or a cap table, so exact capital amounts before/after the preference-share creation cannot be derived here.",
+      "The letterhead states 'au capital de 200 000 euros' but per instructions this is not used as a snapshot since it is a letterhead figure, not a stated capital-composition article.",
+      "The AGE date (27 juin 2008) is inferred from internal references ('projet de statuts présenté à l'Assemblée Générale du 27 juin 2008', '11ème résolution du procès-verbal de l'assemblée générale du 27 juin 2008') rather than stated as the date of this report's own decision."
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "model": "claude-sonnet-5",
+  "events": {
+    "gold": 29,
+    "model": 25,
+    "matched": 25,
+    "recall": 0.862,
+    "precision": 1.0,
+    "date_mismatches": [],
+    "value_mismatches": [
+      "2004-12-15 SHAREHOLDER_ENTRY Antonio BLANCO MARINA 155: shares 155 vs 60",
+      "2004-12-15 SHAREHOLDER_ENTRY Franck GICQUEL 60: shares 60 vs 155",
+      "2006-10-20 SHAREHOLDER_ENTRY Michel CAPGRAS 225: shares 225 vs None"
+    ],
+    "missed": [
+      "2017-02-21 SHAREHOLDER_END FPCI SECURITE 64655",
+      "2017-02-21 SHAREHOLDER_END FIP GALIA PME 4 12931",
+      "2017-02-21 SHAREHOLDER_END GALIA VENTURE 30172",
+      "2017-02-21 SHAREHOLDER_END FPCI FINANCIERE DE BRIENNE 43103"
+    ],
+    "extra": [],
+    "grounded_rate": 0.96,
+    "same_source_page_rate": 0.88,
+    "mean_bbox_iou_on_same_page": 0.475
+  },
+  "timeline": {
+    "gold_states": 12,
+    "model_states": 12,
+    "exact_matches": 10,
+    "diffs": [
+      "2004-12-15 capital 37,000: holders {'ANTONIO BLANCO MARINA': 155, 'FRANCK GICQUEL': 60, 'XAVIER AUMONT': 155} vs {'ANTONIO BLANCO MARINA': 60, 'FRANCK GICQUEL': 155, 'XAVIER AUMONT': 155}",
+      "2005-05-17 capital 150,000: holders {'ANTONIO BLANCO MARINA': 155, 'FRANCK GICQUEL': 60, 'UNIDENTIFIED HOLDERS': 1130, 'XAVIER AUMONT': 155} vs {'ANTONIO BLANCO MARINA': 60, 'FRANCK GICQUEL': 155, 'UNIDENTIFIED HOLDERS': 1130, 'XAVIER AUMONT': 155}"
+    ],
+    "extra_states": []
+  },
+  "pipeline_summary": {
+    "mentions": {
+      "realisation_of_earlier_decision": 1,
+      "grounded": 57,
+      "completed_here": 18,
+      "restated_history": 35,
+      "rejected": 1,
+      "authorisation_only": 2,
+      "ungrounded": 2,
+      "decided_pending_realisation": 5
+    },
+    "events": {
+      "SHAREHOLDER_ENTRY": 5,
+      "CAPITAL_INCREASE": 5,
+      "SHAREHOLDER_END": 7,
+      "SHAREHOLDER_SHARE_TRANSFER": 5,
+      "CAPITAL_DUAL_CLASS": 2,
+      "CAPITAL_DECREASE": 1
+    },
+    "derived": 6,
+    "states": 12,
+    "checks": 5,
+    "missing": 0
+  },
+  "usage": {
+    "prompt_version": "extract_v1",
+    "documents": 20,
+    "input_tokens": 506084,
+    "output_tokens": 100393,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 176418,
+    "estimated_usd": 2.0514
+  }
+}

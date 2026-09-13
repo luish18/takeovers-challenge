@@ -1,0 +1,210 @@
+{
+  "inpi_id": "63e9593a8be6eb9f9d257ebd",
+  "model": "claude-sonnet-5",
+  "prompt_version": "extract_v2",
+  "request_ids": [
+    "req_011Cf1dYtHszMnQUTbRkERK9"
+  ],
+  "attempts": 1,
+  "elapsed_s": 32.9,
+  "usage": {
+    "input_tokens": 44275,
+    "output_tokens": 3613,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 8599
+  },
+  "extraction": {
+    "summary_en": "This filing records a président's decision (29 Jan 2013) to transfer ARCHEAN TECHNOLOGIES' registered office and updated statutes reflecting that change; it contains no new capital operation. The updated statutes' \"Apports\" article (art.6) recalls the company's capital history (founding capital, then successive increases in 2005/2006/2008) and article 7 restates the current capital of 368,102 EUR split into 217,241 category-A and 150,861 category-B preference shares.",
+    "decision_dates": [
+      {
+        "date": "2013-01-29",
+        "body": "président",
+        "evidence": {
+          "line_ids": [
+            "p2.13",
+            "p2.14",
+            "p2.15"
+          ],
+          "quote_fr": "PROCES-VERBAL DES DECISIONS DU PRESIDENT DU 29 JANVIER 2013 Le vingt neuf janvier deux mille treize,"
+        }
+      }
+    ],
+    "events": [
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "restated_history",
+        "effective_date": "2005-05-17",
+        "date_basis": "Date of the AGE mentioned in the statutes' Apports history article.",
+        "amount_eur": 113000.0,
+        "capital_before_eur": 37000.0,
+        "capital_after_eur": 150000.0,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": "autre",
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p5.33",
+            "p5.34"
+          ],
+          "quote_fr": "Aux termes de l'assemblée générale extraordinaire du 17/05/2005, le capital social a été augmenté de 113,000 euros afin d'être porté à 150.000 euros."
+        },
+        "gloss_en": "Capital increased by €113,000 (17 May 2005 AGE) to reach €150,000.",
+        "confidence": "medium",
+        "notes": "Recalled in the 'Apports' historical article of the updated statutes; method not specified."
+      },
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "restated_history",
+        "effective_date": "2006-10-20",
+        "date_basis": "Date of the AGE mentioned in the statutes' Apports history article.",
+        "amount_eur": 50000.0,
+        "capital_before_eur": 150000.0,
+        "capital_after_eur": 200000.0,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": "autre",
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p6.0",
+            "p6.1"
+          ],
+          "quote_fr": "Aux termes de l'assemblée générale extraordinaire du 20/10/2006, le capital social a été augnenté de 50.000 euros afin d'être porté à 200.000 euros."
+        },
+        "gloss_en": "Capital increased by €50,000 (20 Oct 2006 AGE) to reach €200,000.",
+        "confidence": "medium",
+        "notes": "Method not specified in the recalled history."
+      },
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "restated_history",
+        "effective_date": "2008-06-27",
+        "date_basis": "Date of the AGE mentioned in the statutes' Apports history article.",
+        "amount_eur": 17241.0,
+        "capital_before_eur": 200000.0,
+        "capital_after_eur": 217241.0,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": "autre",
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p6.5",
+            "p6.6"
+          ],
+          "quote_fr": "Aux termes de l'assemblée générale extraordinaire du 27/06/2008, le capital social a été augmenté de 17.241 euros afin d'être porté à 217.241 euros."
+        },
+        "gloss_en": "Capital increased by €17,241 (27 June 2008 AGE) to reach €217,241.",
+        "confidence": "medium",
+        "notes": "Likely corresponds to issuance of category-A preference shares given the current split (217,241 A shares), though not stated explicitly."
+      },
+      {
+        "code": "CAPITAL_INCREASE",
+        "status": "restated_history",
+        "effective_date": "2008-06-27",
+        "date_basis": "Date of the AGE mentioned in the statutes' Apports history article (same day as the prior increase).",
+        "amount_eur": 150861.0,
+        "capital_before_eur": 217241.0,
+        "capital_after_eur": 368102.0,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": "autre",
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p6.7",
+            "p6.8"
+          ],
+          "quote_fr": "Aux termes de l'assemblée générale extraordinaire du 27/06/2008, le capital social a été augmenté de 150.861 euros afin d'être porté à 368.102 euros."
+        },
+        "gloss_en": "Capital increased by €150,861 (same 27 June 2008 AGE) to reach €368,102.",
+        "confidence": "medium",
+        "notes": "Likely corresponds to issuance of category-B preference shares given the current split (150,861 B shares), though not stated explicitly."
+      }
+    ],
+    "snapshots": [
+      {
+        "as_of": "2013-01-29",
+        "as_of_basis": "Capital article (art.7) of the statutes as updated by the président's decision of 29 January 2013.",
+        "capital_eur": 368102.0,
+        "shares_total": 368102,
+        "nominal_eur": 1.0,
+        "holders": [
+          {
+            "name": "Titulaires d'actions de préférence A",
+            "kind": "UNKNOWN",
+            "siren": null,
+            "shares": 217241,
+            "share_class": "A",
+            "pct": null
+          },
+          {
+            "name": "Titulaires d'actions de préférence B",
+            "kind": "UNKNOWN",
+            "siren": null,
+            "shares": 150861,
+            "share_class": "B",
+            "pct": null
+          }
+        ],
+        "holders_complete": false,
+        "evidence": {
+          "line_ids": [
+            "p6.9",
+            "p6.10",
+            "p6.11",
+            "p6.12",
+            "p6.13",
+            "p6.14",
+            "p6.16"
+          ],
+          "quote_fr": "ARTICLE 7 - CAPITAL SOCIAL Le capital social est fixé à la somme de 368.102 euros. Il est divisé en 368.102 actions de 1 euro chacune entièrement libérées. Il est divisé en actions de préférence de catégorie A et en actions de préférence de catégorie B, à savoir : 217.241 actions de préférence de catégorie A, 150.861 actions de préférence de catégorie B."
+        }
+      }
+    ],
+    "issues": [
+      "Article 6 (Apports) states that on 27/06/2008 the nominal value of shares was divided by 100 (capital unchanged at €200,000, split into 200,000 shares of €1 each); this is a par-value change, not a capital event, so no CAPITAL_INCREASE/DECREASE was recorded for it, only noted here.",
+      "The statutes' Apports history article does not name the subscribers or specify the method (numeraire/apport en nature/incorporation de reserves) for the 2005, 2006 and 2008 increases; these are inferred as 'autre' due to lack of detail.",
+      "Two dates conflict for the statutes update: the cover page (p3.11) and the president's decision header (p2.14) both give 29 January 2013, but the final signature line (p28.6) states 'Statuts mis à jour par décision du président en date du 9 janvier 2013' — likely an OCR error for '29 janvier 2013', but flagged as a discrepancy.",
+      "No holder names or individual shareholdings are given anywhere in this filing; only the split between category-A and category-B preference shares is stated, so holders_complete is false and no shareholder-level events could be extracted.",
+      "This filing itself (siège transfer) contains no capital operation; the capital-related content is entirely restated history from the accompanying updated statutes."
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "inpi_id": "63e9593b8be6eb9f9d257ebf",
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_version": "extract_v1",
+  "request_ids": [
+    "req_011Cf1cbAnkrDgwq3w3AobPV"
+  ],
+  "attempts": 1,
+  "elapsed_s": 13.8,
+  "usage": {
+    "input_tokens": 3114,
+    "output_tokens": 1629,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5904
+  },
+  "extraction": {
+    "summary_en": "Mixed general assembly of ARCHEAN TECHNOLOGIES on 19 January 2017 authorizing a capital reduction from 368,102 euros to 217,241 euros by buyback and cancellation of 150,861 shares from minority shareholders at 2.72 euros per share, subject to bank financing and creditor-opposition clearance.",
+    "decision_dates": [
+      {
+        "date": "2017-01-19",
+        "body": "AGE",
+        "evidence": {
+          "line_ids": [
+            "p2.12",
+            "p2.13",
+            "p2.14"
+          ],
+          "quote_fr": "DU 19 JANVIER 2017 L'an deux mille dix-sept, Le dix-neuf janvier"
+        }
+      }
+    ],
+    "events": [
+      {
+        "code": "CAPITAL_DECREASE",
+        "status": "decided_pending_realisation",
+        "effective_date": null,
+        "date_basis": "Decision made at the assembly held 19 January 2017; realization subject to suspensive conditions (financing and creditor-opposition clearance) within 30 days maximum.",
+        "amount_eur": 150861.0,
+        "capital_before_eur": 368102.0,
+        "capital_after_eur": 217241.0,
+        "shares_delta": -150861,
+        "nominal_eur": 1.0,
+        "method": "autre",
+        "mechanism": "rachat et annulation d'actions",
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": null,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p3.25",
+            "p3.26",
+            "p3.27",
+            "p3.29",
+            "p3.30",
+            "p4.1",
+            "p4.2",
+            "p4.3",
+            "p4.4"
+          ],
+          "quote_fr": "L'Assemblée Générale, après avoir entendu la lecture du rapport du Président, et du rapport du Commissaire aux Comptes, autorise la réduction du capital social pour un montant maximum de 150 861 euros, pour le ramener de 368 102 euros à 217 241 euros, par voie de rachat d'actions détenues par les associés minoritaires, en vue de leur annulation, selon les modalités fixées par l'article L. 225-207 du Code de commerce. Cette opération sera réalisée par le rachat de 150 861 actions de 1 euro de nominal chacune, au prix de 2,72 euros par action. Cette décision est prise sous les conditions suspensives de l'obtention par la Société du financement bancaire requis à l'effet de rachat des actions d'une part, de l'absence d'oppositions émanant des créanciers sociaux ou, en cas d'oppositions, du rejet de celles-ci par le tribunal de commerce, d'autre part."
+        },
+        "gloss_en": "Capital reduction by buyback and cancellation of 150,861 shares at 2.72 euros per share, subject to financing and creditor-opposition conditions.",
+        "confidence": "medium",
+        "notes": "The price of 2.72 euros per share exceeds the nominal value of 1 euro; the excess (172,433 euros total) is to be charged to 'Prime d'émission' (share premium account, per p4.5-6). Realization is conditional on (i) bank financing and (ii) absence of creditor opposition or rejection by the commercial court (per p4.1-4). Shares are to be repurchased within 30 days and cancelled within one month thereafter (p4.7)."
+      }
+    ],
+    "snapshots": [
+      {
+        "as_of": "2017-01-19",
+        "as_of_basis": "Attendance sheet date of the mixed general assembly.",
+        "capital_eur": 368102.0,
+        "shares_total": null,
+        "nominal_eur": 1.0,
+        "holders": [],
+        "holders_complete": false,
+        "evidence": {
+          "line_ids": [
+            "p2.4"
+          ],
+          "quote_fr": "Société par actions simplifiée au capital de 368 102 euros"
+        }
+      }
+    ],
+    "issues": [
+      "The attendance sheet is mentioned but not reproduced; therefore individual shareholder names and holdings cannot be extracted.",
+      "The buyback is conditioned on bank financing and creditor-opposition clearance; this filing does not report completion.",
+      "The calculation of the share premium charge: 150,861 shares × (2.72 − 1.00) euros = 150,861 × 1.72 = 259,481 euros, which should be charged to the 'Prime d'émission' account per p4.5-6."
+    ]
+  }
+}

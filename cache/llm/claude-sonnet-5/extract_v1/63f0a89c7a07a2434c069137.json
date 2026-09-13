@@ -1,0 +1,169 @@
+{
+  "inpi_id": "63f0a89c7a07a2434c069137",
+  "model": "claude-sonnet-5",
+  "prompt_version": "extract_v1",
+  "request_ids": [
+    "req_011Cf1cbvJ9b4BqoT39e2Xef"
+  ],
+  "attempts": 1,
+  "elapsed_s": 94.4,
+  "usage": {
+    "input_tokens": 35502,
+    "output_tokens": 9836,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 8019
+  },
+  "extraction": {
+    "summary_en": "This filing is HADEAN's own capital-increase dossier (statutes updated 30 April 2008 and the AGE minutes of that date), filed with the Toulouse registry, concerning HADEAN's capital rising to 578,450€. Its relevance to the subject company ARCHEAN TECHNOLOGIES is that it documents transfers of ARCHEAN TECHNOLOGIES shares into HADEAN: a historical restatement of Xavier AUMONT's (742 shares) and Franck GICQUEL's (80 shares) in-kind contributions of ARCHEAN shares made at HADEAN's 2007 constitution, and a newly completed contribution by Michel CAPGRAS of his 225 ARCHEAN shares on 30 April 2008 (valued at 575€/share, 129,375€ total), approved and declared realised by HADEAN's AGE. The filing also states ARCHEAN TECHNOLOGIES's own capital as 200,000€ divided into 2,000 shares of 100€ nominal, but gives no full cap table and no detail on some referenced historical ARCHEAN capital increases (2005, 2006).",
+    "decision_dates": [
+      {
+        "date": "2008-04-30",
+        "body": "AGE (HADEAN)",
+        "evidence": {
+          "line_ids": [
+            "p22.7",
+            "p22.8"
+          ],
+          "quote_fr": "PROCES VERBAL DES DELIBERATIONS DE L'ASSEMBLEE GENERALE EXTRAORDINAIRE EN DATE DU 30 AVRIL 2008"
+        }
+      }
+    ],
+    "events": [
+      {
+        "code": "SHAREHOLDER_SHARE_TRANSFER",
+        "status": "restated_history",
+        "effective_date": "2007-09-07",
+        "date_basis": "Apport made at HADEAN's constitution, referenced act dated 7 September 2007 (traité d'apport recalls this founding act); the statutes here only restate this historical contribution.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": "Xavier AUMONT",
+        "to_name": "HADEAN",
+        "shares": 742,
+        "price_per_share_eur": 575.0,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p5.10",
+            "p5.12",
+            "p5.13",
+            "p5.14",
+            "p5.20",
+            "p5.21",
+            "p5.22",
+            "p5.23"
+          ],
+          "quote_fr": "6.2- Apport de 742 actions de la SAS ARCHEAN TECHNOLOGIES par Monsieur Xavier AUMONT ... Monsier Xavier AUMONT fait apport de la pleine propriété des 742 (sept cent quarante deux) actions de 100 Euros de valeur nominale chacune qu’il possède de la Société ARCHEAN TECHNOLOGIES ... lesdites actions ont été évaluées à la somme de CINQ CENT SOIXANTE QUINZE (575 €) chacune, soit pour les 742 actions une somme de QUATRE CENT VINGT SIX MILLE SIX CENT CINQUANTE EUROS (426.650 €)"
+        },
+        "gloss_en": "Xavier AUMONT contributed 742 ARCHEAN TECHNOLOGIES shares (valued at 575€ each) to HADEAN in kind, part of HADEAN's founding contributions.",
+        "confidence": "medium",
+        "notes": "Part of HADEAN's constitution apports (article 6), predates the 30 April 2008 AGE; restated here as historical fact in the updated statutes."
+      },
+      {
+        "code": "SHAREHOLDER_SHARE_TRANSFER",
+        "status": "restated_history",
+        "effective_date": "2007-09-07",
+        "date_basis": "Apport made at HADEAN's constitution, referenced act dated 7 September 2007; restated in the updated statutes.",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": "Franck GICQUEL",
+        "to_name": "HADEAN",
+        "shares": 80,
+        "price_per_share_eur": 575.0,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p5.29",
+            "p5.31",
+            "p5.32",
+            "p5.33",
+            "p6.0",
+            "p6.1",
+            "p6.2"
+          ],
+          "quote_fr": "6.3- Apport de 80 actions de la SAS ARCHEAN TECHNOLOGIES par Monsieur Franck GICQUEL ... Monsieur Franck GICQUEL fait apport de la pleine propriété des QUATRE VINGT (80) actions de 100 Euros de valeur nominale chacune de la Société ARCHEAN TECHNOLOGIES ... lesdites actions ont été évaluées à la somme de CINQ CENT SOIXANTE QUINZE (575 €) chacune, soit pour les 80 actions une somme de QUARANTE SIX MILLE EUROS (46.000 €)"
+        },
+        "gloss_en": "Franck GICQUEL contributed 80 ARCHEAN TECHNOLOGIES shares (valued at 575€ each) to HADEAN in kind, part of HADEAN's founding contributions.",
+        "confidence": "medium",
+        "notes": "Part of HADEAN's constitution apports (article 6), predates the 30 April 2008 AGE; restated here as historical fact."
+      },
+      {
+        "code": "SHAREHOLDER_SHARE_TRANSFER",
+        "status": "completed_here",
+        "effective_date": "2008-04-30",
+        "date_basis": "Traité d'apport dated 30 April 2008; realisation confirmed as définitive by the AGE of the same date (5th resolution).",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": "Michel CAPGRAS",
+        "to_name": "HADEAN",
+        "shares": 225,
+        "price_per_share_eur": 575.0,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p23.25",
+            "p23.26",
+            "p23.27",
+            "p23.28",
+            "p23.29",
+            "p25.13",
+            "p25.14"
+          ],
+          "quote_fr": "du contrat d’apport en date du 30 avril 2008 aux termes duquel Monsieur Michel CAPGRAS fait apport à la Société de 225 titres qu'il détient dans la société ARCHEAN TECHNOLOGIES ... ledit apport étant évalué à la somme de 129 375 euros ; ... L'assemblée générale, comme conséquence de l’adoption des résolutions précédentes, constate que les deux opérations concomitantes d’augmentation du capital sont définitivement réalisées"
+        },
+        "gloss_en": "Michel CAPGRAS contributed his 225 ARCHEAN TECHNOLOGIES shares (valued at 575€ each, total 129,375€) to HADEAN in exchange for new HADEAN shares; the operation was approved and declared definitively realised on 30 April 2008.",
+        "confidence": "medium",
+        "notes": "Realised via a capital increase of HADEAN (59,900€) reserved to CAPGRAS as remuneration for the contributed ARCHEAN shares; that HADEAN-side capital increase is out of scope for ARCHEAN's own capital table."
+      }
+    ],
+    "snapshots": [
+      {
+        "as_of": "2008-04-30",
+        "as_of_basis": "Description of ARCHEAN TECHNOLOGIES's capital as stated in both the updated HADEAN statutes (article 6.1) and the traité d'apport of 30 April 2008, based on a CAA report established 6 September 2007; no intervening change is mentioned.",
+        "capital_eur": 200000.0,
+        "shares_total": 2000,
+        "nominal_eur": 100.0,
+        "holders": [],
+        "holders_complete": false,
+        "evidence": {
+          "line_ids": [
+            "p5.8",
+            "p5.9"
+          ],
+          "quote_fr": "Son capital social est actuellement fixé à DEUX CENT MILLE (200.000) euros et est divisé en 2.000 actions de 100 euros de valeur nominale."
+        }
+      }
+    ],
+    "issues": [
+      "The document mentions, without giving amounts, prior ARCHEAN TECHNOLOGIES capital increases dated 17 May 2005 and 20 October 2006 and a share acquisition by Xavier AUMONT dated 16 August 2005 (origin of his 742 shares) — insufficient detail to extract as capital/transfer events.",
+      "ARCHEAN TECHNOLOGIES's capital (200.000€ / 2.000 actions of 100€) is stated identically in a report dated 6 September 2007 and again in documents dated 30 April 2008; it is unclear whether any change occurred between these dates, though none is indicated.",
+      "The three transfers recorded here (742 + 80 + 225 = 1.047 shares) would represent a majority of ARCHEAN TECHNOLOGIES's 2.000 shares if aggregated, but this filing does not provide ARCHEAN's full shareholder list, so completeness of the cap table cannot be confirmed from this document alone."
+    ]
+  }
+}

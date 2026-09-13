@@ -1,0 +1,180 @@
+{
+  "inpi_id": "63f0a89c7a07a2434c069135",
+  "model": "claude-haiku-4-5-20251001",
+  "prompt_version": "extract_v1",
+  "request_ids": [
+    "req_011Cf1cZSw45R9NavCJRuV9Y"
+  ],
+  "attempts": 1,
+  "elapsed_s": 23.6,
+  "usage": {
+    "input_tokens": 24562,
+    "output_tokens": 2618,
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 5904
+  },
+  "extraction": {
+    "summary_en": "Constitutional filing of HADEAN (SAS) that includes appraisals and contribution of 822 ARCHEAN TECHNOLOGIES shares (742 by X. Aumont, 80 by F. Gicquel valued at 575€ each) to the new entity. ARCHEAN itself experiences a shareholder change: HADEAN enters as a 41.1% holder; Aumont and Gicquel exit (or reduce their stakes) by contributing their shares. ARCHEAN's capital of 200,000€ (2,000 shares × 100€) remains unchanged.",
+    "decision_dates": [
+      {
+        "date": "2007-09-07",
+        "body": "Apports en nature à la constitution de la SAS HADEAN",
+        "evidence": {
+          "line_ids": [
+            "p23.28",
+            "p23.29"
+          ],
+          "quote_fr": "Fait à Blagnac le 7 septembre 2007"
+        }
+      }
+    ],
+    "events": [
+      {
+        "code": "SHAREHOLDER_SHARE_TRANSFER",
+        "status": "completed_here",
+        "effective_date": "2007-09-07",
+        "date_basis": "Statutes dated 7 September 2007, p23.29; apport effectiveness stated p6.28",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "apport en nature à la constitution de HADEAN",
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": "Xavier AUMONT",
+        "to_name": "HADEAN",
+        "shares": 742,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p5.29",
+            "p5.31",
+            "p5.32",
+            "p6.0",
+            "p6.1",
+            "p6.2"
+          ],
+          "quote_fr": "Monsieur Xavier AUMONT fait apport de la pleine propriété des 742 (sept cent quarante deux) actions de 100 Euros de valeur nominale chacune qu'il possède de la Société ARCHEAN TECHNOLOGIES, décrite à l'article 6.1 ci-dessus. ... lesdites actions ont été évaluées à la somme de CINQ CENT SOIXANTE QUINZE (575 €) chacune, soit pour les 742 actions une somme de QUATRE CENT VINGT SIX MILLE SIX CENT CINQUANTE EUROS (426.650 €)"
+        },
+        "gloss_en": "Xavier Aumont transfers 742 ARCHEAN shares (100€ par value) valued at 575€ each to HADEAN in kind",
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "code": "SHAREHOLDER_SHARE_TRANSFER",
+        "status": "completed_here",
+        "effective_date": "2007-09-07",
+        "date_basis": "Statutes dated 7 September 2007, p23.29; apport effectiveness stated p6.28",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": "apport en nature à la constitution de HADEAN",
+        "share_class": null,
+        "holder_name": null,
+        "holder_kind": null,
+        "holder_siren": null,
+        "from_name": "Franck GICQUEL",
+        "to_name": "HADEAN",
+        "shares": 80,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p6.9",
+            "p6.11",
+            "p6.12",
+            "p6.19",
+            "p6.20",
+            "p6.21"
+          ],
+          "quote_fr": "Monsieur Franck GICQUEL fait apport de la pleine propriété des QUATRE VINGT (80) actions de 100 Euros de valeur nominale chacune de la Société ARCHEAN TECHNOLOGIES, décrite à l'article 6.1 ci-dessus. ... lesdites actions ont été évaluées à la somme de CINQ CENT SOIXANTE QUINZE (575 €) chacune, soit pour les 80 actions une somme de QUARANTE SIX MILLE EUROS (46.000 €)"
+        },
+        "gloss_en": "Franck Gicquel transfers 80 ARCHEAN shares (100€ par value) valued at 575€ each to HADEAN in kind",
+        "confidence": "high",
+        "notes": null
+      },
+      {
+        "code": "SHAREHOLDER_ENTRY",
+        "status": "completed_here",
+        "effective_date": "2007-09-07",
+        "date_basis": "Apport effective date stated p6.28",
+        "amount_eur": null,
+        "capital_before_eur": null,
+        "capital_after_eur": null,
+        "shares_delta": null,
+        "nominal_eur": null,
+        "method": null,
+        "mechanism": null,
+        "share_class": null,
+        "holder_name": "HADEAN",
+        "holder_kind": "COMPANY",
+        "holder_siren": null,
+        "from_name": null,
+        "to_name": null,
+        "shares": 822,
+        "price_per_share_eur": null,
+        "subscribers": [],
+        "evidence": {
+          "line_ids": [
+            "p6.28",
+            "p6.29",
+            "p6.30",
+            "p6.31"
+          ],
+          "quote_fr": "Les apports qui précèdent prennent effet à compter de ce jour. La Société bénéficiaire acquiert donc la pleine propriété et la jouissance des titres de la société ARCHEAN TECHNOLOGIES apportés par Monsieur Xavier AUMONT, Monsieur Franck GICQUEL à compter de ce jour."
+        },
+        "gloss_en": "HADEAN enters ARCHEAN cap table as holder of 822 shares (41.1% ownership) via in-kind contribution of shares by Aumont and Gicquel",
+        "confidence": "high",
+        "notes": null
+      }
+    ],
+    "snapshots": [
+      {
+        "as_of": "2007-09-06",
+        "as_of_basis": "Commissaire aux apports report date; ARCHEAN's stated capital as of appraisal",
+        "capital_eur": 200000.0,
+        "shares_total": 2000,
+        "nominal_eur": 100.0,
+        "holders": [
+          {
+            "name": "Xavier AUMONT",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 742,
+            "share_class": null,
+            "pct": null
+          },
+          {
+            "name": "Franck GICQUEL",
+            "kind": "PERSON",
+            "siren": null,
+            "shares": 80,
+            "share_class": null,
+            "pct": null
+          }
+        ],
+        "holders_complete": false,
+        "evidence": {
+          "line_ids": [
+            "p5.27",
+            "p5.28"
+          ],
+          "quote_fr": "Son capital social est actuellement fixé à DEUX CENT MILLE (200.000) euros et est divisé en 2.000 actions de 100 euros de valeur nominale."
+        }
+      }
+    ],
+    "issues": [
+      "The filing does not explicitly state who holds the remaining 1,178 ARCHEAN shares after the 822-share contribution to HADEAN. The cap table is incomplete.",
+      "The document is the constitution of HADEAN, so ARCHEAN is presented only as the appraisal subject; ARCHEAN's post-transaction cap table is not directly shown.",
+      "Line p6.9 contains OCR error 'GICOUEL' which should be 'GICQUEL' (corrected in transcription per standard practice)."
+    ]
+  }
+}
